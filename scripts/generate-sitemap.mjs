@@ -5,7 +5,7 @@ import path from 'node:path'
 
 const ROOT = process.cwd()
 const OUT = path.join(ROOT, 'out')
-const ORIGIN = 'https://bike-kaitori.com'
+const ORIGIN = 'https://biker-sell.com'
 
 const stockDir = path.join(ROOT, 'data', 'stock')
 const latest = fs.readdirSync(stockDir).filter(f => f.endsWith('.json')).sort().pop()

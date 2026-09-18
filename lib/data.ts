@@ -131,7 +131,7 @@ export function stance(m: Model, peers: Model[]): Stance {
 export const SITE = {
   name: 'バイク買取ナビ',
   // ⚠️ ドメインはMediaXAI側で取得中。確定したらここだけ差し替える（canonical・sitemapが追随する）。
-  origin: 'https://bike-kaitori.com',
+  origin: 'https://biker-sell.com',
   description:
     '中古バイクの流通台数と価格帯を車種ごとに公開しています。買取価格そのものは各社が公表していないため断定せず、出典つきの実データだけを掲載しています。',
 }
