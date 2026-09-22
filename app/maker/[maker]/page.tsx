@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { allModels, makerSlug, modelSlug, classOf, yen, SITE } from '@/lib/data'
+import { breadcrumb, itemListLd } from '@/lib/schema'
 
 export function generateStaticParams() {
   return [...new Set(allModels().map((m) => makerSlug(m.maker)))].map((maker) => ({ maker }))
@@ -30,8 +31,21 @@ export default async function Page({ params }: { params: Promise<{ maker: string
     .sort((a, b) => b.used_count - a.used_count)
   const total = rows.reduce((n, r) => n + r.used_count, 0)
 
+  const ld = [
+    breadcrumb([
+      { name: 'トップ', url: `${SITE.origin}/` },
+      { name: ja, url: `${SITE.origin}/maker/${maker}/` },
+    ]),
+    itemListLd(`${ja}の車種一覧`, rows.map((x) => ({
+      name: `${x.maker} ${x.name}`, url: `${SITE.origin}/model/${modelSlug(x)}/`,
+    }))),
+  ]
+
   return (
     <article>
+      {ld.map((x, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(x) }} />
+      ))}
       <p className="note" style={{ marginTop: 28 }}><a href="/">トップ</a> ／ {ja}</p>
       <h1>{ja}の中古バイク流通台数一覧</h1>
       <div className="verdict">

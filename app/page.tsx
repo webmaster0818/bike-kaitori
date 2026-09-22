@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { allModels, snapshot, modelSlug, makerSlug, CLASSES, classOf, spread, yen, SITE } from '@/lib/data'
+import { websiteLd } from '@/lib/schema'
 
 // ⚠️ トップにも自己canonicalを置く。無いと pages.dev 側のURLが正規と判断されうる。
 export const metadata: Metadata = {
@@ -15,8 +16,13 @@ export default function Home() {
   const wide = all.slice().sort((a, b) => spread(b) - spread(a)).slice(0, 8)
   const usedClasses = CLASSES.filter((c) => all.some((m) => classOf(m)?.slug === c.slug))
 
+  const ld = [websiteLd()]
+
   return (
     <article>
+      {ld.map((x, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(x) }} />
+      ))}
       <h1 style={{ marginTop: 44 }}>
         あなたのバイクは、いま何台出回っているか。
       </h1>

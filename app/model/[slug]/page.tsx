@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import {
   allModels, findBySlug, modelSlug, makerSlug, classOf, stance, spread, yen, SITE,
 } from '@/lib/data'
+import { breadcrumb, faqLd, modelDatasetLd } from '@/lib/schema'
 
 export function generateStaticParams() {
   return allModels().map((m) => ({ slug: modelSlug(m) }))
@@ -34,6 +35,19 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
     .filter((x) => x.model_id !== m.model_id)
     .sort((a, b) => Math.abs(a.used_count - m.used_count) - Math.abs(b.used_count - m.used_count))
     .slice(0, 6)
+  // ⚠️ 被リンクの実測（2026-09-22）で、model 1,537本の中央値が5本・最小1本だった。
+  //    クラスが取れない車種は「近い台数6件」が出ず、ほぼ孤立していた。
+  //    同じメーカーの車種からも辿れるようにして、どの車種も最低限の導線を持たせる。
+  // ⚠️ 「同メーカーの上位8件」にすると、台数の少ない車種は誰からも張られず孤立したまま。
+  //    実測（2026-09-22）でも被リンク1本の車種が361件残っていた。
+  //    台数順に並べた中での**前後4件ずつ**にして、鎖状に必ず繋がるようにする。
+  const makerList = allModels()
+    .filter((x) => x.maker === m.maker)
+    .sort((a, b) => b.used_count - a.used_count)
+  const mi = makerList.findIndex((x) => x.model_id === m.model_id)
+  const sameMaker = makerList
+    .slice(Math.max(0, mi - 4), mi + 5)
+    .filter((x) => x.model_id !== m.model_id)
 
   // 新車価格が取れている場合だけ、値落ちの位置を出す（取れていない車種では触れない）
   const drop =
@@ -41,8 +55,36 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
       ? Math.round((1 - m.used_price_min / m.new_price_min) * 100)
       : null
 
+  const ld = [
+    breadcrumb([
+      { name: 'トップ', url: `${SITE.origin}/` },
+      { name: m.maker, url: `${SITE.origin}/maker/${makerSlug(m.maker)}/` },
+      ...(cls ? [{ name: cls.label, url: `${SITE.origin}/class/${cls.slug}/` }] : []),
+      { name: m.name, url: `${SITE.origin}/model/${slug}/` },
+    ]),
+    modelDatasetLd(m),
+    // ⚠️ 答えられることだけFAQにする。買取額は各社が公表していないので断定しない。
+    faqLd([
+      {
+        q: `${m.name}の中古は何台くらい流通していますか？`,
+        a: `${m.fetched_at}時点で${m.used_count}台です。流通台数が多いほど買い手にとって代替が効くため、査定では強気に出にくくなります。`,
+      },
+      {
+        q: `${m.name}の中古価格帯はいくらですか？`,
+        a: `${yen(m.used_price_min)}〜${yen(m.used_price_max)}です（${m.fetched_at}時点）。これは中古車として売られている価格であり、買取価格ではありません。買取額はここから業者の整備費・保証・利益を差し引いた水準になります。`,
+      },
+      {
+        q: `買取価格はいくらですか？`,
+        a: `当サイトは買取価格を断定していません。各社が公表しておらず、年式・走行距離・車検・傷で金額が変わるためです。代わりに、買取額を左右する最大の要因である流通台数と価格帯を公開しています。`,
+      },
+    ]),
+  ]
+
   return (
     <article>
+      {ld.map((x, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(x) }} />
+      ))}
       <p className="note" style={{ marginTop: 28 }}>
         <a href="/">トップ</a> ／ <a href={`/maker/${makerSlug(m.maker)}/`}>{m.maker}</a>
         {cls && <> ／ <a href={`/class/${cls.slug}/`}>{cls.label}</a></>}
@@ -116,6 +158,24 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
               </a>
             ))}
           </div>
+        </>
+      )}
+
+      {sameMaker.length > 0 && (
+        <>
+          <h2>{m.maker}の他の車種</h2>
+          <div className="grid">
+            {sameMaker.map((n) => (
+              <a className="card" key={n.model_id} href={`/model/${modelSlug(n)}/`}>
+                <div className="k">{n.maker}</div>
+                <div className="t">{n.name}</div>
+                <div className="v">{n.used_count}台 ／ {yen(n.used_price_min)}〜</div>
+              </a>
+            ))}
+          </div>
+          <p className="note">
+            <a href={`/maker/${makerSlug(m.maker)}/`}>{m.maker}の車種一覧をすべて見る</a>
+          </p>
         </>
       )}
 

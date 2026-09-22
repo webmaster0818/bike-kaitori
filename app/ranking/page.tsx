@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { allModels, modelSlug, makerSlug, classOf, spread, yen, SITE, snapshot } from '@/lib/data'
+import { breadcrumb, itemListLd } from '@/lib/schema'
 
 export const metadata: Metadata = {
   title: '中古バイク流通台数ランキング｜買い叩かれやすい車種はどれか',
@@ -16,8 +17,18 @@ export default function Page() {
   const wide = all.slice().sort((a, b) => spread(b) - spread(a)).slice(0, 20)
   const total = all.reduce((n, m) => n + m.used_count, 0)
 
+  const ld = [
+    breadcrumb([
+      { name: 'トップ', url: `${SITE.origin}/` },
+      { name: '流通台数ランキング', url: `${SITE.origin}/ranking/` },
+    ]),
+  ]
+
   return (
     <article>
+      {ld.map((x, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(x) }} />
+      ))}
       <p className="note" style={{ marginTop: 28 }}><a href="/">トップ</a> ／ 流通台数ランキング</p>
       <h1>中古バイク流通台数ランキング</h1>
 
