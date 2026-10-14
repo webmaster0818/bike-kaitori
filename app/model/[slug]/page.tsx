@@ -4,6 +4,7 @@ import {
   allModels, findBySlug, modelSlug, makerSlug, classOf, stance, spread, yen, SITE,
 } from '@/lib/data'
 import { breadcrumb, faqLd, modelDatasetLd } from '@/lib/schema'
+import { pageMeta, fitDesc } from '@/lib/meta'
 
 export function generateStaticParams() {
   return allModels().map((m) => ({ slug: modelSlug(m) }))
@@ -13,11 +14,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const m = findBySlug(slug)
   if (!m) return {}
-  return {
+  return pageMeta({
     title: `${m.name}の中古流通台数と価格帯｜${m.maker}`,
-    description: `${m.maker} ${m.name}は中古車として${m.used_count}台が流通しており、価格帯は${yen(m.used_price_min)}〜${yen(m.used_price_max)}です（${m.fetched_at}時点）。売却前に押さえておきたい流通の状況をまとめています。`,
-    alternates: { canonical: `${SITE.origin}/model/${slug}/` },
-  }
+    description: fitDesc(
+      `${m.maker} ${m.name}は中古車として${m.used_count}台が流通しており、価格帯は${yen(m.used_price_min)}〜${yen(m.used_price_max)}です（${m.fetched_at}時点）。`,
+      '売却前に押さえておきたい流通の状況をまとめています。',
+    ),
+    path: `/model/${slug}/`,
+  })
 }
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {

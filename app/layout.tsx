@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { SITE } from '@/lib/data'
+import { OG_IMAGE } from '@/lib/meta'
 
 // ⚠️ ここに静的な alternates.canonical を書かないこと。
 //    子ページが全部それを継承して「正規URL＝トップ」と宣言してしまう
@@ -12,6 +13,13 @@ export const metadata: Metadata = {
     template: `%s｜${SITE.name}`,
   },
   description: SITE.description,
+  // 子ページは lib/meta.ts の pageMeta() で openGraph を明示する（ここは404等の保険）
+  openGraph: { type: 'website', locale: 'ja_JP', siteName: SITE.name, images: [OG_IMAGE] },
+  twitter: { card: 'summary_large_image', images: [OG_IMAGE.url] },
+  icons: {
+    icon: [{ url: '/favicon.ico', sizes: 'any' }, { url: '/icon.png', type: 'image/png', sizes: '512x512' }],
+    apple: '/apple-icon.png',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

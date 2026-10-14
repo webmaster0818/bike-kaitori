@@ -1,11 +1,10 @@
 import type { Metadata } from 'next'
 import { allModels, snapshot, modelSlug, makerSlug, CLASSES, classOf, spread, yen, SITE } from '@/lib/data'
 import { websiteLd } from '@/lib/schema'
+import { pageMeta } from '@/lib/meta'
 
 // ⚠️ トップにも自己canonicalを置く。無いと pages.dev 側のURLが正規と判断されうる。
-export const metadata: Metadata = {
-  alternates: { canonical: `${SITE.origin}/` },
-}
+export const metadata: Metadata = pageMeta({ description: SITE.description, path: '/' })
 
 export default function Home() {
   const snap = snapshot()

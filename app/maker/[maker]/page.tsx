@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { allModels, makerSlug, modelSlug, classOf, yen, SITE } from '@/lib/data'
 import { breadcrumb, itemListLd } from '@/lib/schema'
+import { pageMeta, fitDesc } from '@/lib/meta'
 
 export function generateStaticParams() {
   return [...new Set(allModels().map((m) => makerSlug(m.maker)))].map((maker) => ({ maker }))
@@ -16,11 +17,14 @@ export async function generateMetadata({ params }: { params: Promise<{ maker: st
   const ja = jaName(maker)
   if (!ja) return {}
   const rows = allModels().filter((m) => makerSlug(m.maker) === maker)
-  return {
+  return pageMeta({
     title: `${ja}の中古バイク流通台数一覧（${rows.length}車種）`,
-    description: `${ja}の${rows.length}車種について、中古車の流通台数と価格帯を掲載しています。台数が多い車種ほど買い手側に在庫があり、条件は買い手に有利になりやすくなります。`,
-    alternates: { canonical: `${SITE.origin}/maker/${maker}/` },
-  }
+    description: fitDesc(
+      `${ja}の${rows.length}車種について、中古車の流通台数と価格帯を掲載しています。`,
+      '台数が多い車種ほど買い手側に在庫があり、条件は買い手に有利になりやすくなります。',
+    ),
+    path: `/maker/${maker}/`,
+  })
 }
 
 export default async function Page({ params }: { params: Promise<{ maker: string }> }) {

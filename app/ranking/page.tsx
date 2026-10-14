@@ -1,13 +1,14 @@
 import type { Metadata } from 'next'
 import { allModels, modelSlug, makerSlug, classOf, spread, yen, SITE, snapshot } from '@/lib/data'
 import { breadcrumb, itemListLd } from '@/lib/schema'
+import { pageMeta } from '@/lib/meta'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: '中古バイク流通台数ランキング｜買い叩かれやすい車種はどれか',
   description:
     '中古車として市場に何台出回っているかを車種別に集計しました。台数が多い車種は買取業者の在庫も潤沢で、条件は買い手に有利になりやすくなります。全データに出典と取得日を付けています。',
-  alternates: { canonical: `${SITE.origin}/ranking/` },
-}
+  path: '/ranking/',
+})
 
 export default function Page() {
   const snap = snapshot()

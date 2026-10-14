@@ -1,12 +1,13 @@
 import type { Metadata } from 'next'
 import { allModels, snapshot, SITE } from '@/lib/data'
+import { pageMeta } from '@/lib/meta'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: '中古バイク流通データの公開（CSV / JSON）',
   description:
     '当サイトが集計した車種別の中古流通台数・価格帯を、出典と取得日つきでCSVとJSONで公開しています。出典を明記していただければ引用・再利用は自由です。',
-  alternates: { canonical: `${SITE.origin}/data/` },
-}
+  path: '/data/',
+})
 
 export default function Page() {
   const snap = snapshot()

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { allModels, CLASSES, classOf, modelSlug, makerSlug, spread, yen, SITE } from '@/lib/data'
+import { breadcrumb, itemListLd } from '@/lib/schema'
+import { pageMeta, fitDesc } from '@/lib/meta'
 
 export function generateStaticParams() {
   const used = new Set(allModels().map((m) => classOf(m)?.slug).filter(Boolean))
@@ -12,11 +14,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const c = CLASSES.find((x) => x.slug === slug)
   if (!c) return {}
   const rows = allModels().filter((m) => classOf(m)?.slug === slug)
-  return {
+  return pageMeta({
     title: `${c.label}の中古バイク流通台数（${rows.length}車種）`,
-    description: `${c.label}の${rows.length}車種について、中古車の流通台数と価格帯を比較しています。同じクラス内で台数が多いか少ないかが、売却時の交渉力を左右します。`,
-    alternates: { canonical: `${SITE.origin}/class/${slug}/` },
-  }
+    description: fitDesc(
+      `${c.label}の${rows.length}車種について、中古車の流通台数と価格帯を比較しています。`,
+      '同じクラス内で台数が多いか少ないかが、売却時の交渉力を左右します。',
+    ),
+    path: `/class/${slug}/`,
+  })
 }
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
@@ -30,8 +35,22 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   const median = counts[Math.floor(counts.length / 2)]
   const wide = rows.slice().sort((a, b) => spread(b) - spread(a)).slice(0, 5)
 
+  // メーカー別ページと同じ型：パンくず＋このクラスの車種一覧（観測値だけ。価格は載せない）
+  const ld = [
+    breadcrumb([
+      { name: 'トップ', url: `${SITE.origin}/` },
+      { name: c.label, url: `${SITE.origin}/class/${slug}/` },
+    ]),
+    itemListLd(`${c.label}の車種一覧`, rows.map((x) => ({
+      name: `${x.maker} ${x.name}`, url: `${SITE.origin}/model/${modelSlug(x)}/`,
+    }))),
+  ]
+
   return (
     <article>
+      {ld.map((x, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(x) }} />
+      ))}
       <p className="note" style={{ marginTop: 28 }}><a href="/">トップ</a> ／ {c.label}</p>
       <h1>{c.label}の中古バイク流通台数</h1>
       <div className="verdict">
