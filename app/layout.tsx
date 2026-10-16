@@ -50,18 +50,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="wrap">
             <div style={{ maxWidth: 560 }}>
               <p className="note">
-                当サイトが掲載しているのは<strong>中古車として流通している価格帯と台数</strong>です。
-                買取価格そのものではありません。バイクの買取額は年式・走行距離・車検の残り・傷や改造の有無といった
-                個体の状態で決まるため、買取各社は車種別の買取価格を公表していません。
-                当サイトは公表されていない数字を推測で書かないという方針を採っています。
+                当サイトでは、<strong>中古車として流通している価格帯と台数</strong>を掲載しています。
+                掲載している数値は買取価格ではありません。バイクの買取額は、年式・走行距離・車検の残り期間・傷や改造の有無といった
+                個体の状態により決まるため、買取業者は車種別の買取価格を公表していません。
+                当サイトでは、公表されていない数値を推測により掲載することは控えています。
               </p>
               <p className="note">
                 数値の出典：<a href="https://www.bikebros.co.jp/catalog/" rel="noopener noreferrer" target="_blank">バイクブロス バイクカタログ</a>
-                （車種ページごとに取得日を明記しています）
+                （取得日は車種ページごとに明記しています）
               </p>
             </div>
             <div className="note">
-              <a href="/data/">データを引用する</a>
+              <a href="/data/">データの引用について</a>
             </div>
           </div>
         </footer>

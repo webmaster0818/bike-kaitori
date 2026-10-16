@@ -39,7 +39,7 @@ export function modelDatasetLd(m: Model) {
     name: `${m.maker} ${m.name} の中古流通データ`,
     description:
       `${m.maker} ${m.name} について、中古車として流通している台数（${m.used_count}台）と ` +
-      `価格帯（${yen(m.used_price_min)}〜${yen(m.used_price_max)}）を収集したデータ。${m.fetched_at}時点。` +
+      `価格帯（${yen(m.used_price_min)}〜${yen(m.used_price_max)}）を収集したデータです（${m.fetched_at}時点）。` +
       `掲載しているのは中古市場の流通価格であり、買取価格ではありません。`,
     url: `${SITE.origin}/model/${modelSlug(m)}/`,
     creator: { '@type': 'Organization', name: SITE.name },
@@ -47,8 +47,8 @@ export function modelDatasetLd(m: Model) {
     isAccessibleForFree: true,
     variableMeasured: [
       { '@type': 'PropertyValue', name: '中古流通台数', value: m.used_count, unitText: '台' },
-      { '@type': 'PropertyValue', name: '中古価格帯（下限）', value: m.used_price_min, unitCode: 'JPY' },
-      { '@type': 'PropertyValue', name: '中古価格帯（上限）', value: m.used_price_max, unitCode: 'JPY' },
+      { '@type': 'PropertyValue', name: '中古車価格帯（下限）', value: m.used_price_min, unitCode: 'JPY' },
+      { '@type': 'PropertyValue', name: '中古車価格帯（上限）', value: m.used_price_max, unitCode: 'JPY' },
     ],
   }
 }

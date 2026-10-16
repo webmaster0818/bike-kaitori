@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ maker: st
     title: `${ja}の中古バイク流通台数一覧（${rows.length}車種）`,
     description: fitDesc(
       `${ja}の${rows.length}車種について、中古車の流通台数と価格帯を掲載しています。`,
-      '台数が多い車種ほど買い手側に在庫があり、条件は買い手に有利になりやすくなります。',
+      '流通台数が多い車種ほど買い手側の在庫が多く、取引条件は買い手に有利になりやすい傾向があります。',
     ),
     path: `/maker/${maker}/`,
   })
@@ -55,22 +55,22 @@ export default async function Page({ params }: { params: Promise<{ maker: string
       <div className="verdict">
         <div className="tag">この一覧について</div>
         <p className="headline">
-          {ja}は<span className="num">{rows.length}</span>車種・のべ<span className="num">{total.toLocaleString()}</span>台の流通を確認しました。
+          {ja}の<span className="num">{rows.length}</span>車種、のべ<span className="num">{total.toLocaleString()}</span>台の流通を確認しています。
         </p>
         <p style={{ margin: 0 }}>
-          台数が多い車種は市場に出回っている数が多く、買取業者から見れば在庫を確保しやすい状態です。
-          逆に下位の車種は数が少なく、探している買い手に対して供給が足りていない可能性があります。
+          流通台数が多い車種は市場に多く流通しており、買取業者にとって在庫を確保しやすい状態です。
+          反対に流通台数が少ない車種は、需要に対して供給が不足している可能性があります。
         </p>
       </div>
       <p className="note">
-        ⚠️ 流通データを確認できなかった車種は掲載していません。数値の無いページは作らない方針です。
+        ※流通データを確認できなかった車種は掲載しておりません。
       </p>
 
       <h2>流通台数順（{rows.length}車種）</h2>
       <div className="scroll-x">
         <table className="data">
           <thead>
-            <tr><th style={{ width: '46%' }}>車種</th><th>流通台数</th><th>中古価格帯</th><th>排気量クラス</th></tr>
+            <tr><th style={{ width: '46%' }}>車種</th><th>流通台数</th><th>中古車価格帯</th><th>排気量クラス</th></tr>
           </thead>
           <tbody>
             {rows.map((m) => {
@@ -91,8 +91,8 @@ export default async function Page({ params }: { params: Promise<{ maker: string
         出典：<a href="https://www.bikebros.co.jp/catalog/" rel="noopener noreferrer" target="_blank">バイクブロス バイクカタログ</a>
         （各車種ページに取得日を明記しています）
       </p>
-      <p className="note">※中古車として流通している価格であり、買取価格ではありません。</p>
-      <p className="note" style={{ marginTop: 32 }}><a href="/ranking/">全メーカー横断の流通台数ランキングを見る</a></p>
+      <p className="note">※掲載している価格は中古車としての流通価格であり、買取価格ではありません。</p>
+      <p className="note" style={{ marginTop: 32 }}><a href="/ranking/">全メーカーの流通台数ランキングを見る</a></p>
     </article>
   )
 }

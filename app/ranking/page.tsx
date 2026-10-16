@@ -4,9 +4,9 @@ import { breadcrumb, itemListLd } from '@/lib/schema'
 import { pageMeta } from '@/lib/meta'
 
 export const metadata: Metadata = pageMeta({
-  title: '中古バイク流通台数ランキング｜買い叩かれやすい車種はどれか',
+  title: '中古バイク流通台数ランキング｜車種別の流通台数と価格帯',
   description:
-    '中古車として市場に何台出回っているかを車種別に集計しました。台数が多い車種は買取業者の在庫も潤沢で、条件は買い手に有利になりやすくなります。全データに出典と取得日を付けています。',
+    '中古車として市場に流通している台数を車種別に集計しています。流通台数が多い車種は買取業者の在庫も多く、取引条件は買い手に有利になりやすい傾向があります。すべてのデータに出典と取得日を併記しています。',
   path: '/ranking/',
 })
 
@@ -36,20 +36,20 @@ export default function Page() {
       <div className="verdict">
         <div className="tag">この集計について</div>
         <p className="headline">
-          <span className="num">{all.length}</span>車種・のべ<span className="num">{total.toLocaleString()}</span>台の中古流通を集計しました。
+          <span className="num">{all.length}</span>車種・のべ<span className="num">{total.toLocaleString()}</span>台の中古車流通を集計しています。
         </p>
         <p style={{ margin: 0 }}>
-          買取価格は各社が公表していないため、当サイトは<strong>買取相場を断定しません</strong>。
-          代わりに、買取額を左右する最大の要因である「その車種がいま何台市場に出ているか」を出します。
-          台数が多ければ業者は在庫を持っており、少なければ仕入れたい状態です。
+          買取価格は買取業者各社が公表していないため、当サイトでは<strong>買取相場の断定を控えています</strong>。
+          その代わりに、買取額を左右する主要な要因である「その車種が現在市場に何台流通しているか」を掲載しています。
+          流通台数が多い場合は買取業者が在庫を保有している可能性が高く、少ない場合は仕入れの需要が高い状態にあると考えられます。
         </p>
       </div>
 
-      <h2>流通台数が多い車種 30</h2>
-      <p>市場に出回っている数が多い車種です。売ると決めているなら、時間をかけすぎない判断も選択肢になります。</p>
+      <h2>流通台数が多い車種（上位30車種）</h2>
+      <p>中古市場に流通している台数が多い車種です。売却を決めている場合は、早めに判断することも選択肢となります。</p>
       <div className="scroll-x">
         <table className="data">
-          <thead><tr><th style={{ width: 44 }}>#</th><th style={{ width: '40%' }}>車種</th><th>流通台数</th><th>中古価格帯</th></tr></thead>
+          <thead><tr><th style={{ width: 44 }}>#</th><th style={{ width: '40%' }}>車種</th><th>流通台数</th><th>中古車価格帯</th></tr></thead>
           <tbody>
             {top.map((m, i) => (
               <tr key={m.model_id}>
@@ -63,14 +63,14 @@ export default function Page() {
         </table>
       </div>
 
-      <h2>流通台数が少ない車種 20</h2>
+      <h2>流通台数が少ない車種（20車種）</h2>
       <p>
-        探している人に対して供給が足りていない側です。急いで手放す理由は小さく、査定を複数取る余裕があります。
-        <span className="note">（データの信頼性のため、3台以上流通している車種に限っています）</span>
+        需要に対して供給が不足している車種です。売却を急ぐ必要性は比較的小さく、複数社の査定を比較する時間を確保しやすいと考えられます。
+        <span className="note">（データの信頼性を確保するため、3台以上流通している車種に限定しています）</span>
       </p>
       <div className="scroll-x">
         <table className="data">
-          <thead><tr><th style={{ width: 44 }}>#</th><th style={{ width: '40%' }}>車種</th><th>流通台数</th><th>中古価格帯</th></tr></thead>
+          <thead><tr><th style={{ width: 44 }}>#</th><th style={{ width: '40%' }}>車種</th><th>流通台数</th><th>中古車価格帯</th></tr></thead>
           <tbody>
             {scarce.map((m, i) => (
               <tr key={m.model_id}>
@@ -84,11 +84,11 @@ export default function Page() {
         </table>
       </div>
 
-      <h2>状態で値が振れやすい車種 20</h2>
-      <p>中古価格帯の上限が下限の何倍か。倍率が大きいほど、業者ごとの評価差も出やすく、<strong>1社だけで決めると差が損得になります</strong>。</p>
+      <h2>状態により価格差が大きい車種（20車種）</h2>
+      <p>中古車価格帯の上限が下限の何倍であるかを示しています。倍率が大きいほど買取業者ごとの評価にも差が生じやすいため、<strong>複数社の査定を比較されることをおすすめします</strong>。</p>
       <div className="scroll-x">
         <table className="data">
-          <thead><tr><th style={{ width: 44 }}>#</th><th style={{ width: '40%' }}>車種</th><th>価格帯</th><th>開き</th></tr></thead>
+          <thead><tr><th style={{ width: 44 }}>#</th><th style={{ width: '40%' }}>車種</th><th>中古車価格帯</th><th>倍率</th></tr></thead>
           <tbody>
             {wide.map((m, i) => (
               <tr key={m.model_id}>
@@ -104,15 +104,15 @@ export default function Page() {
 
       <h2>集計方法</h2>
       <p className="note">
-        バイクブロスのバイクカタログから、車種ページに掲載されている「中古車価格帯」と流通台数を取得しています。
-        価格帯と台数の両方が取得できた車種のみを対象とし、取得できなかった車種は集計にも掲載にも含めていません。
-        取得日は {snap.generated_at} です。数値は取得時点のもので、現在の状況とは異なる場合があります。
+        当サイトでは、バイクブロスのバイクカタログの車種ページに掲載されている「中古車価格帯」と流通台数を取得しています。
+        価格帯と台数の両方を取得できた車種のみを対象とし、取得できなかった車種は集計・掲載の対象に含めていません。
+        取得日は {snap.generated_at} です。数値は取得時点のものであり、現在の状況とは異なる場合があります。
       </p>
       <p className="src">
         出典：<a href={snap.source_url} rel="noopener noreferrer" target="_blank">{snap.source}</a>（{snap.generated_at} 取得）
       </p>
       <p className="note" style={{ marginTop: 24 }}>
-        この集計は<a href="/data/">オープンデータとして公開</a>しています。出典を明記していただければ引用は自由です。
+        この集計は<a href="/data/">オープンデータとして公開</a>しています。出典を明記いただくことで、自由に引用いただけます。
       </p>
     </article>
   )
