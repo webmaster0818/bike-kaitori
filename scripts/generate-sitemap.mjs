@@ -2,6 +2,7 @@
 // ⚠️ ページを増減したらここも必ず追随させる（sitemap更新漏れは全サイト共通のNG）。
 import fs from 'node:fs'
 import path from 'node:path'
+import { fingerprint } from './lastmod-lib.mjs'
 
 const ROOT = process.cwd()
 const OUT = path.join(ROOT, 'out')
@@ -30,11 +31,26 @@ for (const mk of new Set(models.map(m => m.maker))) urls.push(`/maker/${MAKER_EN
 for (const [slug, label] of CLASSES) if (models.some(m => m.class_label === label)) urls.push(`/class/${slug}/`)
 for (const m of models) urls.push(`/model/${(MAKER_EN[m.maker] ?? m.maker)}-${m.model_id.replace('_','-')}/`)
 
-const today = snap.generated_at
+// lastmod = そのページの中身（title・description・本文・構造化データ）が最後に変わった日。
+// data/lastmod.json に {パス: {hash, lastmod}} を持ち、ビルドした html の指紋が台帳と違うページだけ
+// 今日（JST）に更新する。台帳の初期値はデプロイ履歴から復元（scripts/backfill-lastmod.mjs）。
+// ⚠️ 台帳 data/lastmod.json はビルド後に必ずコミットする（しないと次回また「今日」になる）。
+const LEDGER = path.join(ROOT, 'data', 'lastmod.json')
+const ledger = fs.existsSync(LEDGER) ? JSON.parse(fs.readFileSync(LEDGER, 'utf-8')) : {}
+const todayJst = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo' }).format(new Date())
+let touched = 0
+for (const u of urls) {
+  const html = fs.readFileSync(path.join(OUT, u, 'index.html'), 'utf-8')
+  const h = fingerprint(html)
+  if (!ledger[u] || ledger[u].hash !== h) { ledger[u] = { hash: h, lastmod: todayJst }; touched++ }
+}
+fs.writeFileSync(LEDGER, JSON.stringify(Object.fromEntries(Object.keys(ledger).sort().map(k => [k, ledger[k]])))
+  .replace(/\},"/g, '},\n"') + '\n')
 fs.writeFileSync(path.join(OUT, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
-  urls.map(u => `<url><loc>${ORIGIN}${u}</loc><lastmod>${today}</lastmod></url>`).join('\n') +
+  urls.map(u => `<url><loc>${ORIGIN}${u}</loc><lastmod>${ledger[u].lastmod}</lastmod></url>`).join('\n') +
   `\n</urlset>\n`)
+console.log(`lastmod: 中身が変わった/新規 ${touched} ページを ${todayJst} に更新`)
 
 fs.writeFileSync(path.join(OUT, 'robots.txt'),
   `User-agent: *\nAllow: /\n\nSitemap: ${ORIGIN}/sitemap.xml\n`)
