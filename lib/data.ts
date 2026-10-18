@@ -27,6 +27,8 @@ export type Model = {
   owner_count?: number
   displacement_cc?: number
   class_label?: string
+  /** 出典サイトの中古車在庫一覧（カタログの「〇〇の中古車を見る」リンク先） */
+  listing_url?: string
 }
 
 type Snapshot = {
@@ -60,6 +62,21 @@ export function snapshot(): Snapshot {
 
 export function allModels(): Model[] {
   return snapshot().models
+}
+
+/**
+ * 中古車在庫一覧の URL。スナップショットに listing_url があればそれを、
+ * 無ければ data/listing-urls.json（出典カタログから目視で写した分）を使う。どちらも無ければ出さない。
+ * ⚠️ カタログID（例 87_18）と在庫検索ID（例 1040313）は別体系で、計算では作れない。推測で組み立てないこと。
+ */
+let listingCache: Record<string, string> | null = null
+export function listingUrl(m: Model): string | undefined {
+  if (m.listing_url) return m.listing_url
+  if (!listingCache) {
+    const f = path.join(process.cwd(), 'data', 'listing-urls.json')
+    listingCache = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf-8')).urls ?? {} : {}
+  }
+  return listingCache![m.model_id]
 }
 
 export function makerSlug(maker: string): string {

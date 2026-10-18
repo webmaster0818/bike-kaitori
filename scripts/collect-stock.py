@@ -130,6 +130,10 @@ def main() -> None:
             skipped.append({**mdl, "reason": "取得失敗"})
         else:
             rec = parse_model(text_of(html))
+            # 中古車在庫一覧（カタログの「〇〇の中古車を見る」）。在庫検索のIDはカタログIDと別体系なので、ページから拾う
+            lm = re.search(r'href="(/bikesearch2/[^"]+\?newold=0)"[^>]*>[^<]*の中古車を見る', html)
+            if lm:
+                rec["listing_url"] = "https://www.bikebros.co.jp" + lm.group(1)
             row = {"model_id": mdl["model_id"], "maker": mdl["maker"],
                    "maker_id": mdl["maker_id"], "name": mdl["name"],
                    "source_url": mdl["url"], "fetched_at": today, **rec}

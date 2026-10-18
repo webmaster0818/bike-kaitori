@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import {
-  allModels, findBySlug, modelSlug, makerSlug, classOf, stance, spread, yen, SITE,
+  allModels, findBySlug, modelSlug, makerSlug, classOf, stance, spread, yen, SITE, listingUrl,
 } from '@/lib/data'
 import { breadcrumb, faqLd, modelDatasetLd } from '@/lib/schema'
 import { pageMeta, fitDesc } from '@/lib/meta'
@@ -54,6 +54,8 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
     .filter((x) => x.model_id !== m.model_id)
 
   // 新車価格が取れている場合だけ、値落ちの位置を出す（取れていない車種では触れない）
+  const listing = listingUrl(m)
+
   const drop =
     m.new_price_min && m.used_price_min
       ? Math.round((1 - m.used_price_min / m.new_price_min) * 100)
@@ -118,17 +120,17 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
           <tbody>
             <tr><th>中古車価格帯</th><td className="n">{yen(m.used_price_min)}〜{yen(m.used_price_max)}</td></tr>
             <tr><th>中古車の流通台数</th><td className="n">{m.used_count}台</td></tr>
-            {m.new_price_min && m.new_price_max && (
+            {!!m.new_price_min && !!m.new_price_max && (
               <tr><th>新車価格帯（実勢価格）</th><td className="n">{yen(m.new_price_min)}〜{yen(m.new_price_max)}{m.new_count ? `（${m.new_count}台）` : ''}</td></tr>
             )}
-            {m.displacement_cc && <tr><th>排気量</th><td className="n">{m.displacement_cc}cc</td></tr>}
-            {m.category && m.category_rank && (
+            {!!m.displacement_cc && <tr><th>排気量</th><td className="n">{m.displacement_cc}cc</td></tr>}
+            {!!m.category && !!m.category_rank && (
               <tr><th>カテゴリ内順位</th><td className="n">{m.category}　{m.category_rank}位</td></tr>
             )}
-            {m.review_score && m.review_count && (
+            {!!m.review_score && !!m.review_count && (
               <tr><th>ユーザーレビュー</th><td className="n">{m.review_score}点（{m.review_count}人）</td></tr>
             )}
-            {m.owner_count && <tr><th>登録オーナー数</th><td className="n">{m.owner_count.toLocaleString()}人</td></tr>}
+            {!!m.owner_count && <tr><th>登録オーナー数</th><td className="n">{m.owner_count.toLocaleString()}人</td></tr>}
           </tbody>
         </table>
       </div>
@@ -136,6 +138,13 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
         出典：<a href={m.source_url} rel="noopener noreferrer" target="_blank">バイクブロス バイクカタログ</a>
         （{m.fetched_at} 取得）
       </p>
+      {listing && (
+        <p className="note">
+          現在販売されている{m.name}の中古車は、
+          <a href={listing} rel="noopener noreferrer" target="_blank">バイクブロスの中古車在庫一覧</a>
+          で確認できます。台数・価格は上記の取得日以降に変動している場合があります。
+        </p>
+      )}
       <p className="note">
         ※上記は<strong>中古車としての販売価格</strong>であり、買取価格ではありません。
         買取額は、販売価格から買取業者の整備費・保証・利益を差し引いた水準となります。

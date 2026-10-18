@@ -1,0 +1,9 @@
+{
+  "_note": "車種ページの「中古車在庫を見る」リンク先。出典カタログ（source_url）の「〇〇の中古車を見る」リンクを目視で写したもの。collect-stock.py が listing_url を取得するようになったら、そちらが優先される。",
+  "checked_at": "2026-10-18",
+  "urls": {
+    "87_18": "https://www.bikebros.co.jp/bikesearch2/4/1040313?newold=0",
+    "122_14": "https://www.bikebros.co.jp/bikesearch2/3/1030015-1030016?newold=0",
+    "2_4": "https://www.bikebros.co.jp/bikesearch2/5/2050131?newold=0"
+  }
+}
