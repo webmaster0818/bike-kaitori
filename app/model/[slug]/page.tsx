@@ -121,7 +121,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
             <tr><th>中古車価格帯</th><td className="n">{yen(m.used_price_min)}〜{yen(m.used_price_max)}</td></tr>
             <tr><th>中古車の流通台数</th><td className="n">{m.used_count}台</td></tr>
             {!!m.new_price_min && !!m.new_price_max && (
-              <tr><th>新車価格帯（実勢価格）</th><td className="n">{yen(m.new_price_min)}〜{yen(m.new_price_max)}{m.new_count ? `（${m.new_count}台）` : ''}</td></tr>
+              <tr><th>新車価格帯（実勢価格）</th><td className="n">{m.new_price_min === m.new_price_max ? yen(m.new_price_min) : `${yen(m.new_price_min)}〜${yen(m.new_price_max)}`}{m.new_count ? `（${m.new_count}台）` : ''}</td></tr>
             )}
             {!!m.displacement_cc && <tr><th>排気量</th><td className="n">{m.displacement_cc}cc</td></tr>}
             {!!m.category && !!m.category_rank && (

@@ -68,16 +68,20 @@ def yen(s: str) -> int | None:
 
 
 PRICE_BAND = r"([\d,]+(?:万)?(?:\d+)?円)\s*〜\s*([\d,]+(?:万)?(?:\d+)?円)\s*(\d+)\s*台"
+# 新車価格は在庫が1台・同一価格だと「32万6900円 1台」のように「〜」無しの単一価格で出る（2026-10-19 MT-15 で実測）。
+# 範囲と単一の両方を取る。単一のときは min=max（画面側は min==max なら1つだけ表示）。
+# ⚠️ 中古車価格帯も単一価格で出る車種があるが、品質ゲートでページ数が変わるため別判断（未変更）。
+PRICE_ONE_OR_BAND = r"([\d,]+(?:万)?(?:\d+)?円)(?:\s*〜\s*([\d,]+(?:万)?(?:\d+)?円))?\s*(\d+)\s*台"
 
 
 def parse_model(t: str) -> dict:
     """カタログ本文テキストから数値を取り出す。取れない項目は入れない（Noneで埋めない）。"""
     rec: dict = {}
 
-    m = re.search(r"新車価格帯（実勢価格）\s*" + PRICE_BAND, t)
+    m = re.search(r"新車価格帯（実勢価格）\s*" + PRICE_ONE_OR_BAND, t)
     if m:
         rec["new_price_min"] = yen(m.group(1))
-        rec["new_price_max"] = yen(m.group(2))
+        rec["new_price_max"] = yen(m.group(2) or m.group(1))
         rec["new_count"] = int(m.group(3))
 
     m = re.search(r"中古車価格帯\s*" + PRICE_BAND, t)

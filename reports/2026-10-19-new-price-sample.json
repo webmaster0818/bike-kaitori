@@ -1,0 +1,1306 @@
+{
+ "note": "2026-10-19 新車価格 単一価格の取りこぼし修正の検証。9/5スナップショットから乱数seed=20261019で 新車価格なし40＋ありの10 を抽出し、本日取得したカタログページを旧/新パーサで解析。snap=9/5値, old/new=(min,max,台数) 本日ページ",
+ "fetched_at": "2026-10-19",
+ "sample": [
+  {
+   "kind": "no",
+   "id": "999_9",
+   "name": "GTS SuperTech 300 GTSスーパーテック300",
+   "url": "https://www.bikebros.co.jp/catalog/17/999_9/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    913000,
+    913000,
+    2
+   ],
+   "used_new": [
+    728000,
+    798000,
+    3
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "16_1",
+   "name": "AR50",
+   "url": "https://www.bikebros.co.jp/catalog/4/16_1/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    497000,
+    888800,
+    3
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "7_23",
+   "name": "CB750",
+   "url": "https://www.bikebros.co.jp/catalog/1/7_23/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    439800,
+    7500000,
+    82
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "74_10",
+   "name": "TY250Z SCOTTISH TY250Zスコティッシュ",
+   "url": "https://www.bikebros.co.jp/catalog/2/74_10/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    399900,
+    600000,
+    3
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "999_8",
+   "name": "FLHCS Softail Heritage Classic 114 FLHCS ソフテイルヘリテイジクラシック114",
+   "url": "https://www.bikebros.co.jp/catalog/5/999_8/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    1683000,
+    4400000,
+    22
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "18_5",
+   "name": "Street Triple S ストリートトリプルS",
+   "url": "https://www.bikebros.co.jp/catalog/10/18_5/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    788000,
+    792000,
+    2
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "59_1",
+   "name": "SV400",
+   "url": "https://www.bikebros.co.jp/catalog/3/59_1/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    240000,
+    474000,
+    3
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "146_1",
+   "name": "GLADIUS 650 グラディウス650",
+   "url": "https://www.bikebros.co.jp/catalog/3/146_1/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    398000,
+    528000,
+    3
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "138_3",
+   "name": "DREAM C72 ドリームC72",
+   "url": "https://www.bikebros.co.jp/catalog/1/138_3/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    1100000,
+    2500000,
+    3
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "68_5",
+   "name": "ZRX-Ⅱ ZRX400-Ⅱ",
+   "url": "https://www.bikebros.co.jp/catalog/4/68_5/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    660000,
+    1788000,
+    73
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "81_8",
+   "name": "XR230",
+   "url": "https://www.bikebros.co.jp/catalog/1/81_8/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    271100,
+    498000,
+    6
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "105_9",
+   "name": "Shadow Custom 400 シャドウカスタム400",
+   "url": "https://www.bikebros.co.jp/catalog/1/105_9/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    598000,
+    792000,
+    8
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "31_5",
+   "name": "Street Twin ストリートツイン",
+   "url": "https://www.bikebros.co.jp/catalog/10/31_5/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    682000,
+    998000,
+    14
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "60_1",
+   "name": "SW-1",
+   "url": "https://www.bikebros.co.jp/catalog/3/60_1/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    597000,
+    798000,
+    6
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "5_6",
+   "name": "V-Rod VRSCF Muscle Vロッド VRSCF マッスル",
+   "url": "https://www.bikebros.co.jp/catalog/5/5_6/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    1187000,
+    2850000,
+    9
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "1_1",
+   "name": "250SB",
+   "url": "https://www.bikebros.co.jp/catalog/3/1_1/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    344000,
+    490000,
+    6
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "2_1",
+   "name": "1190 RC8",
+   "url": "https://www.bikebros.co.jp/catalog/33/2_1/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    1050000,
+    1568800,
+    2
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "97_2",
+   "name": "DJEBEL 200 ジェベル200",
+   "url": "https://www.bikebros.co.jp/catalog/3/97_2/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    198000,
+    380000,
+    13
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "40_1",
+   "name": "MVX250F",
+   "url": "https://www.bikebros.co.jp/catalog/1/40_1/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    599900,
+    849000,
+    2
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "44_2",
+   "name": "NSR50",
+   "url": "https://www.bikebros.co.jp/catalog/1/44_2/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    448000,
+    1430000,
+    16
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "87_8",
+   "name": "VULCAN 900 CLASSIC バルカン900クラシック",
+   "url": "https://www.bikebros.co.jp/catalog/4/87_8/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    585000,
+    998000,
+    5
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "120_13",
+   "name": "TS400 ハスラー400",
+   "url": "https://www.bikebros.co.jp/catalog/3/120_13/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    880000,
+    1320000,
+    2
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "87_2",
+   "name": "XV250 Virago ビラーゴ250（XV250ビラーゴ）",
+   "url": "https://www.bikebros.co.jp/catalog/2/87_2/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    157000,
+    860000,
+    105
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "999_121",
+   "name": "X350",
+   "url": "https://www.bikebros.co.jp/catalog/5/999_121/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    398000,
+    750000,
+    83
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "45_1",
+   "name": "NS50F AERO NS50Fエアロ",
+   "url": "https://www.bikebros.co.jp/catalog/1/45_1/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    199000,
+    541000,
+    9
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "27_6",
+   "name": "FZR1000",
+   "url": "https://www.bikebros.co.jp/catalog/2/27_6/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    399000,
+    1045000,
+    5
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "1_13",
+   "name": "FLSTS Heritage Springer FLSTS ヘリテイジスプリンガー",
+   "url": "https://www.bikebros.co.jp/catalog/5/1_13/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    1485000,
+    3400000,
+    50
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "49_2",
+   "name": "KSR110",
+   "url": "https://www.bikebros.co.jp/catalog/4/49_2/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    363000,
+    363000,
+    1
+   ],
+   "used_new": [
+    159800,
+    352000,
+    38
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "128_3",
+   "name": "DAX70/ST70 ダックス70/ST70",
+   "url": "https://www.bikebros.co.jp/catalog/1/128_3/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    329000,
+    798000,
+    14
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "23_3",
+   "name": "1290 SUPER DUKE R 1290スーパーデュークR",
+   "url": "https://www.bikebros.co.jp/catalog/33/23_3/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    829900,
+    1099900,
+    2
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "37_5",
+   "name": "KH500",
+   "url": "https://www.bikebros.co.jp/catalog/4/37_5/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "149_2",
+   "name": "GSX-S1000F",
+   "url": "https://www.bikebros.co.jp/catalog/3/149_2/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    648000,
+    1098000,
+    39
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "24_2",
+   "name": "FJ1200",
+   "url": "https://www.bikebros.co.jp/catalog/2/24_2/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    148000,
+    1550000,
+    4
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "999_14",
+   "name": "V85 TT Travel V85 TTトラベル",
+   "url": "https://www.bikebros.co.jp/catalog/9/999_14/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    1876000,
+    1876000,
+    1
+   ],
+   "used_new": [
+    1420000,
+    1480000,
+    2
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "65_9",
+   "name": "VFR400R",
+   "url": "https://www.bikebros.co.jp/catalog/1/65_9/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    640000,
+    1680000,
+    13
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "73_49",
+   "name": "Z1100GP",
+   "url": "https://www.bikebros.co.jp/catalog/4/73_49/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    1100000,
+    3080000,
+    3
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "156_2",
+   "name": "FORZA X フォルツァX",
+   "url": "https://www.bikebros.co.jp/catalog/1/156_2/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    108000,
+    300000,
+    7
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "13_7",
+   "name": "LX150ie",
+   "url": "https://www.bikebros.co.jp/catalog/17/13_7/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    350000,
+    369000,
+    2
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "999_130",
+   "name": "Z7 Hybrid Z7ハイブリッド",
+   "url": "https://www.bikebros.co.jp/catalog/4/999_130/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    1848000,
+    1848000,
+    10
+   ],
+   "used_new": [
+    985900,
+    1321000,
+    6
+   ]
+  },
+  {
+   "kind": "no",
+   "id": "100_1",
+   "name": "GORILLA ゴリラ",
+   "url": "https://www.bikebros.co.jp/catalog/1/100_1/",
+   "snap": [
+    null,
+    null,
+    null
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    150000,
+    1250000,
+    47
+   ]
+  },
+  {
+   "kind": "has",
+   "id": "999_121",
+   "name": "Ninja ZX-4RR ニンジャZX-4RR",
+   "url": "https://www.bikebros.co.jp/catalog/4/999_121/",
+   "snap": [
+    1083000,
+    1210000,
+    114
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    null,
+    null,
+    null
+   ],
+   "used_new": [
+    398000,
+    750000,
+    83
+   ]
+  },
+  {
+   "kind": "has",
+   "id": "75_1",
+   "name": "ESTRELLA/RS/Custom エストレヤ/RS/カスタム",
+   "url": "https://www.bikebros.co.jp/catalog/4/75_1/",
+   "snap": [
+    789000,
+    1550000,
+    3
+   ],
+   "old": [
+    789000,
+    1550000,
+    3
+   ],
+   "new": [
+    789000,
+    1550000,
+    3
+   ],
+   "used_new": [
+    128000,
+    999900,
+    276
+   ]
+  },
+  {
+   "kind": "has",
+   "id": "999_7",
+   "name": "Speed Twin 1200 スピードツイン1200",
+   "url": "https://www.bikebros.co.jp/catalog/10/999_7/",
+   "snap": [
+    1909000,
+    2519000,
+    8
+   ],
+   "old": [
+    1884000,
+    1979000,
+    8
+   ],
+   "new": [
+    1884000,
+    1979000,
+    8
+   ],
+   "used_new": [
+    1138000,
+    1949000,
+    16
+   ]
+  },
+  {
+   "kind": "has",
+   "id": "999_24",
+   "name": "Chief Bobber Dark Horse チーフ ボバー ダークホース",
+   "url": "https://www.bikebros.co.jp/catalog/100/999_24/",
+   "snap": [
+    2710000,
+    3280000,
+    4
+   ],
+   "old": [
+    2710000,
+    3280000,
+    5
+   ],
+   "new": [
+    2710000,
+    3280000,
+    5
+   ],
+   "used_new": [
+    1688000,
+    2980000,
+    8
+   ]
+  },
+  {
+   "kind": "has",
+   "id": "77_1",
+   "name": "AVENIS 125 アヴェニス125",
+   "url": "https://www.bikebros.co.jp/catalog/3/77_1/",
+   "snap": [
+    207900,
+    285400,
+    343
+   ],
+   "old": [
+    218000,
+    284900,
+    341
+   ],
+   "new": [
+    218000,
+    284900,
+    341
+   ],
+   "used_new": [
+    179800,
+    284800,
+    35
+   ]
+  },
+  {
+   "kind": "has",
+   "id": "999_6",
+   "name": "SX125",
+   "url": "https://www.bikebros.co.jp/catalog/11/999_6/",
+   "snap": [
+    450900,
+    517000,
+    20
+   ],
+   "old": [
+    450500,
+    517000,
+    20
+   ],
+   "new": [
+    450500,
+    517000,
+    20
+   ],
+   "used_new": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "kind": "has",
+   "id": "999_82",
+   "name": "GIXXER SF150 ジクサーSF150",
+   "url": "https://www.bikebros.co.jp/catalog/3/999_82/",
+   "snap": [
+    286000,
+    328900,
+    2
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    286000,
+    286000,
+    1
+   ],
+   "used_new": [
+    218000,
+    348000,
+    7
+   ]
+  },
+  {
+   "kind": "has",
+   "id": "74_1",
+   "name": "Versys 650 ヴェルシス650",
+   "url": "https://www.bikebros.co.jp/catalog/4/74_1/",
+   "snap": [
+    1100000,
+    1166000,
+    24
+   ],
+   "old": [
+    1155000,
+    1166000,
+    33
+   ],
+   "new": [
+    1155000,
+    1166000,
+    33
+   ],
+   "used_new": [
+    478000,
+    1399000,
+    20
+   ]
+  },
+  {
+   "kind": "has",
+   "id": "14_1",
+   "name": "V-Strom 650 Vストローム650",
+   "url": "https://www.bikebros.co.jp/catalog/3/14_1/",
+   "snap": [
+    910800,
+    990000,
+    13
+   ],
+   "old": [
+    957000,
+    990000,
+    12
+   ],
+   "new": [
+    957000,
+    990000,
+    12
+   ],
+   "used_new": [
+    469000,
+    880000,
+    14
+   ]
+  },
+  {
+   "kind": "has",
+   "id": "999_185",
+   "name": "REBEL 1100 S Edition DCT レブル1100 Sエディション DCT",
+   "url": "https://www.bikebros.co.jp/catalog/1/999_185/",
+   "snap": [
+    1341000,
+    1441000,
+    11
+   ],
+   "old": [
+    null,
+    null,
+    null
+   ],
+   "new": [
+    1441000,
+    1441000,
+    9
+   ],
+   "used_new": [
+    1328000,
+    1398000,
+    2
+   ]
+  }
+ ]
+}
