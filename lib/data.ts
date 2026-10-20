@@ -76,7 +76,8 @@ export function listingUrl(m: Model): string | undefined {
     const f = path.join(process.cwd(), 'data', 'listing-urls.json')
     listingCache = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf-8')).urls ?? {} : {}
   }
-  return listingCache![m.model_id]
+  // model_id はメーカーをまたいで重複する（例 999_63＝ハーレー FLTC と BMW R18 B）ので、maker_id と組で引く
+  return listingCache![`${m.maker_id}/${m.model_id}`]
 }
 
 export function makerSlug(maker: string): string {
