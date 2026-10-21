@@ -153,3 +153,99 @@ export const SITE = {
   description:
     '中古バイクの流通台数と価格帯を車種ごとに公開しています。買取価格は各社が公表していないため、当サイトでは断定を控え、出典を明記した実データのみを掲載しています。',
 }
+
+/**
+ * 排気量の表示（2026-10-21 追加）。
+ * 出典カタログの車種トップの「排気量」は1つの年式の諸元だけなので、年式で排気量が違う車種で
+ * その値を全年式の値のように出さないよう、data/displacement-years.json（scripts/collect-displacement-years.py）
+ * で年式ページごとに確認した値を使って年式を明記する。
+ *   ・全年式を確認でき、全て同じ値           → 「669cc」（従来どおり）
+ *   ・年式で値が違う（年式ページで確認できた分） → 「1584cc（2007〜2011年式。2002〜2006年式は 1449cc）」
+ *   ・年式ページで確認できない年式がある／下記の除外 → 「1690cc（2017年式の値）」のように年式だけ明記
+ * ・差が3%未満の値（124/124.8・248/249・1689/1690 など）は表記の丸め違いとして同じ値に扱う
+ *   （例 PCX: Honda 公式は 124cm³、出典は年式により 124 と 124.8 が混在）。
+ * ・ハーレーダビッドソンは年式別の値を出さず年式の明記だけにする。出典の年式ページでは 2012〜2016年式の
+ *   Dyna/Softail が 1584cc（ツインカム96）だが、2012年からツインカム103（1690cc）とする資料があり
+ *   （FXDF・FLS 等）、公式で確認できないため（2026-10-21）。
+ * ⚠️ 年式ページで読めなかった値は推測で埋めない。
+ */
+type DispYears = {
+  top_cc: number | null
+  top_year: number | null
+  variants: { id: string; year: number | null; cc: number | null }[]
+}
+let dispCache: Record<string, DispYears> | null = null
+const YEAR_ONLY_MAKERS = new Set(['5']) // ハーレーダビッドソン（上記）
+const SAME_RATIO = 0.03
+
+/** 差が3%未満の値を1つにまとめる。戻り値は 値→まとまりの表示（「1689〜1690cc」など） */
+function clusterCc(ccs: number[]): Map<number, string> {
+  const u = [...new Set(ccs)].sort((a, b) => a - b)
+  const out = new Map<number, string>()
+  let cur: number[] = []
+  const flush = () => {
+    const label = cur.length === 1 ? `${cur[0]}cc` : `${cur[0]}〜${cur[cur.length - 1]}cc`
+    for (const c of cur) out.set(c, label)
+  }
+  for (const c of u) {
+    if (cur.length && (c - cur[0]) / cur[0] >= SAME_RATIO) { flush(); cur = [] }
+    cur.push(c)
+  }
+  if (cur.length) flush()
+  return out
+}
+
+/**
+ * まとまりごとに、出典に載っている年式を「2008〜2011」のようにまとめる。
+ * 区間は出典の年式一覧で連続しているもの（間の年が出典に無い場合もある）。
+ * 同じ年式に排気量の違う仕様がある場合、その年式は両方に入る（overlap=true）。
+ */
+function groupByCc(vs: { year: number; key: string }[]): { groups: Map<string, string>; overlap: boolean } {
+  const years = [...new Set(vs.map((v) => v.year))].sort((a, b) => a - b)
+  const byKey = new Map<string, Set<number>>()
+  for (const v of vs) byKey.set(v.key, (byKey.get(v.key) ?? new Set()).add(v.year))
+  const overlap = years.some((y) => [...byKey.values()].filter((s) => s.has(y)).length > 1)
+  const groups = new Map<string, string>()
+  for (const [key, set] of byKey) {
+    const parts: string[] = []
+    for (let i = 0; i < years.length; i++) {
+      if (!set.has(years[i])) continue
+      let j = i
+      while (j + 1 < years.length && set.has(years[j + 1])) j++
+      parts.push(i === j ? `${years[i]}` : `${years[i]}〜${years[j]}`)
+      i = j
+    }
+    groups.set(key, parts.join('・'))
+  }
+  return { groups, overlap }
+}
+
+export function displacementText(m: Model): string | undefined {
+  if (!m.displacement_cc) return undefined
+  const base = `${m.displacement_cc}cc`
+  if (!dispCache) {
+    const f = path.join(process.cwd(), 'data', 'displacement-years.json')
+    dispCache = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf-8')) : {}
+  }
+  const d = dispCache![`${m.maker_id}/${m.model_id}`]
+  // 年式別の確認データが無い／車種トップの値が掲載値と違う（取得日以降に出典が変わった）ものは従来表示
+  if (!d || !d.top_cc || d.top_cc !== m.displacement_cc || !d.variants.length) return base
+  const known = d.variants.filter((v) => v.cc && v.year) as { year: number; cc: number }[]
+  const cl = clusterCc([d.top_cc, ...known.map((v) => v.cc)])
+  const topKey = cl.get(d.top_cc)!
+  // 値が読めなかった年式、または年式不明で値が違うものは「未確認」
+  const unknown = d.variants.filter((v) => !v.cc || (!v.year && cl.get(v.cc) !== topKey)).length
+  const differs = known.some((v) => cl.get(v.cc) !== topKey)
+  if (!differs && !unknown) return base
+  const topYear = d.top_year ?? known.filter((v) => v.cc === d.top_cc).map((v) => v.year).sort((a, b) => b - a)[0]
+  if (!topYear) return base
+  if (!differs || YEAR_ONLY_MAKERS.has(m.maker_id)) return `${base}（${topYear}年式の値）`
+  const { groups, overlap } = groupByCc(known.map((v) => ({ year: v.year, key: cl.get(v.cc)! })))
+  const same = groups.get(topKey) ?? ''
+  const others = [...groups.entries()]
+    .filter(([k]) => k !== topKey)
+    .sort((a, b) => a[1].localeCompare(b[1]))
+    .map(([k, label]) => `${label}年式は ${k}`)
+    .join('、')
+  return `${base}（${same || topYear}年式。${others}${overlap ? '。同じ年式に排気量の違う仕様があります' : ''}${unknown ? '。その他の年式は未確認' : ''}）`
+}

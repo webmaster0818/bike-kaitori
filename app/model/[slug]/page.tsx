@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import {
-  allModels, findBySlug, modelSlug, makerSlug, classOf, stance, spread, yen, SITE, listingUrl,
+  allModels, findBySlug, modelSlug, makerSlug, classOf, stance, spread, yen, SITE, listingUrl, displacementText,
 } from '@/lib/data'
 import { breadcrumb, faqLd, modelDatasetLd } from '@/lib/schema'
 import { pageMeta, fitDesc } from '@/lib/meta'
@@ -123,7 +123,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
             {!!m.new_price_min && !!m.new_price_max && (
               <tr><th>新車価格帯（実勢価格）</th><td className="n">{m.new_price_min === m.new_price_max ? yen(m.new_price_min) : `${yen(m.new_price_min)}〜${yen(m.new_price_max)}`}{m.new_count ? `（${m.new_count}台）` : ''}</td></tr>
             )}
-            {!!m.displacement_cc && <tr><th>排気量</th><td className="n">{m.displacement_cc}cc</td></tr>}
+            {!!m.displacement_cc && <tr><th>排気量</th><td className="n">{displacementText(m)}</td></tr>}
             {!!m.category && !!m.category_rank && (
               <tr><th>カテゴリ内順位</th><td className="n">{m.category}　{m.category_rank}位</td></tr>
             )}
