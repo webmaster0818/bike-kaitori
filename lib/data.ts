@@ -220,8 +220,23 @@ function groupByCc(vs: { year: number; key: string }[]): { groups: Map<string, s
   return { groups, overlap }
 }
 
+/**
+ * メーカー公式の諸元と出典の値が食い違う車種（公式ページを開いて確認したものだけ）。
+ * キーは maker_id/model_id。ここにある車種は公式の値と確認元を出す。
+ * ・1/999_147・999_185・999_164 Rebel 1100 / S Edition / 1100T：出典の 2025年式は 1084cc だが、
+ *   Honda 公式（https://www.honda.co.jp/Rebel1100/ 主要諸元・2025年3月現在・8BL-SC87、3タイプ共通）は 1,082cm³。
+ *   出典の 2021〜2024年式も 1082cc（2026-10-22 確認）
+ */
+const OFFICIAL_CC: Record<string, { cc: number; label: string }> = {
+  '1/999_147': { cc: 1082, label: 'Honda 公式の主要諸元。2026-10-22 確認' },
+  '1/999_185': { cc: 1082, label: 'Honda 公式の主要諸元。2026-10-22 確認' },
+  '1/999_164': { cc: 1082, label: 'Honda 公式の主要諸元。2026-10-22 確認' },
+}
+
 export function displacementText(m: Model): string | undefined {
   if (!m.displacement_cc) return undefined
+  const official = OFFICIAL_CC[`${m.maker_id}/${m.model_id}`]
+  if (official) return `${official.cc}cc（${official.label}）`
   const base = `${m.displacement_cc}cc`
   if (!dispCache) {
     const f = path.join(process.cwd(), 'data', 'displacement-years.json')
