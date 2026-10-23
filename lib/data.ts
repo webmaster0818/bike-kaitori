@@ -231,6 +231,11 @@ const OFFICIAL_CC: Record<string, { cc: number; label: string }> = {
   '1/999_147': { cc: 1082, label: 'Honda 公式の主要諸元。2026-10-22 確認' },
   '1/999_185': { cc: 1082, label: 'Honda 公式の主要諸元。2026-10-22 確認' },
   '1/999_164': { cc: 1082, label: 'Honda 公式の主要諸元。2026-10-22 確認' },
+  // ヤマハ公式 機能・装備ページ「排気量320cm3のMT-03」「排気量320cm3のYZF-R3」（2026-10-23 確認）。
+  // https://www.yamaha-motor.co.jp/mc/lineup/mt-25/feature.html ・ /mc/lineup/yzf-r25/feature.html
+  // 主要諸元の表（spec.html）は諸元データ JSON が 503 で読めなかった。出典カタログは 2025年式以降 321cc
+  '2/43_8': { cc: 320, label: 'ヤマハ公式の製品ページ。2026-10-23 確認' },
+  '2/106_12': { cc: 320, label: 'ヤマハ公式の製品ページ。2026-10-23 確認' },
 }
 
 export function displacementText(m: Model): string | undefined {
