@@ -1,0 +1,325 @@
+{
+ "10/18追加3車種": {
+  "before": [
+   "2026-10-14",
+   "2026-10-17"
+  ],
+  "after": [
+   "2026-10-18",
+   "2026-10-21"
+  ],
+  "pages": [
+   {
+    "slug": "kawasaki-87-18",
+    "before": [
+     0,
+     0,
+     null
+    ],
+    "after": [
+     0,
+     0,
+     null
+    ]
+   },
+   {
+    "slug": "suzuki-122-14",
+    "before": [
+     0,
+     0,
+     null
+    ],
+    "after": [
+     0,
+     3,
+     38.0
+    ]
+   },
+   {
+    "slug": "harley-davidson-2-4",
+    "before": [
+     0,
+     0,
+     null
+    ],
+    "after": [
+     0,
+     0,
+     null
+    ]
+   }
+  ],
+  "group_total": {
+   "before": [
+    0,
+    0
+   ],
+   "after": [
+    0,
+    3
+   ]
+  },
+  "site": {
+   "before": [
+    8,
+    802,
+    30.0
+   ],
+   "after": [
+    12,
+    936,
+    29.9
+   ]
+  }
+ },
+ "10/20追加7車種": {
+  "before": [
+   "2026-10-18",
+   "2026-10-19"
+  ],
+  "after": [
+   "2026-10-20",
+   "2026-10-21"
+  ],
+  "pages": [
+   {
+    "slug": "harley-davidson-999-63",
+    "before": [
+     0,
+     4,
+     24.0
+    ],
+    "after": [
+     0,
+     5,
+     23.2
+    ]
+   },
+   {
+    "slug": "honda-168-3",
+    "before": [
+     0,
+     0,
+     null
+    ],
+    "after": [
+     0,
+     0,
+     null
+    ]
+   },
+   {
+    "slug": "honda-196-1",
+    "before": [
+     0,
+     21,
+     28.8
+    ],
+    "after": [
+     0,
+     11,
+     32.8
+    ]
+   },
+   {
+    "slug": "honda-196-10",
+    "before": [
+     0,
+     0,
+     null
+    ],
+    "after": [
+     0,
+     2,
+     24.5
+    ]
+   },
+   {
+    "slug": "suzuki-123-4",
+    "before": [
+     0,
+     0,
+     null
+    ],
+    "after": [
+     0,
+     0,
+     null
+    ]
+   },
+   {
+    "slug": "honda-105-10",
+    "before": [
+     0,
+     0,
+     null
+    ],
+    "after": [
+     0,
+     0,
+     null
+    ]
+   },
+   {
+    "slug": "honda-30-2",
+    "before": [
+     0,
+     0,
+     null
+    ],
+    "after": [
+     0,
+     0,
+     null
+    ]
+   }
+  ],
+  "group_total": {
+   "before": [
+    0,
+    25
+   ],
+   "after": [
+    0,
+    18
+   ]
+  },
+  "site": {
+   "before": [
+    6,
+    484,
+    29.3
+   ],
+   "after": [
+    6,
+    452,
+    30.6
+   ]
+  }
+ },
+ "10/20追加7車種(after=10/21のみ)": {
+  "before": [
+   "2026-10-19",
+   "2026-10-19"
+  ],
+  "after": [
+   "2026-10-21",
+   "2026-10-21"
+  ],
+  "pages": [
+   {
+    "slug": "harley-davidson-999-63",
+    "before": [
+     0,
+     1,
+     18.0
+    ],
+    "after": [
+     0,
+     1,
+     19.0
+    ]
+   },
+   {
+    "slug": "honda-168-3",
+    "before": [
+     0,
+     0,
+     null
+    ],
+    "after": [
+     0,
+     0,
+     null
+    ]
+   },
+   {
+    "slug": "honda-196-1",
+    "before": [
+     0,
+     10,
+     26.4
+    ],
+    "after": [
+     0,
+     3,
+     41.0
+    ]
+   },
+   {
+    "slug": "honda-196-10",
+    "before": [
+     0,
+     0,
+     null
+    ],
+    "after": [
+     0,
+     1,
+     25.0
+    ]
+   },
+   {
+    "slug": "suzuki-123-4",
+    "before": [
+     0,
+     0,
+     null
+    ],
+    "after": [
+     0,
+     0,
+     null
+    ]
+   },
+   {
+    "slug": "honda-105-10",
+    "before": [
+     0,
+     0,
+     null
+    ],
+    "after": [
+     0,
+     0,
+     null
+    ]
+   },
+   {
+    "slug": "honda-30-2",
+    "before": [
+     0,
+     0,
+     null
+    ],
+    "after": [
+     0,
+     0,
+     null
+    ]
+   }
+  ],
+  "group_total": {
+   "before": [
+    0,
+    11
+   ],
+   "after": [
+    0,
+    5
+   ]
+  },
+  "site": {
+   "before": [
+    3,
+    243,
+    28.8
+   ],
+   "after": [
+    4,
+    207,
+    31.4
+   ]
+  }
+ }
+}

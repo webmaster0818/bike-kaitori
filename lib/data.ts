@@ -236,6 +236,15 @@ const OFFICIAL_CC: Record<string, { cc: number; label: string }> = {
   // 主要諸元の表（spec.html）は諸元データ JSON が 503 で読めなかった。出典カタログは 2025年式以降 321cc
   '2/43_8': { cc: 320, label: 'ヤマハ公式の製品ページ。2026-10-23 確認' },
   '2/106_12': { cc: 320, label: 'ヤマハ公式の製品ページ。2026-10-23 確認' },
+  // カワサキ公式 2027年モデルの主要諸元「総排気量 1,098cm³」（2026-10-24 確認・5車種とも同じ）。出典カタログは 1098.9cc
+  // https://www.kawasaki-motors.com/ja-jp/motorcycle/z/supernaked/z1100/2027-z1100 ・ /2027-z1100-se
+  // /ja-jp/motorcycle/ninja/sport/ninja-1100sx/2027-ninja-1100sx ・ /2027-ninja-1100sx-se
+  // /ja-jp/motorcycle/versys/adventure-touring/versys-1100/2027-versys-1100-se
+  '4/73_10': { cc: 1098, label: 'カワサキ公式の主要諸元。2026-10-24 確認' },
+  '4/999_141': { cc: 1098, label: 'カワサキ公式の主要諸元。2026-10-24 確認' },
+  '4/999_135': { cc: 1098, label: 'カワサキ公式の主要諸元。2026-10-24 確認' },
+  '4/999_136': { cc: 1098, label: 'カワサキ公式の主要諸元。2026-10-24 確認' },
+  '4/999_134': { cc: 1098, label: 'カワサキ公式の主要諸元。2026-10-24 確認' },
 }
 
 export function displacementText(m: Model): string | undefined {
