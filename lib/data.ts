@@ -245,6 +245,10 @@ const OFFICIAL_CC: Record<string, { cc: number; label: string }> = {
   '4/999_135': { cc: 1098, label: 'カワサキ公式の主要諸元。2026-10-24 確認' },
   '4/999_136': { cc: 1098, label: 'カワサキ公式の主要諸元。2026-10-24 確認' },
   '4/999_134': { cc: 1098, label: 'カワサキ公式の主要諸元。2026-10-24 確認' },
+  // スズキ公式ニュースリリース 2026/1/22「新型GSX-8T、新型GSX-8TTを日本で発売」本文「775cm3 のコンパクトなエンジン」（2026-10-25 確認）
+  // https://www.suzuki.co.jp/release/b/2026/0122/pdf/0122.pdf 。製品サイト www1.suzuki.co.jp の諸元ページは 10/24・10/25 とも 503。
+  // 出典カタログは 775.8cc（年式ページに 776.0cc もあり）
+  '3/999_113': { cc: 775, label: 'スズキ公式のニュースリリース。2026-10-25 確認' },
 }
 
 export function displacementText(m: Model): string | undefined {
