@@ -249,6 +249,11 @@ const OFFICIAL_CC: Record<string, { cc: number; label: string }> = {
   // https://www.suzuki.co.jp/release/b/2026/0122/pdf/0122.pdf 。製品サイト www1.suzuki.co.jp の諸元ページは 10/24・10/25 とも 503。
   // 出典カタログは 775.8cc（年式ページに 776.0cc もあり）
   '3/999_113': { cc: 775, label: 'スズキ公式のニュースリリース。2026-10-25 確認' },
+  // Honda 公式 製品ページの主要諸元（2026-10-26 確認）。出典カタログは小数第1位まで（PCX 2021年式以降 124.8cc・CB1000F 999.8cc）
+  // https://www.honda.co.jp/PCX/ 「PCX 8BJ-JK05 総排気量 124」（2025年1月現在）
+  // https://www.honda.co.jp/CB1000F/ 「CB1000F／CB1000F SE 8BL-SC94 総排気量 999」（2025年10月現在）
+  '1/192_1': { cc: 124, label: 'Honda 公式の主要諸元。2026-10-26 確認' },
+  '1/999_187': { cc: 999, label: 'Honda 公式の主要諸元。2026-10-26 確認' },
 }
 
 export function displacementText(m: Model): string | undefined {
