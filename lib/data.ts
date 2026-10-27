@@ -248,12 +248,23 @@ const OFFICIAL_CC: Record<string, { cc: number; label: string }> = {
   // スズキ公式ニュースリリース 2026/1/22「新型GSX-8T、新型GSX-8TTを日本で発売」本文「775cm3 のコンパクトなエンジン」（2026-10-25 確認）
   // https://www.suzuki.co.jp/release/b/2026/0122/pdf/0122.pdf 。製品サイト www1.suzuki.co.jp の諸元ページは 10/24・10/25 とも 503。
   // 出典カタログは 775.8cc（年式ページに 776.0cc もあり）
-  '3/999_113': { cc: 775, label: 'スズキ公式のニュースリリース。2026-10-25 確認' },
+  // 2026-10-27: 製品サイトの主要諸元（型式 8BL-EM1AA「総排気量 775cm3」）も読めたので確認元を差し替え
+  // https://www1.suzuki.co.jp/motor/lineup/gsx800ttrqbm6/?page=style
+  '3/999_113': { cc: 775, label: 'スズキ公式の主要諸元。2026-10-27 確認' },
   // Honda 公式 製品ページの主要諸元（2026-10-26 確認）。出典カタログは小数第1位まで（PCX 2021年式以降 124.8cc・CB1000F 999.8cc）
   // https://www.honda.co.jp/PCX/ 「PCX 8BJ-JK05 総排気量 124」（2025年1月現在）
   // https://www.honda.co.jp/CB1000F/ 「CB1000F／CB1000F SE 8BL-SC94 総排気量 999」（2025年10月現在）
   '1/192_1': { cc: 124, label: 'Honda 公式の主要諸元。2026-10-26 確認' },
   '1/999_187': { cc: 999, label: 'Honda 公式の主要諸元。2026-10-26 確認' },
+  // ヤマハ公式 製品ページ「価格・仕様」の主要諸元（各ページが読む諸元データ JSON。2026-10-27 確認）。出典カタログは 124.8cc / 124.7cc
+  // /mc/lineup/fazzio/spec.html（spec_compare_db_20260309.json Fazzio-2026 8BJ-SEL6J「124cm3」）
+  // /mc/lineup/mt-125/spec.html（spec_compare_db_20231012.json MT-125-2023 8BJ-RE45J「124cm3」）
+  // /mc/lineup/xsr125/spec.html（spec_compare_db_20250319.json XSR125-2025 8BJ-RE46J「124cm3」）
+  // /mc/lineup/yzf-r125/spec.html（spec_compare_db_20230921.json YZF-R125-2023 8BJ-RE45J「124cm3」）
+  '2/999_121': { cc: 124, label: 'ヤマハ公式の主要諸元。2026-10-27 確認' },
+  '2/999_13': { cc: 124, label: 'ヤマハ公式の主要諸元。2026-10-27 確認' },
+  '2/999_107': { cc: 124, label: 'ヤマハ公式の主要諸元。2026-10-27 確認' },
+  '2/106_8': { cc: 124, label: 'ヤマハ公式の主要諸元。2026-10-27 確認' },
 }
 
 export function displacementText(m: Model): string | undefined {
