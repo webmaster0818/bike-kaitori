@@ -227,7 +227,7 @@ function groupByCc(vs: { year: number; key: string }[]): { groups: Map<string, s
  *   Honda 公式（https://www.honda.co.jp/Rebel1100/ 主要諸元・2025年3月現在・8BL-SC87、3タイプ共通）は 1,082cm³。
  *   出典の 2021〜2024年式も 1082cc（2026-10-22 確認）
  */
-const OFFICIAL_CC: Record<string, { cc: number; label: string }> = {
+const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   '1/999_147': { cc: 1082, label: 'Honda 公式の主要諸元。2026-10-22 確認' },
   '1/999_185': { cc: 1082, label: 'Honda 公式の主要諸元。2026-10-22 確認' },
   '1/999_164': { cc: 1082, label: 'Honda 公式の主要諸元。2026-10-22 確認' },
@@ -265,12 +265,22 @@ const OFFICIAL_CC: Record<string, { cc: number; label: string }> = {
   '2/999_13': { cc: 124, label: 'ヤマハ公式の主要諸元。2026-10-27 確認' },
   '2/999_107': { cc: 124, label: 'ヤマハ公式の主要諸元。2026-10-27 確認' },
   '2/106_8': { cc: 124, label: 'ヤマハ公式の主要諸元。2026-10-27 確認' },
+  // ヤマハ公式 製品ページ「価格・仕様」の主要諸元（2026-10-29 確認）。出典カタログは 124.6cc / 124.7cc
+  // /mc/lineup/cygnus-x/spec.html（spec_compare_db_20260422.json CYGNUS-X-2026 8BJ-SEM5J「124cm³」。出典の 2020年式以前は 124cc）
+  // /mc/lineup/cygnus-gryphus/spec.html（spec_compare_db_20250410.json CYGNUS-GRYPHUS-2025 8BJ-SEJ4J「124cm3」）
+  // /mc/lineup/wr125r/spec.html（spec_compare_db_20251218.json WR125R-2026 8BJ-DE14J「124cm3」。出典の 2009〜2014年式は海外仕様）
+  '2/123_2': { cc: 124, label: 'ヤマハ公式の主要諸元。2026-10-29 確認' },
+  '2/999_104': { cc: 124, label: 'ヤマハ公式の主要諸元。2026-10-29 確認' },
+  '2/80_3': { cc: 124, label: 'ヤマハ公式の主要諸元。2026-10-29 確認' },
+  // E-Vino は電動。出典カタログの「0.58」は排気量ではない。ヤマハ公式の主要諸元（/mc/lineup/e-vino/spec.html・
+  // spec_compare_db_20220824.json E-Vino-2022 ZAD-SY11J）は排気量「-」、原動機は交流同期電動機（2026-10-29 確認）
+  '2/187_1': { cc: null, label: '電動モデル。ヤマハ公式の主要諸元では排気量「-」。2026-10-29 確認' },
 }
 
 export function displacementText(m: Model): string | undefined {
   if (!m.displacement_cc) return undefined
   const official = OFFICIAL_CC[`${m.maker_id}/${m.model_id}`]
-  if (official) return `${official.cc}cc（${official.label}）`
+  if (official) return official.cc === null ? `なし（${official.label}）` : `${official.cc}cc（${official.label}）`
   const base = `${m.displacement_cc}cc`
   if (!dispCache) {
     const f = path.join(process.cwd(), 'data', 'displacement-years.json')
