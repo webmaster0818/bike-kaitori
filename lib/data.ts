@@ -275,6 +275,10 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // E-Vino は電動。出典カタログの「0.58」は排気量ではない。ヤマハ公式の主要諸元（/mc/lineup/e-vino/spec.html・
   // spec_compare_db_20220824.json E-Vino-2022 ZAD-SY11J）は排気量「-」、原動機は交流同期電動機（2026-10-29 確認）
   '2/187_1': { cc: null, label: '電動モデル。ヤマハ公式の主要諸元では排気量「-」。2026-10-29 確認' },
+  // ハスクバーナ公式（ja-jp）の技術仕様（2026-11-01 確認）。出典カタログは全年式 889.5cc
+  // https://www.husqvarna-motorcycles.com/ja-jp/models/travel/norden-901-2026.html ・ /norden-901-expedition2026.html
+  // 「排気量 889 cm³・ボア 90.7mm・ストローク 68.8mm」（並列2気筒。内径×行程からの計算も 889.05）
+  '38/999_11': { cc: 889, label: 'ハスクバーナ公式の技術仕様（2026年モデル）。2026-11-01 確認' },
 }
 
 export function displacementText(m: Model): string | undefined {
