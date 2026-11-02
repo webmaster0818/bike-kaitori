@@ -279,6 +279,12 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // https://www.husqvarna-motorcycles.com/ja-jp/models/travel/norden-901-2026.html ・ /norden-901-expedition2026.html
   // 「排気量 889 cm³・ボア 90.7mm・ストローク 68.8mm」（並列2気筒。内径×行程からの計算も 889.05）
   '38/999_11': { cc: 889, label: 'ハスクバーナ公式の技術仕様（2026年モデル）。2026-11-01 確認' },
+  // ハーレーダビッドソン ジャパン公式のスペック（2026-11-02 確認・2025年モデルも同値）。出典カタログは 352.8cc / 499.5cc
+  // https://www.harley-davidson.com/jp/ja/motorcycles/x-350.html 「排気量 353 cc・ボア 70.5mm・ストローク 45.2mm」（2026 HD350-10）
+  // https://www.harley-davidson.com/jp/ja/motorcycles/x-500.html 「排気量 500 cc・ボア 69mm・ストローク 66.8mm」（2026 HD500-10A）
+  // /jp/ja/motorcycles/2025/x-350.html ・ /2025/x-500.html も 353 cc / 500 cc
+  '5/999_121': { cc: 353, label: 'ハーレーダビッドソン公式のスペック。2026-11-02 確認' },
+  '5/999_122': { cc: 500, label: 'ハーレーダビッドソン公式のスペック。2026-11-02 確認' },
 }
 
 export function displacementText(m: Model): string | undefined {
