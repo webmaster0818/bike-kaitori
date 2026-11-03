@@ -285,6 +285,36 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // /jp/ja/motorcycles/2025/x-350.html ・ /2025/x-500.html も 353 cc / 500 cc
   '5/999_121': { cc: 353, label: 'ハーレーダビッドソン公式のスペック。2026-11-02 確認' },
   '5/999_122': { cc: 500, label: 'ハーレーダビッドソン公式のスペック。2026-11-02 確認' },
+  // トライアンフ ジャパン公式（triumphmotorcycles.jp）の主要諸元「排気量」（2026-11-03 確認）。出典カタログは内径×行程からの計算値（小数・端数）
+  // /bikes/adventure/tiger-900/specification 「TIGER 900 GT / GT PRO / RALLY PRO MY24 排気量 888 cc・ボア 78.0・ストローク 61.9」（出典 887.3）
+  '10/999_26': { cc: 888, label: 'トライアンフ公式の主要諸元（2024年モデル）。2026-11-03 確認' },
+  '10/999_27': { cc: 888, label: 'トライアンフ公式の主要諸元（2024年モデル）。2026-11-03 確認' },
+  // /bikes/adventure/tiger-1200/specification 「TIGER 1200 GT PRO / RALLY PRO MY24 1160 cc・90.0×60.7」（出典 1158.4。Rally Explorer 999_48 は出典も 1160 で一致）
+  '10/999_45': { cc: 1160, label: 'トライアンフ公式の主要諸元（2024年モデル）。2026-11-03 確認' },
+  '10/999_47': { cc: 1160, label: 'トライアンフ公式の主要諸元（2024年モデル）。2026-11-03 確認' },
+  // /bikes/adventure/tiger-sport-660/specification 「TIGER SPORT 660 2025 / 2022 660 cc・74.0×51.1」（出典 659.3）
+  '10/999_38': { cc: 660, label: 'トライアンフ公式の主要諸元（2022・2025年モデル）。2026-11-03 確認' },
+  // /bikes/roadsters/trident/specification ・ /bikes/previous-model-year/models/trident-660-2025 「TRIDENT 660 2025 660 cc」（出典 659.3・2026年式）
+  '10/999_32': { cc: 660, label: 'トライアンフ公式の主要諸元（2025年モデル）。2026-11-03 確認' },
+  // /bikes/sport/daytona-660/specification 「DAYTONA 660 2025 660 cc・74.04×51.1」（出典 659.3）
+  '10/999_56': { cc: 660, label: 'トライアンフ公式の主要諸元（2025年モデル）。2026-11-03 確認' },
+  // /bikes/adventure/tiger-sport-800/specification 「TIGER SPORT 800 798 cc・78.0×55.7」（出典 798.4）
+  '10/999_64': { cc: 798, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
+  // /bikes/classic/bonneville-scrambler-1200/specification 「SCRAMBLER 1200 X / XE (MY24) 1200 cc・97.6×80」（出典 1197）
+  '10/999_54': { cc: 1200, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
+  '10/999_6': { cc: 1200, label: 'トライアンフ公式の主要諸元（2024年モデル）。2026-11-03 確認' },
+  // /bikes/classic/bonneville-speed-twin-1200/specification 「SPEED TWIN 1200 / 1200 RS 1200 cc・97.6×80」（出典 1197）
+  '10/999_7': { cc: 1200, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
+  '10/999_61': { cc: 1200, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
+  // /bikes/classic/bonneville-speed-twin-900/specification ・ /bonneville-scrambler-900/specification 「900 cc・84.6×80」（出典 899）
+  '10/999_49': { cc: 900, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
+  '10/999_50': { cc: 900, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
+  // /bikes/classic/speed-400/specification ・ /scrambler-400-x/specification 「398.15 cc・89.0×64.0」（出典 398）
+  '10/999_52': { cc: 398.15, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
+  '10/999_53': { cc: 398.15, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
+  // /bikes/rocket-3/rocket-3-storm/specification 「ROCKET 3 STORM R / STORM GT 2458 cc・110.2×85.9」（出典 2457。Rocket 3 R/GT MY23 は出典も 2458 で一致）
+  '10/999_57': { cc: 2458, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
+  '10/999_58': { cc: 2458, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
 }
 
 export function displacementText(m: Model): string | undefined {
