@@ -5,6 +5,7 @@ import {
 } from '@/lib/data'
 import { breadcrumb, faqLd, modelDatasetLd } from '@/lib/schema'
 import { pageMeta, fitDesc } from '@/lib/meta'
+import { MODEL_SEO } from '@/lib/model-seo'
 
 export function generateStaticParams() {
   return allModels().map((m) => ({ slug: modelSlug(m) }))
@@ -14,11 +15,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const m = findBySlug(slug)
   if (!m) return {}
+  const seo = MODEL_SEO[`${m.maker_id}/${m.model_id}`]
   return pageMeta({
-    title: `${m.name}の中古流通台数と価格帯｜${m.maker}`,
+    title: seo ? `${seo.name}の${seo.titleSuffix}｜${m.maker}` : `${m.name}の中古流通台数と価格帯｜${m.maker}`,
     description: fitDesc(
-      `${m.maker} ${m.name}は中古車として${m.used_count}台が流通しており、価格帯は${yen(m.used_price_min)}〜${yen(m.used_price_max)}です（${m.fetched_at}時点）。`,
-      '売却前の参考として、流通状況をまとめています。',
+      `${m.maker} ${seo?.name ?? m.name}は中古車として${m.used_count}台が流通しており、価格帯は${yen(m.used_price_min)}〜${yen(m.used_price_max)}です（${m.fetched_at}時点）。`,
+      seo?.newCar?.descText ?? '売却前の参考として、流通状況をまとめています。',
     ),
     path: `/model/${slug}/`,
   })
@@ -55,6 +57,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 
   // 新車価格が取れている場合だけ、値落ちの位置を出す（取れていない車種では触れない）
   const listing = listingUrl(m)
+  const seo = MODEL_SEO[`${m.maker_id}/${m.model_id}`]
 
   const drop =
     m.new_price_min && m.used_price_min
@@ -96,7 +99,35 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
         {cls && <> ／ <a href={`/class/${cls.slug}/`}>{cls.label}</a></>}
       </p>
 
-      <h1>{m.maker} {m.name}の中古流通台数と価格帯</h1>
+      <h1>{m.maker} {seo ? `${seo.name}の${seo.titleSuffix}` : `${m.name}の中古流通台数と価格帯`}</h1>
+
+      {seo && (
+        <div className="scroll-x">
+          <table className="data">
+            <tbody>
+              <tr>
+                <th>中古車</th>
+                <td>
+                  {yen(m.used_price_min)}〜{yen(m.used_price_max)}（{m.used_count}台・{m.fetched_at}時点）
+                  {listing && <>。<a href={listing} rel="noopener noreferrer" target="_blank">現在の在庫一覧</a></>}
+                </td>
+              </tr>
+              {seo.newCar && (
+                <tr>
+                  <th>新車</th>
+                  <td>
+                    {seo.newCar.text}（{seo.newCar.checkedAt} 確認：
+                    {seo.newCar.sources.map((x, i) => (
+                      <span key={x.url}>{i > 0 && '・'}<a href={x.url} rel="noopener noreferrer" target="_blank">{x.label}</a></span>
+                    ))}
+                    ）
+                  </td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+        </div>
+      )}
 
       <div className="verdict">
         <div className="tag">流通状況の概要</div>
