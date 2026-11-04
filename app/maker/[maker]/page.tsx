@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import { allModels, makerSlug, modelSlug, classOf, yen, SITE } from '@/lib/data'
 import { breadcrumb, itemListLd } from '@/lib/schema'
 import { pageMeta, fitDesc } from '@/lib/meta'
+import { MAKER_FACTS } from '@/lib/maker-facts'
 
 export function generateStaticParams() {
   return [...new Set(allModels().map((m) => makerSlug(m.maker)))].map((maker) => ({ maker }))
@@ -34,6 +35,7 @@ export default async function Page({ params }: { params: Promise<{ maker: string
   const rows = allModels().filter((m) => makerSlug(m.maker) === maker)
     .sort((a, b) => b.used_count - a.used_count)
   const total = rows.reduce((n, r) => n + r.used_count, 0)
+  const facts = MAKER_FACTS[ja]
 
   const ld = [
     breadcrumb([
@@ -92,6 +94,28 @@ export default async function Page({ params }: { params: Promise<{ maker: string
         （各車種ページに取得日を明記しています）
       </p>
       <p className="note">※掲載している価格は中古車としての流通価格であり、買取価格ではありません。</p>
+      {facts && (
+        <>
+          <h2>{facts.heading}</h2>
+          <div className="scroll-x">
+            <table className="data">
+              <thead>
+                <tr><th style={{ width: '24%' }}>項目</th><th style={{ width: '46%' }}>公式の記載</th><th>出典・確認日</th></tr>
+              </thead>
+              <tbody>
+                {facts.rows.map((f) => (
+                  <tr key={f.label}>
+                    <td>{f.label}</td>
+                    <td>{f.value}</td>
+                    <td><a href={f.sourceUrl} rel="noopener noreferrer" target="_blank">{f.sourceName}</a>（{f.checkedAt} 確認）</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          {facts.notes.map((n) => <p className="note" key={n}>{n}</p>)}
+        </>
+      )}
       <p className="note" style={{ marginTop: 32 }}><a href="/ranking/">全メーカーの流通台数ランキングを見る</a></p>
     </article>
   )
