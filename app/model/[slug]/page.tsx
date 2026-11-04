@@ -16,11 +16,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const m = findBySlug(slug)
   if (!m) return {}
   const seo = MODEL_SEO[`${m.maker_id}/${m.model_id}`]
+  const now = seo?.usedNow
   return pageMeta({
-    title: seo ? `${seo.name}の${seo.titleSuffix}｜${m.maker}` : `${m.name}の中古流通台数と価格帯｜${m.maker}`,
+    title: seo?.name && seo.titleSuffix ? `${seo.name}の${seo.titleSuffix}｜${m.maker}` : `${m.name}の中古流通台数と価格帯｜${m.maker}`,
     description: fitDesc(
-      `${m.maker} ${seo?.name ?? m.name}は中古車として${m.used_count}台が流通しており、価格帯は${yen(m.used_price_min)}〜${yen(m.used_price_max)}です（${m.fetched_at}時点）。`,
-      seo?.newCar?.descText ?? '売却前の参考として、流通状況をまとめています。',
+      `${m.maker} ${seo?.name ?? m.name}は中古車として${now?.count ?? m.used_count}台が流通しており、価格帯は${yen(now?.min ?? m.used_price_min)}〜${yen(now?.max ?? m.used_price_max)}です（${now?.checkedAt ?? m.fetched_at}時点）。`,
+      seo?.sales?.descText ?? seo?.newCar?.descText ?? '売却前の参考として、流通状況をまとめています。',
     ),
     path: `/model/${slug}/`,
   })
@@ -99,17 +100,32 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
         {cls && <> ／ <a href={`/class/${cls.slug}/`}>{cls.label}</a></>}
       </p>
 
-      <h1>{m.maker} {seo ? `${seo.name}の${seo.titleSuffix}` : `${m.name}の中古流通台数と価格帯`}</h1>
+      <h1>{m.maker} {seo?.name && seo.titleSuffix ? `${seo.name}の${seo.titleSuffix}` : `${m.name}の中古流通台数と価格帯`}</h1>
 
       {seo && (
         <div className="scroll-x">
           <table className="data">
             <tbody>
+              {seo.sales && (
+                <tr>
+                  <th>販売台数</th>
+                  <td>
+                    {seo.sales.text}（{seo.sales.checkedAt} 確認：
+                    {seo.sales.sources.map((x, i) => (
+                      <span key={x.url}>{i > 0 && '・'}<a href={x.url} rel="noopener noreferrer" target="_blank">{x.label}</a></span>
+                    ))}
+                    ）
+                  </td>
+                </tr>
+              )}
               <tr>
                 <th>中古車</th>
                 <td>
-                  {yen(m.used_price_min)}〜{yen(m.used_price_max)}（{m.used_count}台・{m.fetched_at}時点）
+                  {seo.usedNow
+                    ? <>{yen(seo.usedNow.min)}〜{yen(seo.usedNow.max)}（{seo.usedNow.count}台・{seo.usedNow.checkedAt} 確認：<a href={m.source_url} rel="noopener noreferrer" target="_blank">バイクブロス</a>）</>
+                    : <>{yen(m.used_price_min)}〜{yen(m.used_price_max)}（{m.used_count}台・{m.fetched_at}時点）</>}
                   {listing && <>。<a href={listing} rel="noopener noreferrer" target="_blank">現在の在庫一覧</a></>}
+                  {seo.usedNow && <>。以下の流通状況と掲載データは{m.fetched_at}取得時点の値です</>}
                 </td>
               </tr>
               {seo.newCar && (
