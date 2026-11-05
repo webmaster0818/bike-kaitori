@@ -20,7 +20,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return pageMeta({
     title: seo?.name && seo.titleSuffix ? `${seo.name}の${seo.titleSuffix}｜${m.maker}` : `${m.name}の中古流通台数と価格帯｜${m.maker}`,
     description: fitDesc(
-      `${m.maker} ${seo?.name ?? m.name}は中古車として${now?.count ?? m.used_count}台が流通しており、価格帯は${yen(now?.min ?? m.used_price_min)}〜${yen(now?.max ?? m.used_price_max)}です（${now?.checkedAt ?? m.fetched_at}時点）。`,
+      seo?.usedNone
+        ? `${m.maker} ${seo.name ?? m.name}の中古車在庫はバイクブロスで0台です（${seo.usedNone.checkedAt}確認）。${m.fetched_at}取得時点では${m.used_count}台・${yen(m.used_price_min)}〜${yen(m.used_price_max)}でした。`
+        : now && now.min === now.max
+          ? `${m.maker} ${seo?.name ?? m.name}は中古車として${now.count}台が流通しており、価格は${yen(now.min)}です（${now.checkedAt}時点）。`
+          : `${m.maker} ${seo?.name ?? m.name}は中古車として${now?.count ?? m.used_count}台が流通しており、価格帯は${yen(now?.min ?? m.used_price_min)}〜${yen(now?.max ?? m.used_price_max)}です（${now?.checkedAt ?? m.fetched_at}時点）。`,
       seo?.sales?.descText ?? seo?.newCar?.descText ?? '売却前の参考として、流通状況をまとめています。',
     ),
     path: `/model/${slug}/`,
@@ -121,11 +125,13 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
               <tr>
                 <th>中古車</th>
                 <td>
-                  {seo.usedNow
-                    ? <>{yen(seo.usedNow.min)}〜{yen(seo.usedNow.max)}（{seo.usedNow.count}台・{seo.usedNow.checkedAt} 確認：<a href={m.source_url} rel="noopener noreferrer" target="_blank">バイクブロス</a>）</>
+                  {seo.usedNone
+                    ? <>バイクブロスの中古車在庫は0台です（{seo.usedNone.checkedAt} 確認：<a href={m.source_url} rel="noopener noreferrer" target="_blank">バイクブロス</a>）。{m.fetched_at}取得時点では{yen(m.used_price_min)}〜{yen(m.used_price_max)}（{m.used_count}台）でした</>
+                    : seo.usedNow
+                    ? <>{seo.usedNow.min === seo.usedNow.max ? yen(seo.usedNow.min) : `${yen(seo.usedNow.min)}〜${yen(seo.usedNow.max)}`}（{seo.usedNow.count}台・{seo.usedNow.checkedAt} 確認：<a href={m.source_url} rel="noopener noreferrer" target="_blank">バイクブロス</a>）{seo.usedNow.note && <>。{seo.usedNow.note}</>}</>
                     : <>{yen(m.used_price_min)}〜{yen(m.used_price_max)}（{m.used_count}台・{m.fetched_at}時点）</>}
                   {listing && <>。<a href={listing} rel="noopener noreferrer" target="_blank">現在の在庫一覧</a></>}
-                  {seo.usedNow && <>。以下の流通状況と掲載データは{m.fetched_at}取得時点の値です</>}
+                  {(seo.usedNow || seo.usedNone) && <>。以下の流通状況と掲載データは{m.fetched_at}取得時点の値です</>}
                 </td>
               </tr>
               {seo.newCar && (

@@ -8,7 +8,9 @@ export type ModelSeo = {
   /** title の「車種名の」に続く部分（name と両方あるときだけ title・h1 を切り替える） */
   titleSuffix?: string
   /** 確認日に出典を開いて確かめた中古車の価格帯・台数。あれば冒頭と description はこちらを出す（本文の掲載データはスナップショットのまま） */
-  usedNow?: { min: number; max: number; count: number; checkedAt: string }
+  usedNow?: { min: number; max: number; count: number; checkedAt: string; note?: string }
+  /** 確認日に出典を開いたら中古車の在庫が0台だった車種。あれば冒頭と description はこちらを出す */
+  usedNone?: { checkedAt: string }
   /** 検索語に「販売台数」がある車種への答え。在庫台数を販売台数と誤認させない */
   sales?: { text: string; descText: string; sources: { label: string; url: string }[]; checkedAt: string }
   /** 新車についての答え（検索語に「新車」がある車種だけ） */
@@ -36,6 +38,19 @@ export const MODEL_SEO: Record<string, ModelSeo> = {
   '14/999_20': { name: 'ツーリズモベローチェ800 LUSSO SCS', titleSuffix: '中古車価格帯と流通台数', usedNow: { min: 2000000, max: 2080000, count: 2, checkedAt: '2026-11-04' } },
   '1/156_7': { name: 'フォルツァS（FORZA S）', titleSuffix: '中古車価格帯と流通台数', usedNow: { min: 219000, max: 440000, count: 3, checkedAt: '2026-11-04' } },
   '8/15_4': { name: 'スクランブラークラシック（Scrambler Classic）', titleSuffix: '中古車価格帯と流通台数', usedNow: { min: 568000, max: 658000, count: 2, checkedAt: '2026-11-04' } },
+  '8/15_7': {
+    name: 'スクランブラー デザートスレッド（Scrambler DESERT SLED）',
+    titleSuffix: '中古車価格帯と流通台数',
+    usedNow: { min: 821000, max: 1215500, count: 4, checkedAt: '2026-11-05', note: '価格は車両価格で、掲載4台の支払総額は938,000円〜1,281,500円、走行距離は4,077km〜21,420kmです' },
+  },
+  '7/999_27': {
+    name: 'K1600 グランドアメリカ（K1600 Grand America）',
+    titleSuffix: '中古車在庫と価格帯',
+    usedNone: { checkedAt: '2026-11-05' },
+  },
+  '1/999_110': {
+    usedNow: { min: 310000, max: 310000, count: 1, checkedAt: '2026-11-05', note: '価格は車両価格で、掲載1台の支払総額は380,000円、走行距離は78,731km、車検なしです' },
+  },
   '2/999_90': {
     usedNow: { min: 299800, max: 539000, count: 68, checkedAt: '2026-11-04' },
     sales: {
