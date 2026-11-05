@@ -315,6 +315,16 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // /bikes/rocket-3/rocket-3-storm/specification 「ROCKET 3 STORM R / STORM GT 2458 cc・110.2×85.9」（出典 2457。Rocket 3 R/GT MY23 は出典も 2458 で一致）
   '10/999_57': { cc: 2458, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
   '10/999_58': { cc: 2458, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
+  // ドゥカティ ジャパン公式 https://www.ducati.com/jp/ja/bikes/ のテクニカルスペック（2026-11-05 確認）。出典カタログは小数まで（659.4・890.2）
+  // /motard/hypermotard-698-mono 「Hypermotard 698 Mono / RVE 排気量 659cc・116×62.4」（出典 659.4）
+  '8/999_92': { cc: 659, label: 'ドゥカティ公式の主要諸元。2026-11-05 確認' },
+  // /panigale/panigale-v2 ・ /streetfighter/streetfighter-v2 「V2 / V2 S 排気量 890cc・96×61.5」（出典 2025年式 890.2。旧型は出典 955）
+  '8/999_51': { cc: 890, label: '2025年式。ドゥカティ公式の主要諸元。2026-11-05 確認。2020〜2024年式は 955cc' },
+  '8/999_94': { cc: 890, label: 'ドゥカティ公式の主要諸元。2026-11-05 確認' },
+  '8/999_85': { cc: 890, label: '2025年式。ドゥカティ公式の主要諸元。2026-11-05 確認。2022〜2024年式は 955cc' },
+  '8/999_95': { cc: 890, label: 'ドゥカティ公式の主要諸元。2026-11-05 確認' },
+  // 公式アーカイブ /jp/ja/bike-archive/monster-821/model-year-2015〜2017 「排気量 821cc・88×67.5」（現在は302で開けないため Wayback の保存版 2022年7月取得分。出典 821.1）
+  '8/2_34': { cc: 821, label: 'ドゥカティ公式の主要諸元（2015〜2017年モデルの公式アーカイブ保存版）。2026-11-05 確認' },
 }
 
 export function displacementText(m: Model): string | undefined {
