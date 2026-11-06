@@ -325,6 +325,11 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   '8/999_95': { cc: 890, label: 'ドゥカティ公式の主要諸元。2026-11-05 確認' },
   // 公式アーカイブ /jp/ja/bike-archive/monster-821/model-year-2015〜2017 「排気量 821cc・88×67.5」（現在は302で開けないため Wayback の保存版 2022年7月取得分。出典 821.1）
   '8/2_34': { cc: 821, label: 'ドゥカティ公式の主要諸元（2015〜2017年モデルの公式アーカイブ保存版）。2026-11-05 確認' },
+  // KTM 公式 ktm.com の Technical Details（2026-11-06 確認）。どちらも ja-jp に掲載がないため国際サイト等の値
+  // /en-int/models/adventure/2025-ktm-250-adventure.html 「Displacement 249.07 cm³」（出典は 2025・2021年式とも 248.8。2021年式の公式ページは無い）
+  '33/999_24': { cc: 249.07, label: '2025年式。KTM 国際サイトの主要諸元。2026-11-06 確認。2021年式は出典カタログで 248.8cc' },
+  // /en-int・/en-au/models/supersport/2024-ktm-rc-390.html、/en-ph/…/2022-ktm-rc-390.html 「Displacement 373 cm³」（出典 373.2。en-in の FAQ のみ 373.27 cc）
+  '33/32_2': { cc: 373, label: '2022・2024年式。KTM 国際サイトの主要諸元。2026-11-06 確認' },
 }
 
 export function displacementText(m: Model): string | undefined {
