@@ -134,6 +134,22 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
                   {(seo.usedNow || seo.usedNone) && <>。以下の流通状況と掲載データは{m.fetched_at}取得時点の値です</>}
                 </td>
               </tr>
+              {seo.family && (
+                <tr>
+                  <th>グレード別</th>
+                  <td>
+                    {seo.family.text}
+                    {seo.family.items.map((x, i) => (
+                      <span key={x.label}>
+                        {i > 0 ? '／' : ''}
+                        {x.href ? <a href={x.href}>{x.label}</a> : x.label}
+                        ：{x.count}台・{x.min === x.max ? yen(x.min) : `${yen(x.min)}〜${yen(x.max)}`}
+                      </span>
+                    ))}
+                    （{seo.family.checkedAt} 確認：バイクブロスの在庫一覧の車両価格）
+                  </td>
+                </tr>
+              )}
               {seo.newCar && (
                 <tr>
                   <th>新車</th>

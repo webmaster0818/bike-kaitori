@@ -15,9 +15,40 @@ export type ModelSeo = {
   sales?: { text: string; descText: string; sources: { label: string; url: string }[]; checkedAt: string }
   /** 新車についての答え（検索語に「新車」がある車種だけ） */
   newCar?: { text: string; descText: string; sources: { label: string; url: string }[]; checkedAt: string }
+  /** 同じ語で表示を分け合う兄弟車種への導線（自社カニバリの役割分け）。主ページに一覧、もう一方に主ページへのリンク。価格は確認日に出典の在庫一覧で数えた車両価格 */
+  family?: {
+    text: string
+    items: { label: string; href?: string; count: number; min: number; max: number }[]
+    checkedAt: string
+  }
 }
 
 export const MODEL_SEO: Record<string, ModelSeo> = {
+  '10/19_1': {
+    usedNow: { min: 376000, max: 2288000, count: 5, checkedAt: '2026-11-07', note: '価格は車両価格で、上限の2,288,000円は2026年式のRX（走行2km）です。他の4台は376,000円〜1,399,000円です' },
+    family: {
+      text: 'バイクブロスのカタログはグレードごとに分かれています。当ページは「スピードトリプル」の分類で、他の分類の中古車在庫は次のとおりです。',
+      items: [
+        { label: 'スピードトリプルR', href: '/model/triumph-19-2/', count: 3, min: 590000, max: 829800 },
+        { label: 'スピードトリプルRS', count: 1, min: 1199900, max: 1199900 },
+        { label: 'スピードトリプル1200RS', href: '/model/triumph-999-34/', count: 19, min: 1078000, max: 2145000 },
+        { label: 'スピードトリプル1200RR', href: '/model/triumph-999-39/', count: 9, min: 1388000, max: 2322000 },
+        { label: 'スピードトリプル1200RX', href: '/model/triumph-999-68/', count: 3, min: 2191100, max: 2401000 },
+      ],
+      checkedAt: '2026-11-07',
+    },
+  },
+  '10/19_2': {
+    usedNow: { min: 590000, max: 829800, count: 3, checkedAt: '2026-11-07', note: '価格は車両価格で、掲載3台は2014〜2016年式、走行8,211km〜46,000kmです。カタログの価格帯表示の下限は410,000円ですが、在庫一覧の3台にこの価格はありません' },
+    family: {
+      text: '当ページはスピードトリプルRの分類だけを扱います。グレードをまたいで比べる場合は次のページをご覧ください。',
+      items: [{ label: 'スピードトリプル（グレード別の在庫一覧あり）', href: '/model/triumph-19-1/', count: 5, min: 376000, max: 2288000 }],
+      checkedAt: '2026-11-07',
+    },
+  },
+  '10/999_70': {
+    usedNow: { min: 700000, max: 875000, count: 13, checkedAt: '2026-11-07', note: '価格は車両価格で、掲載13台は2026年式または2026年初度登録、走行4km〜3,665kmです。新車の実勢価格はカタログで846,000円〜869,900円（19台）です' },
+  },
   '5/999_63': {
     name: 'FLTC ツアーグライドクラシック',
     titleSuffix: '中古車価格と新車の有無',
