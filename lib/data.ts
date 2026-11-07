@@ -330,6 +330,10 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   '33/999_24': { cc: 249.07, label: '2025年式。KTM 国際サイトの主要諸元。2026-11-06 確認。2021年式は出典カタログで 248.8cc' },
   // /en-int・/en-au/models/supersport/2024-ktm-rc-390.html、/en-ph/…/2022-ktm-rc-390.html 「Displacement 373 cm³」（出典 373.2。en-in の FAQ のみ 373.27 cc）
   '33/32_2': { cc: 373, label: '2022・2024年式。KTM 国際サイトの主要諸元。2026-11-06 確認' },
+  // インディアン日本公式 indianmotorcycle.co.jp/2024/indian-challenger-limited/ ・ /2024/indian-challenger-dark-horse/ 「排気量 1767 cc・108mm x 96.5mm」（2026-11-07 確認）
+  // Wayback 保存版 2022/1/22 の公式 /indian-challenger-dark-horse/ も 1767 cc。出典カタログは 2020〜2021年式 1768（内径×行程は公式と同じ 108×96.5）。現行の with 112 Package は 1834cc で別エンジン
+  '100/999_12': { cc: 1767, label: '2024年モデル。インディアン公式の主要諸元。2026-11-07 確認。2020〜2021年式は出典カタログで 1768cc' },
+  '100/999_13': { cc: 1767, label: '2024年モデル。インディアン公式の主要諸元。2026-11-07 確認。2020〜2021年式は出典カタログで 1768cc' },
 }
 
 export function displacementText(m: Model): string | undefined {
