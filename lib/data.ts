@@ -334,6 +334,9 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // Wayback 保存版 2022/1/22 の公式 /indian-challenger-dark-horse/ も 1767 cc。出典カタログは 2020〜2021年式 1768（内径×行程は公式と同じ 108×96.5）。現行の with 112 Package は 1834cc で別エンジン
   '100/999_12': { cc: 1767, label: '2024年モデル。インディアン公式の主要諸元。2026-11-07 確認。2020〜2021年式は出典カタログで 1768cc' },
   '100/999_13': { cc: 1767, label: '2024年モデル。インディアン公式の主要諸元。2026-11-07 確認。2020〜2021年式は出典カタログで 1768cc' },
+  // MV アグスタ公式の技術仕様書 mvagusta.it/Tools/download.aspx?file=/upload/ProductsDownload/file/f_116.pdf「F4 1078 RR 312 - RR 1+1 312（Rev. No. 2 - 05/10/07）Total displacement 1078.37 cm3・Bore x stroke 79 mm x 55 mm」
+  // 現在の mvagusta.com に F4 のページがないため Wayback の保存版（2026-11-08 確認）。伊語版 f_119.pdf（F4 BRUTALE 1078 RR）も「Cilindrata totale 1078,37 cm3」。出典カタログは 2008年式 1078.8
+  '14/3_13': { cc: 1078.37, label: '2008年モデル。MV アグスタ公式の技術仕様書（公式サイトの保存版）。2026-11-08 確認' },
 }
 
 export function displacementText(m: Model): string | undefined {
