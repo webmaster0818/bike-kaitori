@@ -1,0 +1,7508 @@
+{
+ "generated": "2026-11-09",
+ "windows": {
+  "now": "2026-10-31..2026-11-06",
+  "prev": "2026-10-24..2026-10-30"
+ },
+ "gsc": {
+  "daily": [
+   {
+    "keys": [
+     "2026-09-20"
+    ],
+    "clicks": 3,
+    "impressions": 189,
+    "ctr": 0.015873015873015872,
+    "position": 29.428571428571427
+   },
+   {
+    "keys": [
+     "2026-09-21"
+    ],
+    "clicks": 0,
+    "impressions": 249,
+    "ctr": 0,
+    "position": 29.93574297188755
+   },
+   {
+    "keys": [
+     "2026-09-22"
+    ],
+    "clicks": 1,
+    "impressions": 232,
+    "ctr": 0.004310344827586207,
+    "position": 32.55172413793103
+   },
+   {
+    "keys": [
+     "2026-09-23"
+    ],
+    "clicks": 0,
+    "impressions": 151,
+    "ctr": 0,
+    "position": 28.3841059602649
+   },
+   {
+    "keys": [
+     "2026-09-24"
+    ],
+    "clicks": 2,
+    "impressions": 133,
+    "ctr": 0.015037593984962405,
+    "position": 25.270676691729324
+   },
+   {
+    "keys": [
+     "2026-09-25"
+    ],
+    "clicks": 2,
+    "impressions": 105,
+    "ctr": 0.01904761904761905,
+    "position": 15.82857142857143
+   },
+   {
+    "keys": [
+     "2026-09-26"
+    ],
+    "clicks": 1,
+    "impressions": 116,
+    "ctr": 0.008620689655172414,
+    "position": 13.543103448275861
+   },
+   {
+    "keys": [
+     "2026-09-27"
+    ],
+    "clicks": 0,
+    "impressions": 56,
+    "ctr": 0,
+    "position": 18.285714285714285
+   },
+   {
+    "keys": [
+     "2026-09-28"
+    ],
+    "clicks": 1,
+    "impressions": 50,
+    "ctr": 0.02,
+    "position": 13.88
+   },
+   {
+    "keys": [
+     "2026-09-29"
+    ],
+    "clicks": 0,
+    "impressions": 53,
+    "ctr": 0,
+    "position": 14.132075471698114
+   },
+   {
+    "keys": [
+     "2026-09-30"
+    ],
+    "clicks": 2,
+    "impressions": 57,
+    "ctr": 0.03508771929824561,
+    "position": 16.719298245614034
+   },
+   {
+    "keys": [
+     "2026-10-01"
+    ],
+    "clicks": 0,
+    "impressions": 144,
+    "ctr": 0,
+    "position": 29.78472222222222
+   },
+   {
+    "keys": [
+     "2026-10-02"
+    ],
+    "clicks": 0,
+    "impressions": 118,
+    "ctr": 0,
+    "position": 34.88135593220339
+   },
+   {
+    "keys": [
+     "2026-10-03"
+    ],
+    "clicks": 1,
+    "impressions": 114,
+    "ctr": 0.008771929824561403,
+    "position": 37.10526315789474
+   },
+   {
+    "keys": [
+     "2026-10-04"
+    ],
+    "clicks": 1,
+    "impressions": 77,
+    "ctr": 0.012987012987012988,
+    "position": 32
+   },
+   {
+    "keys": [
+     "2026-10-05"
+    ],
+    "clicks": 2,
+    "impressions": 117,
+    "ctr": 0.017094017094017096,
+    "position": 31.752136752136753
+   },
+   {
+    "keys": [
+     "2026-10-06"
+    ],
+    "clicks": 1,
+    "impressions": 61,
+    "ctr": 0.01639344262295082,
+    "position": 31.62295081967213
+   },
+   {
+    "keys": [
+     "2026-10-07"
+    ],
+    "clicks": 2,
+    "impressions": 75,
+    "ctr": 0.02666666666666667,
+    "position": 26.653333333333332
+   },
+   {
+    "keys": [
+     "2026-10-08"
+    ],
+    "clicks": 0,
+    "impressions": 54,
+    "ctr": 0,
+    "position": 25.98148148148148
+   },
+   {
+    "keys": [
+     "2026-10-09"
+    ],
+    "clicks": 0,
+    "impressions": 16,
+    "ctr": 0,
+    "position": 9.375
+   },
+   {
+    "keys": [
+     "2026-10-10"
+    ],
+    "clicks": 1,
+    "impressions": 20,
+    "ctr": 0.05,
+    "position": 17
+   },
+   {
+    "keys": [
+     "2026-10-11"
+    ],
+    "clicks": 0,
+    "impressions": 23,
+    "ctr": 0,
+    "position": 13.956521739130435
+   },
+   {
+    "keys": [
+     "2026-10-12"
+    ],
+    "clicks": 2,
+    "impressions": 31,
+    "ctr": 0.06451612903225806,
+    "position": 16.32258064516129
+   },
+   {
+    "keys": [
+     "2026-10-13"
+    ],
+    "clicks": 5,
+    "impressions": 78,
+    "ctr": 0.0641025641025641,
+    "position": 19.705128205128204
+   },
+   {
+    "keys": [
+     "2026-10-14"
+    ],
+    "clicks": 2,
+    "impressions": 148,
+    "ctr": 0.013513513513513514,
+    "position": 28
+   },
+   {
+    "keys": [
+     "2026-10-15"
+    ],
+    "clicks": 0,
+    "impressions": 197,
+    "ctr": 0,
+    "position": 28.80203045685279
+   },
+   {
+    "keys": [
+     "2026-10-16"
+    ],
+    "clicks": 2,
+    "impressions": 214,
+    "ctr": 0.009345794392523364,
+    "position": 32.00934579439252
+   },
+   {
+    "keys": [
+     "2026-10-17"
+    ],
+    "clicks": 4,
+    "impressions": 243,
+    "ctr": 0.01646090534979424,
+    "position": 30.493827160493826
+   },
+   {
+    "keys": [
+     "2026-10-18"
+    ],
+    "clicks": 3,
+    "impressions": 241,
+    "ctr": 0.012448132780082987,
+    "position": 29.726141078838175
+   },
+   {
+    "keys": [
+     "2026-10-19"
+    ],
+    "clicks": 3,
+    "impressions": 243,
+    "ctr": 0.012345679012345678,
+    "position": 28.79423868312757
+   },
+   {
+    "keys": [
+     "2026-10-20"
+    ],
+    "clicks": 2,
+    "impressions": 245,
+    "ctr": 0.00816326530612245,
+    "position": 29.86530612244898
+   },
+   {
+    "keys": [
+     "2026-10-21"
+    ],
+    "clicks": 4,
+    "impressions": 207,
+    "ctr": 0.01932367149758454,
+    "position": 31.396135265700483
+   },
+   {
+    "keys": [
+     "2026-10-22"
+    ],
+    "clicks": 1,
+    "impressions": 212,
+    "ctr": 0.0047169811320754715,
+    "position": 30.22641509433962
+   },
+   {
+    "keys": [
+     "2026-10-23"
+    ],
+    "clicks": 5,
+    "impressions": 202,
+    "ctr": 0.024752475247524754,
+    "position": 31.475247524752476
+   },
+   {
+    "keys": [
+     "2026-10-24"
+    ],
+    "clicks": 2,
+    "impressions": 159,
+    "ctr": 0.012578616352201259,
+    "position": 29.270440251572328
+   },
+   {
+    "keys": [
+     "2026-10-25"
+    ],
+    "clicks": 3,
+    "impressions": 181,
+    "ctr": 0.016574585635359115,
+    "position": 28.066298342541437
+   },
+   {
+    "keys": [
+     "2026-10-26"
+    ],
+    "clicks": 1,
+    "impressions": 142,
+    "ctr": 0.007042253521126761,
+    "position": 31.56338028169014
+   },
+   {
+    "keys": [
+     "2026-10-27"
+    ],
+    "clicks": 1,
+    "impressions": 158,
+    "ctr": 0.006329113924050633,
+    "position": 47.664556962025316
+   },
+   {
+    "keys": [
+     "2026-10-28"
+    ],
+    "clicks": 2,
+    "impressions": 62,
+    "ctr": 0.03225806451612903,
+    "position": 33.29032258064516
+   },
+   {
+    "keys": [
+     "2026-10-29"
+    ],
+    "clicks": 2,
+    "impressions": 123,
+    "ctr": 0.016260162601626018,
+    "position": 45.97560975609756
+   },
+   {
+    "keys": [
+     "2026-10-30"
+    ],
+    "clicks": 1,
+    "impressions": 174,
+    "ctr": 0.005747126436781609,
+    "position": 50.55747126436781
+   },
+   {
+    "keys": [
+     "2026-10-31"
+    ],
+    "clicks": 1,
+    "impressions": 105,
+    "ctr": 0.009523809523809525,
+    "position": 44.65714285714286
+   },
+   {
+    "keys": [
+     "2026-11-01"
+    ],
+    "clicks": 2,
+    "impressions": 102,
+    "ctr": 0.0196078431372549,
+    "position": 52.51960784313726
+   },
+   {
+    "keys": [
+     "2026-11-02"
+    ],
+    "clicks": 0,
+    "impressions": 56,
+    "ctr": 0,
+    "position": 48.07142857142857
+   },
+   {
+    "keys": [
+     "2026-11-03"
+    ],
+    "clicks": 0,
+    "impressions": 71,
+    "ctr": 0,
+    "position": 47.12676056338028
+   },
+   {
+    "keys": [
+     "2026-11-04"
+    ],
+    "clicks": 1,
+    "impressions": 50,
+    "ctr": 0.02,
+    "position": 49.46
+   },
+   {
+    "keys": [
+     "2026-11-05"
+    ],
+    "clicks": 1,
+    "impressions": 25,
+    "ctr": 0.04,
+    "position": 21.8
+   },
+   {
+    "keys": [
+     "2026-11-06"
+    ],
+    "clicks": 1,
+    "impressions": 63,
+    "ctr": 0.015873015873015872,
+    "position": 47.142857142857146
+   }
+  ],
+  "now_q": [
+   {
+    "keys": [
+     "中古車"
+    ],
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 8
+   },
+   {
+    "keys": [
+     "1100f"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "400cc"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 56
+   },
+   {
+    "keys": [
+     "750f1 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 95
+   },
+   {
+    "keys": [
+     "750スポルト 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 35
+   },
+   {
+    "keys": [
+     "90ss"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 88.5
+   },
+   {
+    "keys": [
+     "90ss 新車"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 35
+   },
+   {
+    "keys": [
+     "998s"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 86
+   },
+   {
+    "keys": [
+     "998s 新車"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 99
+   },
+   {
+    "keys": [
+     "bolt cスペック 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 21
+   },
+   {
+    "keys": [
+     "cb125t 中古"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 82.2
+   },
+   {
+    "keys": [
+     "cb400at 中古"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 27
+   },
+   {
+    "keys": [
+     "cbf190x 中古"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 41
+   },
+   {
+    "keys": [
+     "cbr400f 中古"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 74.11111111111111
+   },
+   {
+    "keys": [
+     "cbx125カスタム 中古"
+    ],
+    "clicks": 0,
+    "impressions": 13,
+    "ctr": 0,
+    "position": 73.53846153846153
+   },
+   {
+    "keys": [
+     "cbx400f 中古"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 85.85714285714286
+   },
+   {
+    "keys": [
+     "cs90 中古"
+    ],
+    "clicks": 0,
+    "impressions": 11,
+    "ctr": 0,
+    "position": 85.36363636363636
+   },
+   {
+    "keys": [
+     "cvo flhrse ロードキング 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 26
+   },
+   {
+    "keys": [
+     "cvo flhrse ロードキング 新車"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 61
+   },
+   {
+    "keys": [
+     "cvo flhtcuse エレクトラグライドウルトラクラシック"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 48.666666666666664
+   },
+   {
+    "keys": [
+     "cvo flhtcuse エレクトラグライドウルトラクラシック 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 64
+   },
+   {
+    "keys": [
+     "cvo flstse ソフテイルコンバーチブル 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 28.5
+   },
+   {
+    "keys": [
+     "dio チェスタ 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 37
+   },
+   {
+    "keys": [
+     "dio チェスタ 新車"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 91
+   },
+   {
+    "keys": [
+     "flhc ソフテイルヘリテイジクラシック"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 50.666666666666664
+   },
+   {
+    "keys": [
+     "flhc ソフテイルヘリテイジクラシック 中古"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 45.8
+   },
+   {
+    "keys": [
+     "flhc ソフテイルヘリテイジクラシック 新車"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 46
+   },
+   {
+    "keys": [
+     "flhpe ロードキングポリス 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 38
+   },
+   {
+    "keys": [
+     "flhtcu エレクトラグライドウルトラクラシックインジェクションサイドカー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 30
+   },
+   {
+    "keys": [
+     "flhtcu エレクトラグライドウルトラクラシックインジェクションサイドカー 新車"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 43
+   },
+   {
+    "keys": [
+     "flhtcu エレクトラグライドウルトラクラシックサイドカー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 100
+   },
+   {
+    "keys": [
+     "flhtkl ウルトラリミテッド ロー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 36.5
+   },
+   {
+    "keys": [
+     "flhtkl ウルトラリミテッド ロー 新車"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 54
+   },
+   {
+    "keys": [
+     "flhxse 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 42
+   },
+   {
+    "keys": [
+     "flstsc スプリンガークラシック 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 32
+   },
+   {
+    "keys": [
+     "flstsc スプリンガークラシック 新車"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 29
+   },
+   {
+    "keys": [
+     "fltcu ツアーグライドウルトラクラシックサイドカー"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 26
+   },
+   {
+    "keys": [
+     "fltcu ツアーグライドウルトラクラシックサイドカー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 40
+   },
+   {
+    "keys": [
+     "fltcu ツアーグライドウルトラクラシックサイドカー 新車"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 43.666666666666664
+   },
+   {
+    "keys": [
+     "fxdbc ストリートボブスペシャル 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 25
+   },
+   {
+    "keys": [
+     "fxdls ローライダーs 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 30.5
+   },
+   {
+    "keys": [
+     "fxdrs ソフテイルfxdr114 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 33
+   },
+   {
+    "keys": [
+     "fxdrs ソフテイルfxdr114 新車"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 51
+   },
+   {
+    "keys": [
+     "fzs600 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 97
+   },
+   {
+    "keys": [
+     "gsx-r400 sp 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 23
+   },
+   {
+    "keys": [
+     "gsx400s katana 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 42
+   },
+   {
+    "keys": [
+     "gsx750s katana"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 89
+   },
+   {
+    "keys": [
+     "nc700x タイプld dct 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 26
+   },
+   {
+    "keys": [
+     "nc750l スペック"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 84
+   },
+   {
+    "keys": [
+     "nc750x タイプld dct 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 22
+   },
+   {
+    "keys": [
+     "niken 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 91
+   },
+   {
+    "keys": [
+     "ninja h2 sx se 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 97
+   },
+   {
+    "keys": [
+     "ninja zx-10r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 97
+   },
+   {
+    "keys": [
+     "ninja zx-6r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 88.4
+   },
+   {
+    "keys": [
+     "ninja zx-9r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 74
+   },
+   {
+    "keys": [
+     "ninja zx6r price in japan"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 58
+   },
+   {
+    "keys": [
+     "nm4-01"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 72
+   },
+   {
+    "keys": [
+     "nm4-01 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 50
+   },
+   {
+    "keys": [
+     "r nint買取"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 26
+   },
+   {
+    "keys": [
+     "r65 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 94
+   },
+   {
+    "keys": [
+     "r65ls 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 50
+   },
+   {
+    "keys": [
+     "sdr200 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 79
+   },
+   {
+    "keys": [
+     "vf1000r"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 88
+   },
+   {
+    "keys": [
+     "vf1000r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 90.75
+   },
+   {
+    "keys": [
+     "vfr400 中古"
+    ],
+    "clicks": 0,
+    "impressions": 14,
+    "ctr": 0,
+    "position": 73.21428571428571
+   },
+   {
+    "keys": [
+     "vfr400r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 70
+   },
+   {
+    "keys": [
+     "vfr750f 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 83
+   },
+   {
+    "keys": [
+     "vt250fインテグラ 中古"
+    ],
+    "clicks": 0,
+    "impressions": 11,
+    "ctr": 0,
+    "position": 77.72727272727273
+   },
+   {
+    "keys": [
+     "vt400s 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 92
+   },
+   {
+    "keys": [
+     "vtz250 中古"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 85
+   },
+   {
+    "keys": [
+     "xj400d 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 95.5
+   },
+   {
+    "keys": [
+     "xl1200t スーパーロー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 52.25
+   },
+   {
+    "keys": [
+     "xl1200t スーパーロー 新車"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 27
+   },
+   {
+    "keys": [
+     "xl125r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 91.14285714285714
+   },
+   {
+    "keys": [
+     "xl125rパリダカ 中古"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 64.7
+   },
+   {
+    "keys": [
+     "xlr125r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 83
+   },
+   {
+    "keys": [
+     "xsr155 販売台数"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "z650rs 販売台数"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 5.666666666666667
+   },
+   {
+    "keys": [
+     "z750f査定"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 19
+   },
+   {
+    "keys": [
+     "zx-6r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 34.5
+   },
+   {
+    "keys": [
+     "ゴールドウイングgl1800f6c 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 86.25
+   },
+   {
+    "keys": [
+     "ストリートスクランブラー"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 100
+   },
+   {
+    "keys": [
+     "ストリートスクランブラー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 70.625
+   },
+   {
+    "keys": [
+     "スピードトリプル 中古"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 82.5
+   },
+   {
+    "keys": [
+     "スピードトリプルr 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 53
+   },
+   {
+    "keys": [
+     "スピードマスター865 中古"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 32.714285714285715
+   },
+   {
+    "keys": [
+     "スーパーシェルパ 中古"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 92.7
+   },
+   {
+    "keys": [
+     "デイトナ660 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 18
+   },
+   {
+    "keys": [
+     "トライアンフ スピードマスター 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 19
+   },
+   {
+    "keys": [
+     "ハスクバーナ 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 41
+   },
+   {
+    "keys": [
+     "パニガーレ v2 ベイリス 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "ファットボーイ114 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 100
+   },
+   {
+    "keys": [
+     "マジェスティ250c 中古"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 76.2
+   },
+   {
+    "keys": [
+     "ヴィットピレン401 中古"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 74.25
+   },
+   {
+    "keys": [
+     "中古相場は？"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   }
+  ],
+  "now_p": [
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-1-12/"
+    ],
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 36
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-173/"
+    ],
+    "clicks": 1,
+    "impressions": 8,
+    "ctr": 0.125,
+    "position": 16.125
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-46-2/"
+    ],
+    "clicks": 1,
+    "impressions": 2,
+    "ctr": 0.5,
+    "position": 8.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/moto-guzzi-999-18/"
+    ],
+    "clicks": 1,
+    "impressions": 2,
+    "ctr": 0.5,
+    "position": 7.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-58-1/"
+    ],
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-999-68/"
+    ],
+    "clicks": 1,
+    "impressions": 2,
+    "ctr": 0.5,
+    "position": 49.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/class/400cc/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 56
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/class/50cc/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/harley-davidson/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/husqvarna/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 41
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/kawasaki/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/ktm/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/moto-guzzi/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/mv-agusta/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 18.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/aprilia-31-2/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/aprilia-999-34/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/bmw-1-32/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 26
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/bmw-999-21/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 61
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/bmw-999-3/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-1-33/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 94.66666666666667
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-6-6/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 18
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-999-39/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 95
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-999-74/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-999-78/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-999-86/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-1-14/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 18
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-1-15/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 30.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-1-25/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 28.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-10-2/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 30.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-11-3/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 42
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-2-15/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 25
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-3-26/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 47.2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-4-14/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 38
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-4-19/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 67.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-4-25/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 42.8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-4-28/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 61
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-4-35/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 42.333333333333336
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-4-9/"
+    ],
+    "clicks": 0,
+    "impressions": 13,
+    "ctr": 0,
+    "position": 42.53846153846154
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-122/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-129/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-130/"
+    ],
+    "clicks": 0,
+    "impressions": 15,
+    "ctr": 0,
+    "position": 46.8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-6/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 100
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-63/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-69/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 26
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-75/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 37.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-82/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-105-4/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-115-1/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-130-17/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-130-4/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 80.2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-148-4/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 19
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-164-19/"
+    ],
+    "clicks": 0,
+    "impressions": 11,
+    "ctr": 0,
+    "position": 85.36363636363636
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-164-3/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-167-2/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-167-5/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 3.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-168-2/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 18
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-176-8/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-184-1/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 13.333333333333334
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-185-3/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 4.666666666666666
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-192-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-193-2/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 62.666666666666664
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-196-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 26
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-196-10/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 22
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-202-1/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 44.333333333333336
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-31-16/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 86.25
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-44-5/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-5-14/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-5-17/"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 67.6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-5-7/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-6-11/"
+    ],
+    "clicks": 0,
+    "impressions": 13,
+    "ctr": 0,
+    "position": 73.53846153846153
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-6-3/"
+    ],
+    "clicks": 0,
+    "impressions": 12,
+    "ctr": 0,
+    "position": 58.416666666666664
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-65-2/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 83
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-65-9/"
+    ],
+    "clicks": 0,
+    "impressions": 19,
+    "ctr": 0,
+    "position": 68.89473684210526
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-66-5/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 90.2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-7-12/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 27
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-7-41/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-7-53/"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 82.2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-70-8/"
+    ],
+    "clicks": 0,
+    "impressions": 11,
+    "ctr": 0,
+    "position": 77.72727272727273
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-70-9/"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 85
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-76-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 83
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-79-20/"
+    ],
+    "clicks": 0,
+    "impressions": 17,
+    "ctr": 0,
+    "position": 75.58823529411765
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-87-3/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-110/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 84
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-152/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-153/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-159/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 9.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-162/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-170/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 8.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-186/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-199/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-43/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 8.333333333333332
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-89/"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 41
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-99/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/husqvarna-999-3/"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 67
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-13-1/"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 82.55555555555556
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-16-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-37-3/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-55-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-56-3/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 18
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-71-10/"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 71.125
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-71-6/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 74
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-73-16/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 19
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-73-17/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 38
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-73-38/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-73-41/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-73-49/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 5.666666666666667
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-77-4/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 9.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-79-1/"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 92.7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-80-1/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-80-3/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-86-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-87-25/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-87-3/"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-87-8/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-9-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-99-6/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-115/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 5.666666666666667
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-12/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 68.33333333333333
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-125/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 42.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-127/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 16
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-135/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-37/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-38/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 97
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-97/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-120-13/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 17
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-121-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-146-2/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-150-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-27-10/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-28-2/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 23
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-30-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-30-10/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-81-8/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-89-7/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 42
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-89-8/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 89
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-90-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-96-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-999-103/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-999-107/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-999-81/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-19-1/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 78
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-19-2/"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 77.625
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-37-1/"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 73.88888888888889
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-999-1/"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 27.666666666666668
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-999-27/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 22
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-999-34/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 18
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-999-38/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 38
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-999-56/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 21.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-999-68/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 19
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-147-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-163-5/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 76.2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-173-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 12
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-182-2/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-185-5/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 21
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-29-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-29-5/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 78.2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-43-5/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-52-5/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-54-5/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 2.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-57-1/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 79
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-82-4/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-83-13/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 95.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-83-23/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-999-121/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 4.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-999-90/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 9.333333333333334
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/ranking/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 4.5
+   }
+  ],
+  "now_c": [
+   {
+    "keys": [
+     "jpn"
+    ],
+    "clicks": 6,
+    "impressions": 463,
+    "ctr": 0.012958963282937365,
+    "position": 46.570194384449245
+   },
+   {
+    "keys": [
+     "arg"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 58
+   },
+   {
+    "keys": [
+     "bra"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 91
+   },
+   {
+    "keys": [
+     "col"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 38
+   },
+   {
+    "keys": [
+     "ita"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "keys": [
+     "rus"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 73.66666666666667
+   },
+   {
+    "keys": [
+     "usa"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   }
+  ],
+  "now_d": [
+   {
+    "keys": [
+     "DESKTOP"
+    ],
+    "clicks": 4,
+    "impressions": 340,
+    "ctr": 0.011764705882352941,
+    "position": 61.73823529411764
+   },
+   {
+    "keys": [
+     "MOBILE"
+    ],
+    "clicks": 2,
+    "impressions": 129,
+    "ctr": 0.015503875968992248,
+    "position": 8.294573643410853
+   },
+   {
+    "keys": [
+     "TABLET"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 3.6666666666666665
+   }
+  ],
+  "prev_q": [
+   {
+    "keys": [
+     "fzs600 中古"
+    ],
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 20
+   },
+   {
+    "keys": [
+     "レブル1100dct 中古"
+    ],
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 36
+   },
+   {
+    "keys": [
+     "中古相場"
+    ],
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 5
+   },
+   {
+    "keys": [
+     "1098 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 53
+   },
+   {
+    "keys": [
+     "1098s 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 51.333333333333336
+   },
+   {
+    "keys": [
+     "390 アドベンチャー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 76.2
+   },
+   {
+    "keys": [
+     "50cc"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 43
+   },
+   {
+    "keys": [
+     "750f1 中古"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 72.8
+   },
+   {
+    "keys": [
+     "750スポルト 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 38
+   },
+   {
+    "keys": [
+     "90ss"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 77.33333333333333
+   },
+   {
+    "keys": [
+     "90ss 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 40.5
+   },
+   {
+    "keys": [
+     "90ss 新車"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 28
+   },
+   {
+    "keys": [
+     "959パニガーレ 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 21.333333333333332
+   },
+   {
+    "keys": [
+     "998s 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 30
+   },
+   {
+    "keys": [
+     "bandit250vz 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 31.75
+   },
+   {
+    "keys": [
+     "bandit400vz 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 33.666666666666664
+   },
+   {
+    "keys": [
+     "bolt cスペック 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 24.75
+   },
+   {
+    "keys": [
+     "c72 中古"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 45.833333333333336
+   },
+   {
+    "keys": [
+     "c92 中古"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 79.22222222222223
+   },
+   {
+    "keys": [
+     "cb1000f 売れ行き"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 20
+   },
+   {
+    "keys": [
+     "cb125t 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 38
+   },
+   {
+    "keys": [
+     "cb400at"
+    ],
+    "clicks": 0,
+    "impressions": 11,
+    "ctr": 0,
+    "position": 88.18181818181819
+   },
+   {
+    "keys": [
+     "cb400at 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 58.333333333333336
+   },
+   {
+    "keys": [
+     "cb400ss 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "cb650lc"
+    ],
+    "clicks": 0,
+    "impressions": 11,
+    "ctr": 0,
+    "position": 70.18181818181819
+   },
+   {
+    "keys": [
+     "cb650lc 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 29.5
+   },
+   {
+    "keys": [
+     "cbf190x 中古"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 38.142857142857146
+   },
+   {
+    "keys": [
+     "cbr125r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 65.5
+   },
+   {
+    "keys": [
+     "cbr400f 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 75.5
+   },
+   {
+    "keys": [
+     "cbr400f 中古 相場"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 33
+   },
+   {
+    "keys": [
+     "cbx125カスタム 中古"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 67
+   },
+   {
+    "keys": [
+     "cbx400f 中古"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 85.3
+   },
+   {
+    "keys": [
+     "cbx650カスタム 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 30.666666666666668
+   },
+   {
+    "keys": [
+     "cbx650カスタム 新車"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 100
+   },
+   {
+    "keys": [
+     "cl350 中古"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 27.166666666666668
+   },
+   {
+    "keys": [
+     "cl350 新車"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 46.5
+   },
+   {
+    "keys": [
+     "cs90 中古"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 63.142857142857146
+   },
+   {
+    "keys": [
+     "cvo flhrse ロードキング"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 42
+   },
+   {
+    "keys": [
+     "cvo flhrse ロードキング 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 29
+   },
+   {
+    "keys": [
+     "cvo flhrse ロードキング 新車"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 65
+   },
+   {
+    "keys": [
+     "cvo flhtcuse エレクトラグライドウルトラクラシック"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 25
+   },
+   {
+    "keys": [
+     "cvo flhxse ストリートグライド 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 36.666666666666664
+   },
+   {
+    "keys": [
+     "cvo flstse ソフテイルコンバーチブル 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 19.25
+   },
+   {
+    "keys": [
+     "cvo fltrxse ロードグライド 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 24.5
+   },
+   {
+    "keys": [
+     "cvo fxse プロストリートブレイクアウト 中古"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 23.2
+   },
+   {
+    "keys": [
+     "dio チェスタ 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 27.5
+   },
+   {
+    "keys": [
+     "dio チェスタ 新車"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 41
+   },
+   {
+    "keys": [
+     "flhc ソフテイルヘリテイジクラシック"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 32.8
+   },
+   {
+    "keys": [
+     "flhc ソフテイルヘリテイジクラシック 中古"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 54
+   },
+   {
+    "keys": [
+     "flhc ソフテイルヘリテイジクラシック 新車"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 44
+   },
+   {
+    "keys": [
+     "flhpe ロードキングポリス 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 35
+   },
+   {
+    "keys": [
+     "flhtcu エレクトラグライドウルトラクラシックインジェクションサイドカー"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 37.833333333333336
+   },
+   {
+    "keys": [
+     "flhtcu エレクトラグライドウルトラクラシックインジェクションサイドカー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 12,
+    "ctr": 0,
+    "position": 39.083333333333336
+   },
+   {
+    "keys": [
+     "flhtcu エレクトラグライドウルトラクラシックインジェクションサイドカー 新車"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 42
+   },
+   {
+    "keys": [
+     "flhtcu エレクトラグライドウルトラクラシックサイドカー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 39
+   },
+   {
+    "keys": [
+     "flhtcultc エレクトラグライドウルトラクラシックロー 新車"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 40
+   },
+   {
+    "keys": [
+     "flhtk ウルトラリミテッド 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 21.666666666666668
+   },
+   {
+    "keys": [
+     "flhtkl ウルトラリミテッド ロー"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 52
+   },
+   {
+    "keys": [
+     "flhtkl ウルトラリミテッド ロー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 50.25
+   },
+   {
+    "keys": [
+     "flhtkl ウルトラリミテッド ロー 新車"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 47.666666666666664
+   },
+   {
+    "keys": [
+     "flstfb ファットボーイロー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 36
+   },
+   {
+    "keys": [
+     "flstfb ファットボーイロー 新車"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 48
+   },
+   {
+    "keys": [
+     "flstfbs ファットボーイs 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 24
+   },
+   {
+    "keys": [
+     "flstsb クロスボーンズ 新車"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 66
+   },
+   {
+    "keys": [
+     "flstsc スプリンガークラシック 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 32.66666666666667
+   },
+   {
+    "keys": [
+     "flstsc スプリンガークラシック 新車"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 34.666666666666664
+   },
+   {
+    "keys": [
+     "fltc ツアーグライドクラシック 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 17
+   },
+   {
+    "keys": [
+     "fltc ツアーグライドクラシック 新車"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 14.333333333333334
+   },
+   {
+    "keys": [
+     "fltcu ツアーグライドウルトラクラシックサイドカー"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 26.333333333333332
+   },
+   {
+    "keys": [
+     "fltcu ツアーグライドウルトラクラシックサイドカー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 44.22222222222222
+   },
+   {
+    "keys": [
+     "fltcu ツアーグライドウルトラクラシックサイドカー 新車"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 45.333333333333336
+   },
+   {
+    "keys": [
+     "fxcwc ソフテイルロッカーc"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 53.333333333333336
+   },
+   {
+    "keys": [
+     "fxcwc ソフテイルロッカーc 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 36
+   },
+   {
+    "keys": [
+     "fxcwc ソフテイルロッカーc 新車"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 49
+   },
+   {
+    "keys": [
+     "fxdbc ストリートボブスペシャル 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 26
+   },
+   {
+    "keys": [
+     "fxdls ローライダーs"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 58
+   },
+   {
+    "keys": [
+     "fxdls ローライダーs 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 42.75
+   },
+   {
+    "keys": [
+     "fxdrs"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 37
+   },
+   {
+    "keys": [
+     "fxdrs ソフテイルfxdr114"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 32.5
+   },
+   {
+    "keys": [
+     "fxdrs ソフテイルfxdr114 中古"
+    ],
+    "clicks": 0,
+    "impressions": 17,
+    "ctr": 0,
+    "position": 32.35294117647059
+   },
+   {
+    "keys": [
+     "fxdrs ソフテイルfxdr114 新車"
+    ],
+    "clicks": 0,
+    "impressions": 11,
+    "ctr": 0,
+    "position": 43.54545454545455
+   },
+   {
+    "keys": [
+     "fxdx スーパーグライドスポーツ 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 38
+   },
+   {
+    "keys": [
+     "fxr スーパーグライド"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 26.666666666666668
+   },
+   {
+    "keys": [
+     "fxr スーパーグライド 中古"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 25.833333333333332
+   },
+   {
+    "keys": [
+     "fxr スーパーグライド 新車"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 41.333333333333336
+   },
+   {
+    "keys": [
+     "fxstsb バットボーイ 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 33
+   },
+   {
+    "keys": [
+     "fzr400rr 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 41
+   },
+   {
+    "keys": [
+     "fzs1000 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 37.5
+   },
+   {
+    "keys": [
+     "fzs1000 新車"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 69.25
+   },
+   {
+    "keys": [
+     "gb500tt 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 37.5
+   },
+   {
+    "keys": [
+     "gsx-r400 sp 中古"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 25.2
+   },
+   {
+    "keys": [
+     "gsx400s katana 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 29.333333333333332
+   },
+   {
+    "keys": [
+     "gsx750s katana"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 55.857142857142854
+   },
+   {
+    "keys": [
+     "gsx750s katana 3型 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 32
+   },
+   {
+    "keys": [
+     "gsx750s katana 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 33.666666666666664
+   },
+   {
+    "keys": [
+     "k1200s 新車"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 90
+   },
+   {
+    "keys": [
+     "k1600 グランドアメリカ 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "nc700s dct 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 18.5
+   },
+   {
+    "keys": [
+     "nc700x dct"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 50.666666666666664
+   },
+   {
+    "keys": [
+     "nc700x dct 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 28.333333333333332
+   },
+   {
+    "keys": [
+     "nc700x dct 新車"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 68
+   },
+   {
+    "keys": [
+     "nc700x タイプld"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 33
+   },
+   {
+    "keys": [
+     "nc700x タイプld dct"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 53.75
+   },
+   {
+    "keys": [
+     "nc700x タイプld dct 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 22
+   },
+   {
+    "keys": [
+     "nc700x タイプld dct 新車"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 39.5
+   },
+   {
+    "keys": [
+     "nc700x タイプld 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 32.75
+   },
+   {
+    "keys": [
+     "nc700x タイプld 新車"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 77
+   },
+   {
+    "keys": [
+     "nc700x 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 22
+   },
+   {
+    "keys": [
+     "nc750x タイプld dct 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 22
+   },
+   {
+    "keys": [
+     "ninja zx-10r se"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 55.4
+   },
+   {
+    "keys": [
+     "ninja zx-10r se 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 37.5
+   },
+   {
+    "keys": [
+     "ninja zx-6r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 38
+   },
+   {
+    "keys": [
+     "ninja zx-9r"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 80.4
+   },
+   {
+    "keys": [
+     "ninja zx-9r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 13,
+    "ctr": 0,
+    "position": 51.92307692307692
+   },
+   {
+    "keys": [
+     "nm4-01 中古"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 80.2
+   },
+   {
+    "keys": [
+     "pcx買取おすすめ"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 32.5
+   },
+   {
+    "keys": [
+     "r nint買取"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 26
+   },
+   {
+    "keys": [
+     "r65ls"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 42.5
+   },
+   {
+    "keys": [
+     "r65ls 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 31
+   },
+   {
+    "keys": [
+     "sdr200 中古"
+    ],
+    "clicks": 0,
+    "impressions": 12,
+    "ctr": 0,
+    "position": 65.66666666666667
+   },
+   {
+    "keys": [
+     "sdr200 新車"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 93
+   },
+   {
+    "keys": [
+     "tdm900 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 40.5
+   },
+   {
+    "keys": [
+     "trx850 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 95
+   },
+   {
+    "keys": [
+     "vf1000r"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 96
+   },
+   {
+    "keys": [
+     "vf1000r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 77.14285714285714
+   },
+   {
+    "keys": [
+     "vf750f インターセプター 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 24
+   },
+   {
+    "keys": [
+     "vfr400 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 64.33333333333334
+   },
+   {
+    "keys": [
+     "vfr400r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 62.6
+   },
+   {
+    "keys": [
+     "vfr750f インターセプター 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 17
+   },
+   {
+    "keys": [
+     "vfr750f 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 70
+   },
+   {
+    "keys": [
+     "vt250fインテグラ 中古"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 65
+   },
+   {
+    "keys": [
+     "vt400s 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 31
+   },
+   {
+    "keys": [
+     "vtz250 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 81.25
+   },
+   {
+    "keys": [
+     "w230 販売台数"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "keys": [
+     "w400 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 38.5
+   },
+   {
+    "keys": [
+     "x4 タイプld"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 56
+   },
+   {
+    "keys": [
+     "x4 タイプld 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 54
+   },
+   {
+    "keys": [
+     "x500 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 40.5
+   },
+   {
+    "keys": [
+     "xj400d 中古"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 88.8
+   },
+   {
+    "keys": [
+     "xj750e 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 90
+   },
+   {
+    "keys": [
+     "xl1200ca リミテッド 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 22.666666666666668
+   },
+   {
+    "keys": [
+     "xl1200l ロー"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 44
+   },
+   {
+    "keys": [
+     "xl1200l ロー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 33.5
+   },
+   {
+    "keys": [
+     "xl1200l 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 46.5
+   },
+   {
+    "keys": [
+     "xl1200t"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 47.5
+   },
+   {
+    "keys": [
+     "xl1200t スーパーロー"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 31
+   },
+   {
+    "keys": [
+     "xl1200t スーパーロー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 11,
+    "ctr": 0,
+    "position": 43.81818181818182
+   },
+   {
+    "keys": [
+     "xl1200t スーパーロー 新車"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 40.333333333333336
+   },
+   {
+    "keys": [
+     "xl125rパリダカ 中古"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 55
+   },
+   {
+    "keys": [
+     "xl200r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 36
+   },
+   {
+    "keys": [
+     "xl400r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 41
+   },
+   {
+    "keys": [
+     "xl883l ロー"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 52.333333333333336
+   },
+   {
+    "keys": [
+     "xl883l ロー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 41
+   },
+   {
+    "keys": [
+     "xlr125r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 71.25
+   },
+   {
+    "keys": [
+     "xlx250r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 68
+   },
+   {
+    "keys": [
+     "xr230 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 39
+   },
+   {
+    "keys": [
+     "xr230モタード 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 31.5
+   },
+   {
+    "keys": [
+     "xsr155 販売台数"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "xフォース 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 28
+   },
+   {
+    "keys": [
+     "z1 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 36
+   },
+   {
+    "keys": [
+     "z1 中古車"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 41
+   },
+   {
+    "keys": [
+     "z750f 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 22.5
+   },
+   {
+    "keys": [
+     "z750f査定"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 30.333333333333332
+   },
+   {
+    "keys": [
+     "zx-6r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 30.5
+   },
+   {
+    "keys": [
+     "zx-9r"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 81
+   },
+   {
+    "keys": [
+     "エリミネーター400lx"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 44
+   },
+   {
+    "keys": [
+     "キュート 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 28
+   },
+   {
+    "keys": [
+     "ゴールドウイングgl1800f6c 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 68.5
+   },
+   {
+    "keys": [
+     "スカイウェイブ250 タイプm 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 42
+   },
+   {
+    "keys": [
+     "スクランブラー900 中古"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 64
+   },
+   {
+    "keys": [
+     "ストリートカップ"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 86
+   },
+   {
+    "keys": [
+     "ストリートカップ 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 20.666666666666668
+   },
+   {
+    "keys": [
+     "ストリートスクランブラー"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 41.5
+   },
+   {
+    "keys": [
+     "ストリートスクランブラー 中古"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 46.888888888888886
+   },
+   {
+    "keys": [
+     "ストリートトリプル 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 39.25
+   },
+   {
+    "keys": [
+     "ストリートトリプルr"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 85
+   },
+   {
+    "keys": [
+     "ストリートトリプルr 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 25
+   },
+   {
+    "keys": [
+     "スピードトリプル 中古"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 55.333333333333336
+   },
+   {
+    "keys": [
+     "スピードトリプルr"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 38.666666666666664
+   },
+   {
+    "keys": [
+     "スピードトリプルr 中古"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 39.25
+   },
+   {
+    "keys": [
+     "スピードマスター865 中古"
+    ],
+    "clicks": 0,
+    "impressions": 11,
+    "ctr": 0,
+    "position": 19.181818181818183
+   },
+   {
+    "keys": [
+     "スポルト1000 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 82
+   },
+   {
+    "keys": [
+     "スラクストン 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 29.5
+   },
+   {
+    "keys": [
+     "スラクストン1200r"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 79.33333333333333
+   },
+   {
+    "keys": [
+     "スラクストン1200r 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 27
+   },
+   {
+    "keys": [
+     "スヴァルトピレン401 中古"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 56.5
+   },
+   {
+    "keys": [
+     "スーパーシェルパ 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 85
+   },
+   {
+    "keys": [
+     "ゼファー 価格"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 43
+   },
+   {
+    "keys": [
+     "タイガー900gt pro 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 18
+   },
+   {
+    "keys": [
+     "ツーリズモベローチェ800 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 17.333333333333332
+   },
+   {
+    "keys": [
+     "デイトナ675 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 81
+   },
+   {
+    "keys": [
+     "トライアンフ ストリートトリプルr"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 69
+   },
+   {
+    "keys": [
+     "トライアンフスクランブラー900 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 48
+   },
+   {
+    "keys": [
+     "ドゥカティ スポーツ1000s"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 35
+   },
+   {
+    "keys": [
+     "ドゥカティ スポーツ1000s 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 30
+   },
+   {
+    "keys": [
+     "ドカティ スポーツ1000s"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 34
+   },
+   {
+    "keys": [
+     "ハスクバーナ 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 30.333333333333332
+   },
+   {
+    "keys": [
+     "ハンター50 中古"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 35
+   },
+   {
+    "keys": [
+     "ベンリィ90s"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 85.4
+   },
+   {
+    "keys": [
+     "ホンダ タクト 中古 相場"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 36
+   },
+   {
+    "keys": [
+     "ボンネビルt120 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 78
+   },
+   {
+    "keys": [
+     "マイティdax 中古"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 33
+   },
+   {
+    "keys": [
+     "マジェスティ250c 中古"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 65.75
+   },
+   {
+    "keys": [
+     "モンスター1000s 中古"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 22.333333333333332
+   },
+   {
+    "keys": [
+     "ヤマハ sr500"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "ヴィットピレン401 中古"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 45.857142857142854
+   },
+   {
+    "keys": [
+     "中古バイク husqvarna"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 50.5
+   },
+   {
+    "keys": [
+     "中古バイク ハスクバーナ"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 22
+   },
+   {
+    "keys": [
+     "中古車市場の傾向"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   }
+  ],
+  "prev_p": [
+   {
+    "keys": [
+     "https://biker-sell.com/model/bmw-1-20/"
+    ],
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 12
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-1-15/"
+    ],
+    "clicks": 1,
+    "impressions": 10,
+    "ctr": 0.1,
+    "position": 24.2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-10-2/"
+    ],
+    "clicks": 1,
+    "impressions": 11,
+    "ctr": 0.09090909090909091,
+    "position": 29.454545454545453
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-30-1/"
+    ],
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 1
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-110/"
+    ],
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 16
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-147/"
+    ],
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 36
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-73-11/"
+    ],
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-117/"
+    ],
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-135/"
+    ],
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-999-50/"
+    ],
+    "clicks": 1,
+    "impressions": 9,
+    "ctr": 0.1111111111111111,
+    "position": 51.111111111111114
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-29-5/"
+    ],
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 20
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-43-5/"
+    ],
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 4
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/class/400cc/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/class/50cc/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 30
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/class/over750cc/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 2.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/aprilia/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/bmw/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 30
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/ducati/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/harley-davidson/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 10.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/honda/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 3.3333333333333335
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/husqvarna/"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 29.666666666666668
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/kawasaki/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 11.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/moto-guzzi/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/piaggio/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/suzuki/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/maker/vespa/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/aprilia-15-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/aprilia-31-2/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 9.666666666666666
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/aprilia-999-34/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/bmw-1-32/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 26
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/bmw-2-3/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/bmw-3-9/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 90
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/bmw-7-7/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/bmw-999-21/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 38.666666666666664
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/bmw-999-27/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/bmw-999-56/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 18
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/bmw-999-70/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/bmw-999-81/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-1-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 53
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-1-21/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 51.333333333333336
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-1-33/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 30
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-1-47/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 21.333333333333332
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-15-7/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-2-26/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 22.333333333333332
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-3-7/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 33
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-6-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 82
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-6-6/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 38
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-999-39/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 61.333333333333336
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-999-78/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-999-86/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 11.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-999-90/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ducati-999-92/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-1-14/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 66
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-1-18/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 40
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-1-25/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 19.25
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-1-6/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 33
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-1-8/"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 46.111111111111114
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-10-3/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 24
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-11-1/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 23.2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-11-3/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 36.666666666666664
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-2-15/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 26
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-2-7/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 38
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-3-22/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 22.666666666666668
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-3-26/"
+    ],
+    "clicks": 0,
+    "impressions": 18,
+    "ctr": 0,
+    "position": 42.22222222222222
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-3-8/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 50.166666666666664
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-4-14/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 35
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-4-25/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 25
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-4-28/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 49.666666666666664
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-4-34/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 40
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-4-35/"
+    ],
+    "clicks": 0,
+    "impressions": 18,
+    "ctr": 0,
+    "position": 49.05555555555556
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-4-36/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 21.666666666666668
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-4-9/"
+    ],
+    "clicks": 0,
+    "impressions": 54,
+    "ctr": 0,
+    "position": 38.851851851851855
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-9-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-114/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-122/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 40.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-130/"
+    ],
+    "clicks": 0,
+    "impressions": 20,
+    "ctr": 0,
+    "position": 41.4
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-18/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 47.8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-3/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 24.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-38/"
+    ],
+    "clicks": 0,
+    "impressions": 18,
+    "ctr": 0,
+    "position": 33.72222222222222
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-4/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-63/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 13.833333333333334
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-69/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 29
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/harley-davidson-999-75/"
+    ],
+    "clicks": 0,
+    "impressions": 31,
+    "ctr": 0,
+    "position": 36.483870967741936
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-105-4/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-11-3/"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 32
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-115-15/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-115-24/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-115-3/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 35
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-125-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-127-2/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 36
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-128-4/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 21.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-13-18/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-130-4/"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 33.285714285714285
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-130-9/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-138-3/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 45.833333333333336
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-156-10/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-164-19/"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 63.142857142857146
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-164-24/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 85.4
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-164-6/"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 79.22222222222223
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-167-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-171-5/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-173-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-180-3/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-184-1/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 14.833333333333334
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-185-3/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-192-1/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 32.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-193-2/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 29
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-196-1/"
+    ],
+    "clicks": 0,
+    "impressions": 28,
+    "ctr": 0,
+    "position": 43.75
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-196-10/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 22
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-196-3/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 18.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-202-1/"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 52.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-30-3/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 37.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-31-16/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 68.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-40-1/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-44-5/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-5-1/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 65.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-5-17/"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 30.428571428571427
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-5-7/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 7.666666666666667
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-6-11/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 67
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-6-14/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 15
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-6-3/"
+    ],
+    "clicks": 0,
+    "impressions": 12,
+    "ctr": 0,
+    "position": 71.83333333333333
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-6-4/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 24
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-6-5/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 48
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-61-2/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-65-14/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-65-2/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 50.2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-65-9/"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 57.333333333333336
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-66-5/"
+    ],
+    "clicks": 0,
+    "impressions": 15,
+    "ctr": 0,
+    "position": 87.2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-7-12/"
+    ],
+    "clicks": 0,
+    "impressions": 14,
+    "ctr": 0,
+    "position": 81.78571428571429
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-7-15/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 2.333333333333333
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-7-49/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-7-53/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 38
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-7-68/"
+    ],
+    "clicks": 0,
+    "impressions": 13,
+    "ctr": 0,
+    "position": 63.92307692307692
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-70-8/"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 65
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-70-9/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 81.25
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-72-1/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 54.8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-76-1/"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 71.25
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-78-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 68
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-79-20/"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 55
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-79-7/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 38.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-81-9/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 34
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-152/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-158/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 19.333333333333332
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-159/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-162/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-163/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 21.666666666666668
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-173/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-175/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-186/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-187/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 20
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-199/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 19
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-76/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/honda-999-89/"
+    ],
+    "clicks": 0,
+    "impressions": 23,
+    "ctr": 0,
+    "position": 15.521739130434783
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/husqvarna-999-16/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/husqvarna-999-2/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 56.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/husqvarna-999-3/"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 45.857142857142854
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/husqvarna-999-6/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 7.6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/indian-999-19/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/indian-999-23/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-101-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 19
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-13-1/"
+    ],
+    "clicks": 0,
+    "impressions": 20,
+    "ctr": 0,
+    "position": 52.7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-28-11/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-40-3/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-59-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-60-1/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 38.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-61-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 27
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-62-1/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 39.333333333333336
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-68-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-68-5/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-71-10/"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 28.375
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-71-5/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-71-6/"
+    ],
+    "clicks": 0,
+    "impressions": 19,
+    "ctr": 0,
+    "position": 60.94736842105263
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-73-16/"
+    ],
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 25.857142857142858
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-73-17/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 41
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-73-38/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-73-39/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-73-47/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-77-11/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 44
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-79-1/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 85
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-80-1/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 19.2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-80-3/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-86-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-87-12/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 21
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-87-18/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-87-19/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-87-25/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-87-3/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 3.8333333333333335
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-87-8/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 13.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-91-3/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-11/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-114/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 13
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-115/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 6.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-12/"
+    ],
+    "clicks": 0,
+    "impressions": 13,
+    "ctr": 0,
+    "position": 39.84615384615385
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-120/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-125/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 12
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-127/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-128/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 8.333333333333332
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-129/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 10.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-130/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-38/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-98/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/kawasaki-999-99/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ktm-999-17/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 76.2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/ktm-999-26/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 38
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/moto-guzzi-999-18/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/mv-agusta-999-20/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 17.333333333333332
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-103-5/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 42
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-114-2/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-122-1/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 31.75
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-122-2/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 33.666666666666664
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-141-7/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-28-2/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 25.2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-80-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-89-7/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 29.333333333333332
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-89-8/"
+    ],
+    "clicks": 0,
+    "impressions": 15,
+    "ctr": 0,
+    "position": 44.333333333333336
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-999-82/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/suzuki-999-99/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 21
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-18-1/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 39.25
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-18-3/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 51
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-19-1/"
+    ],
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 55.333333333333336
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-19-2/"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 52.7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-21-1/"
+    ],
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 20.3
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-23-1/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 29.5
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-23-2/"
+    ],
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 58.4
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-27-3/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 81
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-31-2/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 17
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-31-5/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 19
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-31-6/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 78
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-36-1/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 37
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-37-1/"
+    ],
+    "clicks": 0,
+    "impressions": 11,
+    "ctr": 0,
+    "position": 45.90909090909091
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-999-1/"
+    ],
+    "clicks": 0,
+    "impressions": 11,
+    "ctr": 0,
+    "position": 19.818181818181817
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-999-26/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 18
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-999-27/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 41
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-999-34/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 76
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-999-45/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 59
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-999-53/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-999-6/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/triumph-999-76/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-118-1/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 28
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-125-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-125-13/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-136-5/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 21
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-160-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-162-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-163-5/"
+    ],
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 65.75
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-185-5/"
+    ],
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 24.75
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-186-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 12
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-27-9/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 41
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-28-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-29-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-29-19/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 58.666666666666664
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-43-11/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-46-1/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-54-1/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-57-1/"
+    ],
+    "clicks": 0,
+    "impressions": 13,
+    "ctr": 0,
+    "position": 67.76923076923077
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-60-4/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 3.6666666666666665
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-60-5/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-65-3/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 28
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-68-1/"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 52
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-83-13/"
+    ],
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 78.33333333333333
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-83-23/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-83-24/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 90
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-87-25/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-999-113/"
+    ],
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 28
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-999-118/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-999-124/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-999-29/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-999-66/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/model/yamaha-999-90/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "https://biker-sell.com/ranking/"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   }
+  ],
+  "prev_c": [
+   {
+    "keys": [
+     "jpn"
+    ],
+    "clicks": 12,
+    "impressions": 989,
+    "ctr": 0.012133468149646108,
+    "position": 38.29322548028311
+   },
+   {
+    "keys": [
+     "bra"
+    ],
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 63
+   },
+   {
+    "keys": [
+     "can"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 16
+   },
+   {
+    "keys": [
+     "chn"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "ken"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "keys": [
+     "lva"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 48
+   },
+   {
+    "keys": [
+     "tun"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 71
+   },
+   {
+    "keys": [
+     "ukr"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 97
+   },
+   {
+    "keys": [
+     "usa"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "keys": [
+     "zaf"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   }
+  ],
+  "prev_d": [
+   {
+    "keys": [
+     "MOBILE"
+    ],
+    "clicks": 7,
+    "impressions": 201,
+    "ctr": 0.03482587064676617,
+    "position": 10.945273631840797
+   },
+   {
+    "keys": [
+     "DESKTOP"
+    ],
+    "clicks": 4,
+    "impressions": 790,
+    "ctr": 0.005063291139240506,
+    "position": 45.58354430379747
+   },
+   {
+    "keys": [
+     "TABLET"
+    ],
+    "clicks": 1,
+    "impressions": 8,
+    "ctr": 0.125,
+    "position": 6.5
+   }
+  ]
+ },
+ "url_inspection_top20": [
+  {
+   "url": "https://biker-sell.com/model/harley-davidson-4-9/",
+   "prev": 54,
+   "now": 13,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-11-02T07:51:14Z",
+   "gcanon": "https://biker-sell.com/model/harley-davidson-4-9/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/harley-davidson-999-75/",
+   "prev": 31,
+   "now": 4,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-11-03T08:29:03Z",
+   "gcanon": "https://biker-sell.com/model/harley-davidson-999-75/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/honda-196-1/",
+   "prev": 28,
+   "now": 1,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-10-13T16:33:32Z",
+   "gcanon": "https://biker-sell.com/model/honda-196-1/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/harley-davidson-999-38/",
+   "prev": 18,
+   "now": 0,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-10-28T01:54:56Z",
+   "gcanon": "https://biker-sell.com/model/harley-davidson-999-38/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/harley-davidson-4-35/",
+   "prev": 18,
+   "now": 3,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-10-13T04:57:43Z",
+   "gcanon": "https://biker-sell.com/model/harley-davidson-4-35/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/honda-999-89/",
+   "prev": 23,
+   "now": 8,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-10-30T22:21:14Z",
+   "gcanon": "https://biker-sell.com/model/honda-999-89/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/kawasaki-71-6/",
+   "prev": 19,
+   "now": 4,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-10-29T21:32:23Z",
+   "gcanon": "https://biker-sell.com/model/kawasaki-71-6/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/suzuki-89-8/",
+   "prev": 15,
+   "now": 1,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-10-13T11:14:45Z",
+   "gcanon": "https://biker-sell.com/model/suzuki-89-8/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/harley-davidson-3-26/",
+   "prev": 18,
+   "now": 5,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-11-01T01:51:13Z",
+   "gcanon": "https://biker-sell.com/model/harley-davidson-3-26/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/honda-7-68/",
+   "prev": 13,
+   "now": 0,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-10-14T15:50:38Z",
+   "gcanon": "https://biker-sell.com/model/honda-7-68/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/kawasaki-13-1/",
+   "prev": 20,
+   "now": 9,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-10-30T10:27:01Z",
+   "gcanon": "https://biker-sell.com/model/kawasaki-13-1/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/yamaha-57-1/",
+   "prev": 13,
+   "now": 2,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-10-15T22:43:15Z",
+   "gcanon": "https://biker-sell.com/model/yamaha-57-1/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/honda-66-5/",
+   "prev": 15,
+   "now": 5,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-11-02T02:51:14Z",
+   "gcanon": "https://biker-sell.com/model/honda-66-5/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/kawasaki-999-12/",
+   "prev": 13,
+   "now": 3,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-11-05T11:37:40Z",
+   "gcanon": "https://biker-sell.com/model/kawasaki-999-12/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/triumph-21-1/",
+   "prev": 10,
+   "now": 0,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-10-13T15:21:07Z",
+   "gcanon": "https://biker-sell.com/model/triumph-21-1/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/harley-davidson-10-2/",
+   "prev": 11,
+   "now": 2,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-10-29T00:05:51Z",
+   "gcanon": "https://biker-sell.com/model/harley-davidson-10-2/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/triumph-999-50/",
+   "prev": 9,
+   "now": 0,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-10-15T10:14:59Z",
+   "gcanon": "https://biker-sell.com/model/triumph-999-50/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/harley-davidson-1-8/",
+   "prev": 9,
+   "now": 0,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-11-03T08:33:30Z",
+   "gcanon": "https://biker-sell.com/model/harley-davidson-1-8/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/honda-164-6/",
+   "prev": 9,
+   "now": 0,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-10-29T20:25:28Z",
+   "gcanon": "https://biker-sell.com/model/honda-164-6/",
+   "verdict": "PASS"
+  },
+  {
+   "url": "https://biker-sell.com/model/honda-7-12/",
+   "prev": 14,
+   "now": 5,
+   "cov": "Submitted and indexed",
+   "crawl": "2026-11-06T11:59:24Z",
+   "gcanon": "https://biker-sell.com/model/honda-7-12/",
+   "verdict": "PASS"
+  }
+ ]
+}
