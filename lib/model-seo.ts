@@ -69,6 +69,29 @@ export const MODEL_SEO: Record<string, ModelSeo> = {
   '14/999_20': { name: 'ツーリズモベローチェ800 LUSSO SCS', titleSuffix: '中古車価格帯と流通台数', usedNow: { min: 2000000, max: 2080000, count: 2, checkedAt: '2026-11-04' } },
   '1/156_7': { name: 'フォルツァS（FORZA S）', titleSuffix: '中古車価格帯と流通台数', usedNow: { min: 219000, max: 440000, count: 3, checkedAt: '2026-11-04' } },
   '8/15_4': { name: 'スクランブラークラシック（Scrambler Classic）', titleSuffix: '中古車価格帯と流通台数', usedNow: { min: 568000, max: 658000, count: 2, checkedAt: '2026-11-04' } },
+  '1/128_4': {
+    name: 'マイティDAX ST90（MIGHTY DAX・マイティダックス）',
+    titleSuffix: '中古車価格帯と流通台数',
+    usedNow: { min: 438000, max: 1430000, count: 3, checkedAt: '2026-11-10', note: '価格は車両価格で、掲載3台は438,000円・565,000円・1,430,000円（1972年式のフルレストア車）、支払総額は458,000円〜1,452,000円です' },
+  },
+  '5/2_10': {
+    name: 'FLD スイッチバック（Dyna Switchback）',
+    titleSuffix: '中古車価格帯と流通台数',
+    usedNow: { min: 980000, max: 1430000, count: 11, checkedAt: '2026-11-10', note: '価格は車両価格で、年式の記載がある10台は2012〜2016年式、支払総額は1,046,000円〜1,480,000円です' },
+  },
+  '8/15_1': {
+    name: 'スクランブラー アイコン（Scrambler Icon）',
+    titleSuffix: '中古車価格帯と流通台数',
+    usedNow: { min: 498000, max: 1330000, count: 27, checkedAt: '2026-11-10', note: '価格は車両価格で、支払総額は552,200円〜1,470,000円です。新車の実勢価格はカタログで1,380,000円（2台）です' },
+  },
+  '41/999_10': {
+    usedNow: { min: 258000, max: 398000, count: 3, checkedAt: '2026-11-10', note: '価格は車両価格で、支払総額は338,900円〜471,000円です' },
+  },
+  '1/44_2': {
+    name: 'NSR50（Nチビ）',
+    titleSuffix: '中古車価格帯と流通台数',
+    usedNow: { min: 448000, max: 1430000, count: 17, checkedAt: '2026-11-10', note: '価格は車両価格で、支払総額は458,000円〜1,450,000円です' },
+  },
   '8/15_7': {
     name: 'スクランブラー デザートスレッド（Scrambler DESERT SLED）',
     titleSuffix: '中古車価格帯と流通台数',
