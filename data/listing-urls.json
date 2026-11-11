@@ -38,6 +38,10 @@
       "8/15_1",
       "41/999_10",
       "1/44_2"
+    ],
+    "2026-11-11": [
+      "10/21_1",
+      "10/999_1"
     ]
   },
   "urls": {
@@ -68,6 +72,8 @@
     "5/2_10": "https://www.bikebros.co.jp/bikesearch2/5/2050165?newold=0",
     "8/15_1": "https://www.bikebros.co.jp/bikesearch2/18/5180183?newold=0",
     "41/999_10": "https://www.bikebros.co.jp/bikesearch2/75/18750099?newold=0",
-    "1/44_2": "https://www.bikebros.co.jp/bikesearch2/1/1010181?newold=0"
+    "1/44_2": "https://www.bikebros.co.jp/bikesearch2/1/1010181?newold=0",
+    "10/21_1": "https://www.bikebros.co.jp/bikesearch2/15/4150032?newold=0",
+    "10/999_1": "https://www.bikebros.co.jp/bikesearch2/15/4150085?newold=0"
   }
 }

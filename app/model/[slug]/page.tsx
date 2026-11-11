@@ -136,7 +136,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
               </tr>
               {seo.family && (
                 <tr>
-                  <th>グレード別</th>
+                  <th>{seo.family.heading ?? 'グレード別'}</th>
                   <td>
                     {seo.family.text}
                     {seo.family.items.map((x, i) => (
