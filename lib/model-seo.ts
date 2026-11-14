@@ -106,8 +106,25 @@ export const MODEL_SEO: Record<string, ModelSeo> = {
     titleSuffix: '中古車価格帯と流通台数',
     usedNow: { min: 769900, max: 1320000, count: 2, checkedAt: '2026-11-14', note: '価格は車両価格で、2台は1987年式（初度登録1995年・走行24,032km・支払総額1,470,000円）と年式不明（初度登録1987年・走行18,004km・支払総額939,900円）です' },
   },
-  '4/80_2': { name: 'ZEPHYR550（ゼファー550）', titleSuffix: '中古車価格帯と流通台数', usedNow: { min: 597000, max: 1500000, count: 12, checkedAt: '2026-11-04' } },
-  '14/999_20': { name: 'ツーリズモベローチェ800 LUSSO SCS', titleSuffix: '中古車価格帯と流通台数', usedNow: { min: 2000000, max: 2080000, count: 2, checkedAt: '2026-11-04' } },
+  '4/80_2': {
+    name: 'ZEPHYR550（ゼファー550）',
+    titleSuffix: '中古車価格帯と流通台数',
+    usedNow: { min: 597000, max: 1500000, count: 12, checkedAt: '2026-11-14', note: '価格は車両価格で、支払総額は600,000円〜1,600,000円です。年式の記載がある5台は1990〜1995年式で、2台は「走行距離疑義車」の表示があります' },
+    newCar: {
+      text: 'カワサキ公式サイト（日本）のモデル一覧に掲載がなく、バイクブロスの新車の販売車両も0台です。',
+      descText: '新車は公式のモデル一覧に掲載がなく、バイクブロスの販売車両も0台です（2026-11-14確認）。',
+      sources: [
+        { label: 'カワサキ公式サイト（日本）', url: 'https://www.kawasaki-motors.com/ja-jp/' },
+        { label: 'バイクブロス 新車ページ', url: 'https://www.bikebros.co.jp/catalog/4/80_2/new-bike/' },
+      ],
+      checkedAt: '2026-11-14',
+    },
+  },
+  '14/999_20': {
+    name: 'ツーリズモベローチェ800 LUSSO SCS',
+    titleSuffix: '中古車価格帯と流通台数',
+    usedNow: { min: 1580000, max: 1750000, count: 2, checkedAt: '2026-11-14', note: '価格は車両価格で、2台は2020年式（走行3,800km・支払総額1,800,000円）と年式不明・初度登録2025年（走行930km・支払総額1,599,800円）です。新車の実勢価格はカタログで3,450,000円（2台）です' },
+  },
   '1/156_7': { name: 'フォルツァS（FORZA S）', titleSuffix: '中古車価格帯と流通台数', usedNow: { min: 219000, max: 440000, count: 3, checkedAt: '2026-11-04' } },
   '8/15_4': { name: 'スクランブラークラシック（Scrambler Classic）', titleSuffix: '中古車価格帯と流通台数', usedNow: { min: 568000, max: 658000, count: 2, checkedAt: '2026-11-04' } },
   '1/128_4': {
@@ -160,27 +177,81 @@ export const MODEL_SEO: Record<string, ModelSeo> = {
     },
   },
   '4/999_128': {
-    usedNow: { min: 478000, max: 643500, count: 66, checkedAt: '2026-11-04' },
+    usedNow: { min: 478000, max: 648000, count: 66, checkedAt: '2026-11-14', note: '価格は車両価格で、支払総額は543,100円〜738,000円、走行距離は1km〜7,496kmです' },
+    family: {
+      heading: '初度登録年別',
+      text: '在庫一覧の66台を初度登録年で分けた車両価格です。',
+      items: [
+        { label: '2024年', count: 5, min: 517000, max: 588000 },
+        { label: '2025年', count: 30, min: 478000, max: 648000 },
+        { label: '2026年', count: 21, min: 488000, max: 624800 },
+        { label: '初度登録の記載なし・年式不明', count: 10, min: 539900, max: 609900 },
+      ],
+      checkedAt: '2026-11-14',
+    },
+    newCar: {
+      text: 'カワサキ公式の製品ページでは、2026年モデル W230 のメーカー希望小売価格は665,500円です。新車の実勢価格はバイクブロスのカタログで545,000円〜798,000円（224台）です',
+      descText: '2026年モデルのメーカー希望小売価格は665,500円です（2026-11-14確認）。',
+      sources: [
+        { label: 'カワサキ W230 製品ページ', url: 'https://www.kawasaki-motors.com/ja-jp/motorcycle/w/retro-classic/w230' },
+        { label: 'バイクブロス カタログ', url: 'https://www.bikebros.co.jp/catalog/4/999_128/' },
+      ],
+      checkedAt: '2026-11-14',
+    },
     sales: {
       text: 'カワサキの製品ページに車種別の販売台数の記載はなく、公表値は見当たりません。全国軽自動車協会連合会の統計はメーカー別・都道府県別で、車種別の表はありません。当ページの台数はバイクブロスに掲載中の在庫台数で、販売台数ではありません。',
-      descText: '車種別の販売台数の公表値は見当たりません（2026-11-04確認）。',
+      descText: '車種別の販売台数の公表値は見当たりません（2026-11-14確認）。',
       sources: [
         { label: 'カワサキ W230 製品ページ', url: 'https://www.kawasaki-motors.com/ja-jp/motorcycle/w/retro-classic/w230' },
         { label: '全国軽自動車協会連合会 二輪車の統計', url: 'https://www.zenkeijikyo.or.jp/statistics/2ken' },
       ],
-      checkedAt: '2026-11-04',
+      checkedAt: '2026-11-14',
     },
   },
   '4/999_115': {
-    usedNow: { min: 598000, max: 1280000, count: 84, checkedAt: '2026-11-04' },
+    usedNow: { min: 598000, max: 1280000, count: 88, checkedAt: '2026-11-14', note: '価格は車両価格で、支払総額は724,400円〜1,369,000円、走行距離は45km〜29,914kmです' },
+    family: {
+      heading: '初度登録年別',
+      text: '在庫一覧の88台を初度登録年で分けた車両価格です。',
+      items: [
+        { label: '2022年', count: 24, min: 688000, max: 1280000 },
+        { label: '2023年', count: 27, min: 598000, max: 998000 },
+        { label: '2024年', count: 23, min: 748000, max: 999900 },
+        { label: '2025年', count: 5, min: 717000, max: 1045000 },
+        { label: '2026年', count: 9, min: 792000, max: 1038000 },
+      ],
+      checkedAt: '2026-11-14',
+    },
+    newCar: {
+      text: 'カワサキ公式の製品ページでは、メーカー希望小売価格は2026年モデル・2027年モデルの Z650RS が1,089,000円、2027年モデルの Z650RS Black Ball Edition が1,111,000円です（いずれもカワサキプラザ専用モデル）。新車の実勢価格はバイクブロスのカタログで1,056,000円〜1,111,000円（81台）です',
+      descText: 'メーカー希望小売価格は1,089,000円です（2026-11-14確認）。',
+      sources: [
+        { label: 'カワサキ Z650RS 製品ページ', url: 'https://www.kawasaki-motors.com/ja-jp/motorcycle/z/retro-sport/z650rs' },
+        { label: 'バイクブロス カタログ', url: 'https://www.bikebros.co.jp/catalog/4/999_115/' },
+      ],
+      checkedAt: '2026-11-14',
+    },
     sales: {
       text: 'カワサキの製品ページに車種別の販売台数の記載はなく、公表値は見当たりません。全国軽自動車協会連合会の統計はメーカー別・都道府県別で、車種別の表はありません。当ページの台数はバイクブロスに掲載中の在庫台数で、販売台数ではありません。',
-      descText: '車種別の販売台数の公表値は見当たりません（2026-11-04確認）。',
+      descText: '車種別の販売台数の公表値は見当たりません（2026-11-14確認）。',
       sources: [
         { label: 'カワサキ Z650RS 製品ページ', url: 'https://www.kawasaki-motors.com/ja-jp/motorcycle/z/retro-sport/z650rs' },
         { label: '全国軽自動車協会連合会 二輪車の統計', url: 'https://www.zenkeijikyo.or.jp/statistics/2ken' },
       ],
-      checkedAt: '2026-11-04',
+      checkedAt: '2026-11-14',
+    },
+  },
+  // 落ちたページ（10/13 の2クリック→0）。URL 検査は Submitted and indexed・最終クロール 9/18（2026-11-14）
+  '11/999_23': {
+    usedNow: { min: 777000, max: 979000, count: 6, checkedAt: '2026-11-14', note: '価格は車両価格で、支払総額は845,000円〜1,110,000円、年式の記載がある4台は2020〜2021年式、走行距離は2,223km〜13,200kmです' },
+    newCar: {
+      text: '発売時のメーカー希望小売価格（消費税10%込み）は、RS 660 が1,397,000円（2020年12月8日発表）、特別仕様車 RS 660 エクストリーマが1,815,000円（2023年5月30日発表）です。現行の価格はアプリリア公式サイトを確認できていません。新車の実勢価格はバイクブロスのカタログで1,320,000円〜1,815,000円（10台）です',
+      descText: '発売時のメーカー希望小売価格は1,397,000円（税込）です（2020年12月8日発表）。',
+      sources: [
+        { label: 'ピアッジオ グループ ジャパン ニュースリリース PGJPR20-026', url: 'https://www.piaggio.co.jp/2020PR/PGJPR20-026.pdf' },
+        { label: '同 PGJPR23-022（エクストリーマ）', url: 'https://www.piaggio.co.jp/2023PR/PGJPR23-022.pdf' },
+      ],
+      checkedAt: '2026-11-14',
     },
   },
 }
