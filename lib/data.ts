@@ -377,6 +377,9 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // G 310 R（roadster/g310r）・G 310 GS（adventure/g310gs）「80 mm x 62.1 mm 排気量 312 cc」（出典は全年式 313。トップページの車種一覧には無いがページは公開中）
   '7/5_8': { cc: 312, label: 'BMW Motorrad 日本公式の諸元（年式の表記なし）。2026-11-12 確認。出典カタログ（2017〜2024年式）は 313cc' },
   '7/5_9': { cc: 312, label: 'BMW Motorrad 日本公式の諸元（年式の表記なし）。2026-11-12 確認。出典カタログ（2017〜2024年式）は 313cc' },
+  // 2026-11-14: 公式サイトは応答なし → Wayback の保存版 /ja/models/urban_mobility/c400x/technicaldata.html（20190821・20230929 取得）
+  // とも「80 mm x 69.6 mm 排気量 349 cc」（出典は全年式 349.8）。C 400 GT（999_38）と同じボア×ストローク
+  '7/999_30': { cc: 349, label: 'BMW Motorrad 日本公式の諸元（公式サイトの2019年8月・2023年9月の保存版）。2026-11-14 確認。出典カタログ（2018〜2025年式）は 349.8cc' },
 }
 
 export function displacementText(m: Model): string | undefined {
