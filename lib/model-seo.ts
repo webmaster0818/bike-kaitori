@@ -75,19 +75,37 @@ export const MODEL_SEO: Record<string, ModelSeo> = {
   '5/999_63': {
     name: 'FLTC ツアーグライドクラシック',
     titleSuffix: '中古車価格と新車の有無',
+    usedNow: { min: 1770000, max: 2288000, count: 2, checkedAt: '2026-11-14', note: '価格は車両価格で、2台は1988年式のサイドカー付き（走行30,552km・支払総額2,076,000円）と1987年初度登録の5速 エボリューション（支払総額2,480,000円）です' },
     newCar: {
       text: 'ハーレーダビッドソン公式サイト（日本）の現行モデル一覧に掲載がなく、バイクブロスの新車の販売車両も0台です。バイクブロスのカタログに掲載されている年式は1981〜1991年式です。',
-      descText: '新車は公式の現行モデル一覧に掲載がなく、バイクブロスの販売車両も0台です（2026-11-04確認）。',
+      descText: '新車は公式の現行モデル一覧に掲載がなく、バイクブロスの販売車両も0台です（2026-11-14確認）。',
       sources: [
         { label: 'ハーレーダビッドソン公式 現行モデル一覧', url: 'https://www.harley-davidson.com/jp/ja/motorcycles/index.html' },
         { label: 'バイクブロス 新車ページ', url: 'https://www.bikebros.co.jp/catalog/5/999_63/new-bike/' },
       ],
-      checkedAt: '2026-11-04',
+      checkedAt: '2026-11-14',
     },
   },
   '5/1_25': { name: 'CVO FLSTSE3 ソフテイルコンバーチブル', titleSuffix: '中古車価格帯と流通台数' },
-  '1/196_3': { name: 'NC700S・NC700S DCT', titleSuffix: '中古車価格帯と流通台数' },
-  '8/7_3': { name: '750 PASO（750パゾ・750パソ）', titleSuffix: '中古車価格帯と流通台数' },
+  '1/196_3': {
+    name: 'NC700S・NC700S DCT',
+    titleSuffix: '中古車価格帯と流通台数',
+    usedNow: { min: 368000, max: 558000, count: 9, checkedAt: '2026-11-14', note: '車両名に「DCT」とあるのは1台（2013年式・558,000円・支払総額685,200円・走行14,861km）で、残り8台（368,000円〜460,000円）は車両名・車両詳細に「DCT」の記載がありません' },
+    newCar: {
+      text: '発売当時のメーカー希望小売価格（消費税5%込み）は、NC700S Dual Clutch Transmission＜ABS＞が701,400円（2012年6月14日発売）、NC700S が598,500円・NC700S＜ABS＞が647,850円（2012年4月17日発表）です。バイクブロスのカタログに新車の価格・販売車両の掲載はありません',
+      descText: 'DCT＜ABS＞の発売当時のメーカー希望小売価格は701,400円です（Honda 2012年6月7日発表）。',
+      sources: [
+        { label: 'Honda ニュースリリース 2012年6月7日（DCT＜ABS＞）', url: 'https://global.honda/jp/news/2012/2120607-nc700s.html' },
+        { label: 'Honda ニュースリリース 2012年4月17日（NC700S）', url: 'https://global.honda/jp/news/2012/2120417-nc700s.html' },
+      ],
+      checkedAt: '2026-11-14',
+    },
+  },
+  '8/7_3': {
+    name: '750 PASO（750パゾ・750パソ）',
+    titleSuffix: '中古車価格帯と流通台数',
+    usedNow: { min: 769900, max: 1320000, count: 2, checkedAt: '2026-11-14', note: '価格は車両価格で、2台は1987年式（初度登録1995年・走行24,032km・支払総額1,470,000円）と年式不明（初度登録1987年・走行18,004km・支払総額939,900円）です' },
+  },
   '4/80_2': { name: 'ZEPHYR550（ゼファー550）', titleSuffix: '中古車価格帯と流通台数', usedNow: { min: 597000, max: 1500000, count: 12, checkedAt: '2026-11-04' } },
   '14/999_20': { name: 'ツーリズモベローチェ800 LUSSO SCS', titleSuffix: '中古車価格帯と流通台数', usedNow: { min: 2000000, max: 2080000, count: 2, checkedAt: '2026-11-04' } },
   '1/156_7': { name: 'フォルツァS（FORZA S）', titleSuffix: '中古車価格帯と流通台数', usedNow: { min: 219000, max: 440000, count: 3, checkedAt: '2026-11-04' } },
@@ -129,16 +147,16 @@ export const MODEL_SEO: Record<string, ModelSeo> = {
     usedNow: { min: 310000, max: 310000, count: 1, checkedAt: '2026-11-05', note: '価格は車両価格で、掲載1台の支払総額は380,000円、走行距離は78,731km、車検なしです' },
   },
   '2/999_90': {
-    usedNow: { min: 299800, max: 539000, count: 68, checkedAt: '2026-11-04' },
+    usedNow: { min: 278100, max: 509000, count: 73, checkedAt: '2026-11-14', note: '在庫一覧の件数表示は72件です' },
     sales: {
       text: 'ヤマハ発動機のニュースリリース（2026年5月13日発表・発売日 2026年6月30日）と製品ページに車種別の販売台数の記載はなく、公表値は見当たりません。全国軽自動車協会連合会の統計はメーカー別・都道府県別で、車種別の表はありません。当ページの台数はバイクブロスに掲載中の在庫台数で、販売台数ではありません。',
-      descText: '車種別の販売台数の公表値は見当たりません（2026-11-04確認）。',
+      descText: '車種別の販売台数の公表値は見当たりません（2026-11-14確認）。',
       sources: [
         { label: 'ヤマハ発動機 ニュースリリース', url: 'https://global.yamaha-motor.com/jp/news/2026/0513/xsr155.html' },
         { label: 'ヤマハ発動機 XSR155 製品ページ', url: 'https://www.yamaha-motor.co.jp/mc/lineup/xsr155/' },
         { label: '全国軽自動車協会連合会 二輪車の統計', url: 'https://www.zenkeijikyo.or.jp/statistics/2ken' },
       ],
-      checkedAt: '2026-11-04',
+      checkedAt: '2026-11-14',
     },
   },
   '4/999_128': {
