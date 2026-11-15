@@ -380,6 +380,14 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // 2026-11-14: 公式サイトは応答なし → Wayback の保存版 /ja/models/urban_mobility/c400x/technicaldata.html（20190821・20230929 取得）
   // とも「80 mm x 69.6 mm 排気量 349 cc」（出典は全年式 349.8）。C 400 GT（999_38）と同じボア×ストローク
   '7/999_30': { cc: 349, label: 'BMW Motorrad 日本公式の諸元（公式サイトの2019年8月・2023年9月の保存版）。2026-11-14 確認。出典カタログ（2018〜2025年式）は 349.8cc' },
+  // 2026-11-15: 公式サイトは応答なし → Wayback の日本公式の保存版で照合
+  // K 1300 S：/jp/ja/bike/sportbikes/k1300s/k1300s_compare.html（20120605 取得・K 1300 S のモデル比較）「80mm x 64.3mm 排気量 1,292cc」
+  //   同じエンジンの K 1300 R データページ（20141122 取得）も「80mm x 64.3mm 排気量 1,292cc」。出典は全年式 1292.7
+  '7/3_13': { cc: 1292, label: 'BMW Motorrad 日本公式の諸元（公式サイトの2012年6月の保存版）。2026-11-15 確認。出典カタログ（2009〜2015年式）は 1292.7cc' },
+  // K 1200 R：/Product/Roadsters/k1200r/k1200r_datasheet.html（20060215 取得）「総排気量 1156cc 79mm×59mm」
+  // K 1200 S：/Product/Sport/K1200S/k1200s_datasheet.html（20050316 取得）「総排気量 1156cc 79×59mm」。出典は全年式 1157
+  '7/3_10': { cc: 1156, label: 'BMW Motorrad 日本公式の諸元（公式サイトの2006年2月の保存版）。2026-11-15 確認。出典カタログ（2005〜2008年式）は 1157cc' },
+  '7/3_9': { cc: 1156, label: 'BMW Motorrad 日本公式の諸元（公式サイトの2005年3月の保存版）。2026-11-15 確認。出典カタログ（2004〜2008年式）は 1157cc' },
 }
 
 export function displacementText(m: Model): string | undefined {
