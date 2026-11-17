@@ -389,6 +389,12 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // K 1200 S：/Product/Sport/K1200S/k1200s_datasheet.html（20050316 取得）「総排気量 1156cc 79×59mm」。出典は全年式 1157
   '7/3_10': { cc: 1156, label: 'BMW Motorrad 日本公式の諸元（公式サイトの2006年2月の保存版）。2026-11-15 確認。出典カタログ（2005〜2008年式）は 1157cc' },
   '7/3_9': { cc: 1156, label: 'BMW Motorrad 日本公式の諸元（公式サイトの2005年3月の保存版）。2026-11-15 確認。出典カタログ（2004〜2008年式）は 1157cc' },
+  // 2026-11-17: Honda 公式ニュースリリースの主要諸元。出典カタログも 2004〜2007年式 998・2008〜2019年式 999 だが、
+  // 差3%未満で同じ値扱いになり「999cc」だけが出ていた
+  // https://global.honda/jp/news/2004/2040331-cbr1000rr.html ・ /2006/2061113-cbr1000rr.html「SC57E 総排気量 998・75.0×56.5」
+  // https://global.honda/jp/news/2008/2080620-cbr1000rr.html ・ /2014/2140121-cbr1000rr.html「SC59E 999・76.0×55.1」、
+  // /2018/2180315-cbr1000rr.html「SC77E 999・76.0×55.1」
+  '1/5_10': { cc: 999, label: '2008〜2019年式（SC59・SC77）。Honda 公式ニュースリリースの主要諸元。2026-11-17 確認。2004〜2007年式（SC57）は同リリースで 998cc' },
 }
 
 export function displacementText(m: Model): string | undefined {
