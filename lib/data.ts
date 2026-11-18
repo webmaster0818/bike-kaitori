@@ -395,6 +395,10 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // https://global.honda/jp/news/2008/2080620-cbr1000rr.html ・ /2014/2140121-cbr1000rr.html「SC59E 999・76.0×55.1」、
   // /2018/2180315-cbr1000rr.html「SC77E 999・76.0×55.1」
   '1/5_10': { cc: 999, label: '2008〜2019年式（SC59・SC77）。Honda 公式ニュースリリースの主要諸元。2026-11-17 確認。2004〜2007年式（SC57）は同リリースで 998cc' },
+  // 2026-11-18: スズキ公式 SUZUKI DIGITAL LIBRARY（二輪車車種紹介）の主要諸元
+  // https://www.suzuki.co.jp/suzuki_digital_library/2_moto/ss2_009.html「1988 WOLF（RGV250Γのエンジンをベース）総排気量 249cc・56×50.6」
+  // 出典カタログは 1989・1990年式 249、1988年式だけ 219 で「1988年式は 219cc」と出ていた
+  '3/86_5': { cc: 249, label: '1988年発売モデル。スズキ公式（SUZUKI DIGITAL LIBRARY）の主要諸元。2026-11-18 確認' },
 }
 
 export function displacementText(m: Model): string | undefined {
