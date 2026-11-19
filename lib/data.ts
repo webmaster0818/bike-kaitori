@@ -399,6 +399,11 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // https://www.suzuki.co.jp/suzuki_digital_library/2_moto/ss2_009.html「1988 WOLF（RGV250Γのエンジンをベース）総排気量 249cc・56×50.6」
   // 出典カタログは 1989・1990年式 249、1988年式だけ 219 で「1988年式は 219cc」と出ていた
   '3/86_5': { cc: 249, label: '1988年発売モデル。スズキ公式（SUZUKI DIGITAL LIBRARY）の主要諸元。2026-11-18 確認' },
+  // 2026-11-19: カワサキ公式の主要諸元。出典カタログも 2014〜2017年式 399・2018年式以降 398 だが、
+  // 差3%未満で同じ値扱いになり「398cc」だけが出ていた
+  // https://www.kawasaki-motors.com/ja-jp/motorcycle/ninja/sport/ninja-400/2027-ninja-400「8BL-EX400L 総排気量 398cm³・70.0×51.8」
+  // 旧型: 公式 /mc/lineup/ninja400/ の保存版（Wayback 2016/6/1 取得）「2016年モデル EBL-EX400E 総排気量 399cm³・68.4×54.3」
+  '4/99_8': { cc: 398, label: '2018年式以降（現行 2027年モデル 8BL-EX400L）。カワサキ公式の主要諸元。2026-11-19 確認。旧型の 2016年モデル（EX400E）は同社公式（保存版）で 399cc、出典カタログでは 2014〜2017年式 399cc' },
 }
 
 export function displacementText(m: Model): string | undefined {
