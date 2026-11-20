@@ -404,6 +404,10 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // https://www.kawasaki-motors.com/ja-jp/motorcycle/ninja/sport/ninja-400/2027-ninja-400「8BL-EX400L 総排気量 398cm³・70.0×51.8」
   // 旧型: 公式 /mc/lineup/ninja400/ の保存版（Wayback 2016/6/1 取得）「2016年モデル EBL-EX400E 総排気量 399cm³・68.4×54.3」
   '4/99_8': { cc: 398, label: '2018年式以降（現行 2027年モデル 8BL-EX400L）。カワサキ公式の主要諸元。2026-11-19 確認。旧型の 2016年モデル（EX400E）は同社公式（保存版）で 399cc、出典カタログでは 2014〜2017年式 399cc' },
+  // 2026-11-20: ヤマハ発動機公式 コミュニケーションプラザ展示コレクション（販売当時の諸元）
+  // https://global.yamaha-motor.com/jp/showroom/cp/collection/xj750e/「1981年 XJ750E 空冷・4ストローク・DOHC・並列4気筒 748cm³」
+  // 出典カタログは 1981年式 748・1983年式 749 だが、差3%未満で同じ値扱いになり「749cc」だけが出ていた（1983年式の公式諸元は未確認）
+  '2/83_24': { cc: 748, label: '1981年式。ヤマハ発動機公式（コミュニケーションプラザ展示コレクション）の諸元。2026-11-20 確認。出典カタログでは 1983年式 749cc（公式では未確認）' },
 }
 
 export function displacementText(m: Model): string | undefined {
