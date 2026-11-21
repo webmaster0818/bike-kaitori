@@ -408,6 +408,11 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // https://global.yamaha-motor.com/jp/showroom/cp/collection/xj750e/「1981年 XJ750E 空冷・4ストローク・DOHC・並列4気筒 748cm³」
   // 出典カタログは 1981年式 748・1983年式 749 だが、差3%未満で同じ値扱いになり「749cc」だけが出ていた（1983年式の公式諸元は未確認）
   '2/83_24': { cc: 748, label: '1981年式。ヤマハ発動機公式（コミュニケーションプラザ展示コレクション）の諸元。2026-11-20 確認。出典カタログでは 1983年式 749cc（公式では未確認）' },
+  // 2026-11-21: ピアッジオ博物館（Museo Piaggio・ピアッジオ社の財団が運営）の収蔵車の諸元
+  // https://www.museopiaggio.it/it/collezioni/1-vespa/22-125-primavera-vma2t「125 Primavera (VMA2T) 1967 Alesaggio 55 mm Corsa 51 mm Cilindrata 121,17 cc」
+  // https://www.museopiaggio.it/it/collezioni/1-vespa/28-125-et3-primavera-vmb1t「125 ET3 Primavera (VMB1T) 1976 … Cilindrata 121,16 cc」
+  // 出典カタログ（1968・1976年式）は 125cc＝車名の排気量クラスの値
+  '17/3_5': { cc: 121.17, label: '125 Primavera（VMA2T）。ピアッジオ博物館（Museo Piaggio）の収蔵車の諸元・55×51mm。2026-11-21 確認。1976年の 125 ET3 Primavera（VMB1T）は同館で 121.16cc。出典カタログでは 125cc' },
 }
 
 export function displacementText(m: Model): string | undefined {
