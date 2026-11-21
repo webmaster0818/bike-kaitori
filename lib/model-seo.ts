@@ -274,6 +274,21 @@ export const MODEL_SEO: Record<string, ModelSeo> = {
       checkedAt: '2026-11-14',
     },
   },
+  // 「バルカン900カスタム 中古」2@19.5（10/21〜11/18）・9/15〜「中古」11@24.0・「新車」10@31.2。title・h1 は車名「バルカン900カスタム」を含むため据え置き（2026-11-21）
+  '4/87_7': {
+    usedNow: { min: 650000, max: 715000, count: 2, checkedAt: '2026-11-21', note: '価格は車両価格で、2台は2007年式（走行5,440km・支払総額750,000円）と年式不明・初度登録2009年（走行15,884km・支払総額757,000円）です' },
+    newCar: {
+      text: 'カワサキの国内向け公式サイトの主要諸元（保存版）では、メーカー希望小売価格（消費税5%・リサイクル費用込み）は2007年2月の発売時が840,000円、2008年12月・2010年10月時点が870,000円です。現在のカワサキ公式サイト（日本）のモデル一覧には掲載がなく（VULCAN の現行モデルは VULCAN S のみ）、バイクブロスの新車の販売車両も0台です',
+      descText: '新車のメーカー希望小売価格は840,000円〜870,000円（税5%込み）で、現行の公式モデル一覧に掲載はありません。',
+      sources: [
+        { label: 'カワサキ公式 VULCAN 900 Custom 主要諸元（2007年2月の保存版）', url: 'https://web.archive.org/web/20070216043906/http://www.kawasaki-motors.com:80/model/vulcan900custom/spec.jsp' },
+        { label: '同（2008年12月の保存版）', url: 'https://web.archive.org/web/20081204093351/http://www.kawasaki-motors.com:80/model/vulcan900custom/spec.jsp' },
+        { label: '川崎重工業 ニュースリリース 2007年1月12日（英語）', url: 'https://global.kawasaki.com/en/corp/newsroom/news/detail/ba_c3070112_3.html' },
+        { label: 'バイクブロス 新車ページ', url: 'https://www.bikebros.co.jp/catalog/4/87_7/new-bike/' },
+      ],
+      checkedAt: '2026-11-21',
+    },
+  },
   // 落ちたページ（10/13 の2クリック→0）。URL 検査は Submitted and indexed・最終クロール 9/18（2026-11-14）
   '11/999_23': {
     usedNow: { min: 777000, max: 979000, count: 6, checkedAt: '2026-11-14', note: '価格は車両価格で、支払総額は845,000円〜1,110,000円、年式の記載がある4台は2020〜2021年式、走行距離は2,223km〜13,200kmです' },
