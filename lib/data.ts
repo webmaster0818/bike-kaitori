@@ -412,6 +412,12 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // https://www.museopiaggio.it/it/collezioni/1-vespa/22-125-primavera-vma2t「125 Primavera (VMA2T) 1967 Alesaggio 55 mm Corsa 51 mm Cilindrata 121,17 cc」
   // https://www.museopiaggio.it/it/collezioni/1-vespa/28-125-et3-primavera-vmb1t「125 ET3 Primavera (VMB1T) 1976 … Cilindrata 121,16 cc」
   // 出典カタログ（1968・1976年式）は 125cc＝車名の排気量クラスの値
+  // 2026-11-22: 輸入元ピアッジオ グループ ジャパンの RS4 125 の主要諸元（どちらも「総排気量 124cc・58 x 47 mm」）
+  // https://www.piaggio.co.jp/2016PR/PGJ16-006.pdf「RS4 125/50 レプリカ主要諸元」（2016年5月入荷）
+  // http://www.piaggio.co.jp/aprilia/product/rs4_125/ の保存版（Wayback 2014/2/8 取得）
+  // 出典カタログは 2012〜2014年式 124.0・2018年式 124.2 で、差3%未満のため「124.2cc」だけが出ていた。
+  // 124.2 は同じ 58×47mm の RX125/SX125 の輸入元リリース値で、RS4 125 としては公式で未確認
+  '11/31_1': { cc: 124, label: 'RS4 125。輸入元ピアッジオ グループ ジャパンの主要諸元（2016年リリース・2014年の製品ページ）・58×47mm。2026-11-22 確認。出典カタログでは 2018年式 124.2cc（公式では未確認）' },
   '17/3_5': { cc: 121.17, label: '125 Primavera（VMA2T）。ピアッジオ博物館（Museo Piaggio）の収蔵車の諸元・55×51mm。2026-11-21 確認。1976年の 125 ET3 Primavera（VMB1T）は同館で 121.16cc。出典カタログでは 125cc' },
 }
 
