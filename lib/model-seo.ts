@@ -289,6 +289,31 @@ export const MODEL_SEO: Record<string, ModelSeo> = {
       checkedAt: '2026-11-21',
     },
   },
+  // 「nc700x タイプld dct 中古」18@22.6・「nc700x 中古」14@21.4・「nc700x dct 中古」11@21.5・「…新車」15@37.3（9/15〜11/19）。title・h1 は車名「NC700X/DCT/Type LD」を含むため据え置き。在庫一覧リンクは 10/20 追加済み（2026-11-23）
+  '1/196_1': {
+    usedNow: { min: 250000, max: 572000, count: 10, checkedAt: '2026-11-23', note: '価格は車両価格で、支払総額は290,000円〜683,100円、掲載10台は2012・2013年式（年式不明1台は初度登録2013年）です。バイクブロスの在庫の分類では、タイプLD DCT が2台（2013年式・走行18,788km・555,000円／年式不明・初度登録2013年・走行13,681km・572,000円）で、標準の DCT（タイプLD でないもの）は0台です' },
+    family: {
+      heading: 'タイプ別',
+      text: 'バイクブロスの在庫一覧は NC700X・タイプLD・DCT・タイプLD DCT の4つに分かれています。在庫のある分類の台数と車両価格は次のとおりです（DCT の分類は0台）。',
+      items: [
+        { label: 'NC700X（DCT・タイプLD 以外）', count: 7, min: 250000, max: 550000 },
+        { label: 'NC700X タイプLD', count: 1, min: 396000, max: 396000 },
+        { label: 'NC700X タイプLD DCT', count: 2, min: 555000, max: 572000 },
+      ],
+      checkedAt: '2026-11-23',
+    },
+    newCar: {
+      text: '発売当時のメーカー希望小売価格（消費税5%込み）は、NC700X Dual Clutch Transmission＜ABS＞と NC700X TypeLD Dual Clutch Transmission＜ABS＞がともに752,850円（2012年6月14日発売・TypeLD は受注生産車）、NC700X TypeLD が649,950円・TypeLD＜ABS＞が699,300円、2012年2月24日発売の NC700X が649,950円・NC700X＜ABS＞が699,300円です。現在の Honda 公式のバイク製品ラインアップに NC700X の掲載はなく（後継の NC750X は掲載あり）、バイクブロスの新車の販売車両も0台です',
+      descText: 'タイプLD DCT の発売当時のメーカー希望小売価格は752,850円（税5%込み）で、新車は現在販売されていません。',
+      sources: [
+        { label: 'Honda ニュースリリース 2012年6月7日（DCT・TypeLD 追加）', url: 'https://global.honda/jp/news/2012/2120607-nc700x.html' },
+        { label: 'Honda ニュースリリース 2012年2月17日（NC700X）', url: 'https://global.honda/jp/news/2012/2120217-nc700x.html' },
+        { label: 'Honda バイク製品ラインアップ', url: 'https://www.honda.co.jp/motor-lineup/' },
+        { label: 'バイクブロス 新車ページ', url: 'https://www.bikebros.co.jp/catalog/1/196_1/new-bike/' },
+      ],
+      checkedAt: '2026-11-23',
+    },
+  },
   // 落ちたページ（10/13 の2クリック→0）。URL 検査は Submitted and indexed・最終クロール 9/18（2026-11-14）
   '11/999_23': {
     usedNow: { min: 777000, max: 979000, count: 6, checkedAt: '2026-11-14', note: '価格は車両価格で、支払総額は845,000円〜1,110,000円、年式の記載がある4台は2020〜2021年式、走行距離は2,223km〜13,200kmです' },
