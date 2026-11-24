@@ -285,6 +285,10 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // /jp/ja/motorcycles/2025/x-350.html ・ /2025/x-500.html も 353 cc / 500 cc
   '5/999_121': { cc: 353, label: 'ハーレーダビッドソン公式のスペック。2026-11-02 確認' },
   '5/999_122': { cc: 500, label: 'ハーレーダビッドソン公式のスペック。2026-11-02 確認' },
+  // FXST ソフテイルスタンダード：ハーレーダビッドソン ジャパン公式の旧年式ページ（Wayback 保存版・2026-11-24 確認）
+  // /jp/ja/motorcycles/2022/softail-standard.html（2023/9/30 取得）・/2023/softail-standard.html・/2024/softail-standard.html
+  // いずれも「ボア 100 mm・ストローク 111.1 mm・排気量 1,745 cc」。出典カタログは 2020年式 1746cc（2020年モデルの公式ページ保存版は諸元が読めず未確認）
+  '5/1_1': { cc: 1745, label: 'ハーレーダビッドソン ジャパン公式のスペック（2022〜2024年モデル・100×111.1mm）。2026-11-24 確認。出典カタログでは 2020年式 1746cc（公式では未確認）' },
   // トライアンフ ジャパン公式（triumphmotorcycles.jp）の主要諸元「排気量」（2026-11-03 確認）。出典カタログは内径×行程からの計算値（小数・端数）
   // /bikes/adventure/tiger-900/specification 「TIGER 900 GT / GT PRO / RALLY PRO MY24 排気量 888 cc・ボア 78.0・ストローク 61.9」（出典 887.3）
   '10/999_26': { cc: 888, label: 'トライアンフ公式の主要諸元（2024年モデル）。2026-11-03 確認' },
