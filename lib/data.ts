@@ -313,6 +313,9 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // /bikes/classic/bonneville-speed-twin-900/specification ・ /bonneville-scrambler-900/specification 「900 cc・84.6×80」（出典 899）
   '10/999_49': { cc: 900, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
   '10/999_50': { cc: 900, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
+  // 2026-11-25: /bikes/classic/bonneville/bonneville-t100 のスペック「排気量 900 cc・ボア 84.6 mm・ストローク 80 mm」（現行モデル）。
+  // 出典カタログは 2017〜2026年式 899・2005〜2014年式 865・2002〜2004年式 790。旧年式の公式諸元は未確認のため出典値として併記
+  '10/31_3': { cc: 900, label: '現行モデル。トライアンフ公式の主要諸元（84.6×80mm）。2026-11-25 確認。出典カタログでは 2017〜2026年式 899cc、2005〜2014年式 865cc、2002〜2004年式 790cc（旧年式は公式では未確認）' },
   // /bikes/classic/speed-400/specification ・ /scrambler-400-x/specification 「398.15 cc・89.0×64.0」（出典 398）
   '10/999_52': { cc: 398.15, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
   '10/999_53': { cc: 398.15, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
