@@ -315,6 +315,13 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   '10/999_50': { cc: 900, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
   // 2026-11-25: /bikes/classic/bonneville/bonneville-t100 のスペック「排気量 900 cc・ボア 84.6 mm・ストローク 80 mm」（現行モデル）。
   // 出典カタログは 2017〜2026年式 899・2005〜2014年式 865・2002〜2004年式 790。旧年式の公式諸元は未確認のため出典値として併記
+  // 2026-11-26: 生産終了・改名済みの車種をトライアンフ ジャパン公式のスペックページの保存版（Wayback）で照合（現行サイトの specification は今日 curl に 403）
+  // web.archive.org/web/20220813054203/https://www.triumphmotorcycles.jp/bikes/adventure/tiger-850-sport/specification「TIGER 850 SPORT 排気量 888 cc・ボア 78.0 mm・ストローク 61.9 mm」（出典 887.3・2021〜2024年式）
+  '10/999_33': { cc: 888, label: 'トライアンフ公式の主要諸元（2022年8月の公式ページ保存版・78.0×61.9mm）。2026-11-26 確認。出典カタログでは 2021〜2024年式 887.3cc' },
+  // web.archive.org/web/20220925140743/https://www.triumphmotorcycles.jp/bikes/classic/bonneville-speed-twin-900/specification（title「2021 Street Twinスペック」）「排気量 900 cc・ボア 84.6 mm・ストローク 80 mm」（出典 899・2016〜2021年式）
+  '10/31_5': { cc: 900, label: 'トライアンフ公式の主要諸元（2021年モデル Street Twin のスペックページ・2022年9月の保存版・84.6×80mm）。2026-11-26 確認。出典カタログでは 2016〜2021年式 899cc（2016〜2020年式は公式では未確認）' },
+  // web.archive.org/web/20220925142343/https://www.triumphmotorcycles.jp/bikes/classic/bonneville-scrambler-900/specification（title「2021 STREET SCRAMBLER」）「排気量 900 cc・ボア 84.6 mm・ストローク 80 mm」（出典 899・2017〜2021年式）
+  '10/37_1': { cc: 900, label: 'トライアンフ公式の主要諸元（2021年モデル Street Scrambler のスペックページ・2022年9月の保存版・84.6×80mm）。2026-11-26 確認。出典カタログでは 2017〜2021年式 899cc（2017〜2020年式は公式では未確認）' },
   '10/31_3': { cc: 900, label: '現行モデル。トライアンフ公式の主要諸元（84.6×80mm）。2026-11-25 確認。出典カタログでは 2017〜2026年式 899cc、2005〜2014年式 865cc、2002〜2004年式 790cc（旧年式は公式では未確認）' },
   // /bikes/classic/speed-400/specification ・ /scrambler-400-x/specification 「398.15 cc・89.0×64.0」（出典 398）
   '10/999_52': { cc: 398.15, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
