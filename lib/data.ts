@@ -322,6 +322,10 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   '10/31_5': { cc: 900, label: 'トライアンフ公式の主要諸元（2021年モデル Street Twin のスペックページ・2022年9月の保存版・84.6×80mm）。2026-11-26 確認。出典カタログでは 2016〜2021年式 899cc（2016〜2020年式は公式では未確認）' },
   // web.archive.org/web/20220925142343/https://www.triumphmotorcycles.jp/bikes/classic/bonneville-scrambler-900/specification（title「2021 STREET SCRAMBLER」）「排気量 900 cc・ボア 84.6 mm・ストローク 80 mm」（出典 899・2017〜2021年式）
   '10/37_1': { cc: 900, label: 'トライアンフ公式の主要諸元（2021年モデル Street Scrambler のスペックページ・2022年9月の保存版・84.6×80mm）。2026-11-26 確認。出典カタログでは 2017〜2021年式 899cc（2017〜2020年式は公式では未確認）' },
+  // web.archive.org/web/20081222060040/http://www.triumph.co.uk:80/uk/Speedmaster_Specifications.aspx（2011/8/10 保存版も同じ）「2008 Motorcycles Speedmaster Engine Type Air-cooled, DOHC, parallel-twin Capacity 865cc Bore/Stroke 90.0 x 68.0mm」（出典 865・2005〜2015年式）
+  '10/21_1': { cc: 865, label: 'トライアンフ英国公式サイトの2008年モデル Speedmaster 諸元（2008年12月・2011年8月の保存版）・空冷 DOHC 並列2気筒・90.0×68.0mm。2026-11-26 確認。出典カタログでは 2005〜2015年式 865cc、2003〜2004年式 790cc（790cc は公式では未確認）' },
+  // web.archive.org/web/20190924000050/https://www.triumphmotorcycles.jp/bikes/classic/bonneville-speedmaster/specification「Bonneville Speedmaster スペック タイプ 水冷SOHC並列2気筒 8バルブ270°クランク 排気量 1200 cc ボア 97.6 mm ストローク 80 mm」（出典 1200）
+  '10/999_1': { cc: 1200, label: 'トライアンフ ジャパン公式の Bonneville Speedmaster スペック（2019年9月の公式ページ保存版）・水冷 SOHC 並列2気筒・97.6×80mm。2026-11-26 確認' },
   '10/31_3': { cc: 900, label: '現行モデル。トライアンフ公式の主要諸元（84.6×80mm）。2026-11-25 確認。出典カタログでは 2017〜2026年式 899cc、2005〜2014年式 865cc、2002〜2004年式 790cc（旧年式は公式では未確認）' },
   // /bikes/classic/speed-400/specification ・ /scrambler-400-x/specification 「398.15 cc・89.0×64.0」（出典 398）
   '10/999_52': { cc: 398.15, label: 'トライアンフ公式の主要諸元。2026-11-03 確認' },
