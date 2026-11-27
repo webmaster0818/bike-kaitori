@@ -374,7 +374,15 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // とも「Thunder Stroke 111 排気量 1811 cc・101×113」。/indian-springfield/（2020/10/6 取得・2021 ラインアップ）は「Thunderstroke 116 排気量 1890 cc・103.2×113」。
   // 出典カタログは 2016〜2021年式すべて 1811（2021年式は公式と食い違い）。
   // 2026-11-16 追加確認: /springfield/（2019/12/10 取得・ナビ「2020ラインアップ」）も「Thunder Stroke 111 排気量 1811 cc・101×113」。2016年モデルの日本公式ページは保存版なし
-  '100/282_1': { cc: 1811, label: '2017〜2020年モデル。インディアン公式の主要諸元（公式サイトの保存版）。2026-11-16 確認。2021年モデルは公式で 1890cc、2016年式は未確認' },
+  // 2026-11-27 追加確認: 米国公式 indianmotorcycle.com/en-us/2016/bagger/springfield-indian-red-2016-indian/（2020/9/25 取得・title「2016 Indian Springfield」）
+  // 「Thunderstroke 111・Bore x Stroke 101 mm x 113 mm・Displacement 111 cu in (1,811 cc)」＝2016年モデルも 1811
+  '100/282_1': { cc: 1811, label: '2016〜2020年モデル。インディアン公式の主要諸元（公式サイトの保存版）。2026-11-27 確認。2021年モデルは公式で 1890cc' },
+  // Chief Vintage（出典 2013〜2017・2019・2020年式すべて 1811）。米国・英国公式の保存版（Wayback・2026-11-27 確認）:
+  // 2013年モデル /en-us/2013/chief/chief-vintage/pages/specifications.aspx（2013/7/22 取得）「Engine Type Power Plus, Air-Cooled・Displacement 105 Cubic Inches・3.966" x 4.25"」（cc 表記なし）
+  // 2014年モデル /en-uk/chief-vintage-motorcycle/specs（2013/8/28 取得）「Thunder Stroke 111・Displacement 1811 cc (111 cu in)・101mm x 113mm」
+  // 2015年モデル /en-us/2015/chief-vintage-indian-red（2016/3/30 取得）「111 cu in / 1811 cc」、2016年モデル /en-us/2016/bagger/chief-vintage-indian-red-2016-indian/（2020/8/15 取得）「Thunderstroke 111・111 cu in・101 mm x 113 mm」
+  // 2017・2019・2020年モデルは 11/10・11/16 に日本公式の保存版で 1811 を確認済み
+  '100/96_3': { cc: 1811, label: '2014〜2020年モデル。インディアン公式の主要諸元（公式サイトの保存版）。2026-11-27 確認。2013年モデルは公式で別エンジン（Power Plus 105 cu in）' },
   '17/24_1': { cc: 155, label: '2024・2025年モデル。輸入元ピアッジオ グループ ジャパンのニュースリリースの主要諸元。2026-11-10 確認。2016〜2020年の同社リリースでは 154.8cc' },
   // BMW Motorrad 日本公式 bmw-motorrad.jp/ja/models/<区分>/<車種>/technicaldata.html「データ＆装備」の「排気量」（2026-11-11 確認）。
   // 公式サイトは 11/3〜11/11 とも応答なし（タイムアウト）のため Wayback の保存版（2026年4〜8月取得）。ページに年式の表記はない＝現行モデルの値
