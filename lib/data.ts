@@ -279,6 +279,14 @@ const OFFICIAL_CC: Record<string, { cc: number | null; label: string }> = {
   // https://www.husqvarna-motorcycles.com/ja-jp/models/travel/norden-901-2026.html ・ /norden-901-expedition2026.html
   // 「排気量 889 cm³・ボア 90.7mm・ストローク 68.8mm」（並列2気筒。内径×行程からの計算も 889.05）
   '38/999_11': { cc: 889, label: 'ハスクバーナ公式の技術仕様（2026年モデル）。2026-11-01 確認' },
+  // SVARTPILEN 401：2024・2026年モデル、VITPILEN 401：2026年モデルは日本公式 398.6cm³（89×64mm・2026-11-28 確認）。
+  // 2022年モデルは日本公式の技術仕様（Wayback 2023/1/23 保存版 /ja-jp/models/naked/svartpilen/svartpilen-401-2022.html・
+  // /vitpilen/vitpilen-401-2022.html）で両車とも「排気量 373 cm³・ボア 89 mm」。出典カタログは 2018〜2022年式 373.2cc
+  '38/999_2': { cc: 398.6, label: '2024年式。ハスクバーナ公式の技術仕様（2024・2026年モデル）。2022年式は公式で 373cc（2022年モデルの技術仕様）。2018〜2021年式は公式では未確認（出典カタログでは 373.2cc）。2026-11-28 確認' },
+  '38/999_3': { cc: 398.6, label: 'ハスクバーナ公式の技術仕様（2026年モデル。出典カタログの 2024年式も 398.6cc）。2022年式は公式で 373cc（2022年モデルの技術仕様）。2018〜2021年式は公式では未確認（出典カタログでは 373.2cc）。2026-11-28 確認' },
+  // SVARTPILEN 125：日本公式に掲載なし。国際サイト /en-int/…/svartpilen-125-2024.html（Wayback 2026/1/24 保存版）・
+  // /en-int・/en-gb/…/svartpilen-125-2025.html（2026-11-28 取得）とも「Displacement 125 cm³・Bore 58 mm・Stroke 47.3 mm」。出典 2024年式 124.9cc
+  '38/999_16': { cc: 125, label: '2024年式。ハスクバーナ国際サイトの技術仕様（2024・2025年モデル）・58×47.3mm。2026-11-28 確認。2021〜2022年式は公式では未確認（出典カタログでは 124.7cc）' },
   // ハーレーダビッドソン ジャパン公式のスペック（2026-11-02 確認・2025年モデルも同値）。出典カタログは 352.8cc / 499.5cc
   // https://www.harley-davidson.com/jp/ja/motorcycles/x-350.html 「排気量 353 cc・ボア 70.5mm・ストローク 45.2mm」（2026 HD350-10）
   // https://www.harley-davidson.com/jp/ja/motorcycles/x-500.html 「排気量 500 cc・ボア 69mm・ストローク 66.8mm」（2026 HD500-10A）
