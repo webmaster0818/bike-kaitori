@@ -82,6 +82,8 @@ table.data td.n { font-family: 'Oswald', sans-serif; font-size: 16px; }
 .note { font-size: 12px; color: var(--ink-soft); line-height: 1.8; }
 .src { font-size: 12px; color: var(--ink-soft); margin-top: 10px; }
 .src a { color: var(--rust); }
+ul.src { padding-left: 1.2em; line-height: 1.7; }
+ul.src li { margin-bottom: 4px; }
 
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
 .chips a {

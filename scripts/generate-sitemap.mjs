@@ -30,6 +30,13 @@ const urls = ['/', '/ranking/', '/data/']
 for (const mk of new Set(models.map(m => m.maker))) urls.push(`/maker/${MAKER_EN[mk] ?? mk}/`)
 for (const [slug, label] of CLASSES) if (models.some(m => m.class_label === label)) urls.push(`/class/${slug}/`)
 for (const m of models) urls.push(`/model/${(MAKER_EN[m.maker] ?? m.maker)}-${m.model_id.replace('_','-')}/`)
+// 売却・手続きガイド（lib/columns.ts）。TS を読めないので、書き出された out/column/ を走査する
+const colDir = path.join(OUT, 'column')
+if (fs.existsSync(path.join(colDir, 'index.html'))) {
+  urls.push('/column/')
+  for (const d of fs.readdirSync(colDir).sort())
+    if (fs.existsSync(path.join(colDir, d, 'index.html'))) urls.push(`/column/${d}/`)
+}
 
 // lastmod = そのページの中身（title・description・本文・構造化データ）が最後に変わった日。
 // data/lastmod.json に {パス: {hash, lastmod}} を持ち、ビルドした html の指紋が台帳と違うページだけ

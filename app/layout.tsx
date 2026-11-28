@@ -41,6 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a href="/ranking/">流通台数ランキング</a>
               <a href="/maker/honda/">メーカー別</a>
               <a href="/class/400cc/">排気量別</a>
+              <a href="/column/">売却・手続きガイド</a>
               <a href="/data/">データ公開</a>
             </nav>
           </div>

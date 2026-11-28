@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { allModels, snapshot, modelSlug, makerSlug, CLASSES, classOf, spread, yen, SITE } from '@/lib/data'
 import { websiteLd } from '@/lib/schema'
 import { pageMeta } from '@/lib/meta'
+import { COLUMNS } from '@/lib/columns'
 
 // ⚠️ トップにも自己canonicalを置く。無いと pages.dev 側のURLが正規と判断されうる。
 export const metadata: Metadata = pageMeta({ description: SITE.description, path: '/' })
@@ -81,6 +82,18 @@ export default function Home() {
           </a>
         ))}
       </div>
+
+      <h2>売却・手続きガイド</h2>
+      <p>廃車・名義変更・車検・保険など、バイクを手放す際の手続きを公式情報にもとづきご説明しています。</p>
+      <div className="grid">
+        {COLUMNS.map((c) => (
+          <a className="card" key={c.slug} href={`/column/${c.slug}/`}>
+            <div className="k">確認日 {c.checked}</div>
+            <div className="t">{c.h1}</div>
+          </a>
+        ))}
+      </div>
+      <p className="note" style={{ marginTop: 14 }}><a href="/column/">ガイドの一覧を見る</a></p>
 
       <h2>掲載データの見方</h2>
       <h3>流通台数は買取業者の在庫状況を示します</h3>
